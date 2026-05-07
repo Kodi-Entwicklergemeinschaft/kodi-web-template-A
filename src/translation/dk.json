@@ -1,0 +1,711 @@
+{
+  "heading": "Hej Verden",
+  "toggleTheme": "Skift tema",
+  "signIntoAccount": "Log ind på din konto",
+  "email": "E-mail",
+  "emailOrUsernameLabel": "E-mail eller brugernavn",
+  "usernameOrEmail": "Indtast din e-mail",
+  "password": "Adgangskode",
+  "pleaseEnterPassword": "Indtast venligst adgangskode",
+  "rememberMe": "Husk adgangskode",
+  "forgotYourPassword": "Glemt din adgangskode?",
+  "resetPassword": "Nulstil din adgangskode",
+  "signIn": "Log ind",
+  "notMember": "Ingen konto endnu?",
+  "register": "Registrér",
+  "signInHelp": "Hjælp?",
+  "invalidMail": "Indtast en gyldig e-mail",
+  "invalidMailOrUsername": "Indtast en gyldig e-mail eller brugernavn",
+  "minContainInMail": "E-mail skal indeholde mindst 3 tegn",
+  "maxContentInMail": "E-mail må maksimalt indeholde 50 tegn",
+  "passwordRequired": "Adgangskode er påkrævet",
+  "sendLink": "Send link",
+  "cancel": "Annullér",
+  "addMore": "Tilføj flere",
+  "deleteAccount": "Slet konto",
+  "status": "Status",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "anleitung": "Instruktioner",
+  "subtitle": "Registrering i appen",
+  "step1": "<strong>Trin 1:</strong> Vælg brugernavn og adgangskode",
+  "step2": "<strong>Trin 2:</strong> Der vil blive sendt en e-mail til den adresse, du opgav",
+  "step3": "<strong>Trin 3:</strong> Bekræft venligst e-mailen ved at gå til din indbakke og klikke på bekræftelseslinket",
+  "step4": "<strong>Trin 4:</strong> Din konto er bekræftet, og du kan nu logge ind med dine loginoplysninger",
+  "thankYou": "Tak!!",
+  "logout": "Uitloggen",
+  "Close": "Luk",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Flise­styring",
+      "upload": "Upload flise",
+      "listing": "Flise­oversigt"
+    },
+    "listingManagement": {
+      "title": "Listehåndtering",
+      "upload": "Listeoverførsel",
+      "listing": "Oversigter"
+    },
+    "categoryManagement": {
+      "title": "Kategoristyring",
+      "create": "Opret kategori",
+      "listing": "Kategorioversigt",
+      "cityCategory": "Bykategori",
+      "updateCityCategory": "Opdater bykategori"
+    },
+    "accounts": {
+      "title": "Kontoeinstellungen"
+    },
+    "cityAdmin": {
+      "title": "Brugerstyring"
+    }
+  },
+  "createAccount": "Opret din nye konto",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Kategorinavn skal være mindst 2 tegn",
+          "maxLength": "Kategorinavn må højst være 50 tegn"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Undertitel skal være mindst 2 tegn",
+          "maxLength": "Undertitel må højst være 100 tegn"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Beskrivelse skal være mindst 10 tegn"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Header baggrundsfarve er påkrævet"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "Indhold baggrundsfarve er påkrævet"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Baggrundsbillede er påkrævet"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Ikonbillede er påkrævet"
+        }
+      }
+    },
+    "create": {
+      "heading": "Opret kategori",
+      "editHeading": "Rediger bykategori",
+      "editDescription": "Rediger en bykategori",
+      "description": "Opret en ny kategori",
+      "addSubCategory": "Tilføj underkategori",
+      "fix_main_category": "Rett venligst valideringsfejl i hovedkategorien",
+      "cat_and_subCate_created": "Kategori og underkategorier oprettet med succes",
+      "categoryUpdate_image_failed": "Kategorien er opdateret, men nogle billeder er muligvis ikke blevet uploadet.",
+      "categoryCreate_image_failed": "Kategori oprettet, men nogle billeder er muligvis ikke blevet uploadet",
+      "failed_to_create_category": "Kunne ikke oprette kategori",
+      "failed_to_update_category": "Kunne ikke opdatere kategori",
+      "categoryNotfound": "Kategori blev ikke fundet",
+      "subCategory": {
+        "heading": "Opret underkategori",
+        "editHeading": "Rediger underkategori",
+        "editDescription": "Rediger en underkategori til hovedkategorien",
+        "description": "Opret en underkategori til hovedkategorien",
+        "subCategory_validation": "Ret venligst valideringsfejl i underkategorien",
+        "cannotadd3subCategory": "Du kan ikke tilføje mere end 3 underkategorier.",
+        "fix_sub_category": "Rettelse af valideringsfejl i underkategori",
+        "failed_create_subcategory": "Det lykkedes ikke at oprette en underkategori",
+        "max_3_sub_category": "Maksimalt 3 underkategorier nået.",
+        "subCategory_label": "Underkategori",
+        "max_3_sub_category_count": "Maksimum: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Kan ikke slette ikon: Intet kategori-ID",
+        "icon_delete_success": "Ikon slettet med succes",
+        "failed_delete": "Ikke lykkedes at slette ikon"
+      },
+      "image": {
+        "not_delete_image": "Kan ikke slette billede: Ingen kategori-ID",
+        "image_delete_success": "Billede blev slettet",
+        "failed_delete": "Kunne ikke slette billede"
+      },
+      "subcategory": {
+        "no_sub_id": "Kan ikke slette ikon: Intet underkategori-ID"
+      },
+      "form": {
+        "name": {
+          "label": "Kategorinavn",
+          "placeholder": "Indtast kategorinavn",
+          "error": {
+            "minLength": "Kategorinavnet skal bestå af mindst 2 tegn",
+            "maxLength": "Kategorinavnet må højst bestå af 50 tegn."
+          }
+        },
+        "subtitle": {
+          "label": "Undertitel",
+          "placeholder": "Indtast undertitel",
+          "error": {
+            "minLength": "Underteksten skal bestå af mindst 2 tegn.",
+            "maxLength": "Underteksten må højst bestå af 100 tegn."
+          }
+        },
+        "description": {
+          "label": "Beskrivelse",
+          "placeholder": "Indtast kategoribeskrivelse",
+          "error": {
+            "minLength": "Beskrivelsen skal være på mindst 10 tegn."
+          }
+        },
+        "headerColor": {
+          "label": "Overskrift baggrundsfarve",
+          "error": {
+            "required": "Der skal angives en baggrundsfarve for overskriften."
+          }
+        },
+        "contentColor": {
+          "label": "Indhold baggrundsfarve",
+          "error": {
+            "required": "Indholdets baggrundsfarve er påkrævet."
+          }
+        },
+        "icon": {
+          "label": "Kategoriikon"
+        },
+        "backgroundImage": {
+          "label": "Baggrundsbillede",
+          "error": {
+            "required": "Baggrundsbillede er påkrævet."
+          }
+        },
+        "isActive": {
+          "label": "Status",
+          "placeholder": "Vælg status",
+          "active": "Aktiv",
+          "inactive": "Inaktiv"
+        },
+        "parentId": {
+          "label": "Overordnet kategori-ID",
+          "placeholder": "Indtast overordnet kategori-ID (valgfrit)"
+        },
+        "displayOrder": {
+          "label": "Visningsrækkefølge",
+          "placeholder": "Indtast visningsrækkefølge (f.eks. 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Kategoriforhåndsvisning",
+        "cityHeading": "Forhåndsvisning af bykategori",
+        "cityDescription": "Se, hvordan din bykategori kommer til at se ud",
+        "citySubHeading": "Forhåndsvisning af byens underkategori",
+        "citySubDescription": "Se, hvordan din bys underkategori kommer til at se ud",
+        "description": "Se hvordan din kategori vil se ud",
+        "defaultName": "Eksempelkategori",
+        "defaultSubtitle": "Aktiviteter i din by",
+        "defaultDescription": "Dette er en eksempelbeskrivelse for din kategori. Tilføj dit eget indhold for at se hvordan det vil blive vist."
+      }
+    },
+    "listing": {
+      "heading": "Kategoriliste",
+      "cityHeading": "Bykategorioversigt",
+      "cityDescription": "Administrer dine bykategorier",
+      "description": "Administrer dine kategorier",
+      "createBtn": "Opret kategori",
+      "searchPlaceholder": "Søg kategorier...",
+      "noCategories": "Ingen kategorier fundet",
+      "table": {
+        "name": "Navn",
+        "description": "Beskrivelse",
+        "type": "Type",
+        "displayOrder": "Visningsrækkefølge",
+        "actions": "Handlinger"
+      },
+      "confirmDelete": {
+        "heading": "Er du sikker?",
+        "message": "Er du sikker på, at du vil slette denne kategori? Denne handling kan ikke fortrydes.",
+        "confirmMessage": "Slet",
+        "cancelMessage": "Annuller"
+      },
+      "deleteSuccess": "Kategorien blev slettet.",
+      "deleteError": "Kunne ikke slette kategorien. Prøv igen."
+    },
+    "update": {
+      "heading": "Opdater kategori",
+      "description": "Rediger en kategori",
+      "editSubCategory": "Rediger underkategori",
+      "editCityCategory": "Rediger bykategori"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Upload flise",
+      "description": "Upload din flise her",
+      "form": {
+        "uploadLabel": "Upload billede",
+        "uploadBtnLabel": "Vælg billede",
+        "uploadPlaceholder": "Træk & slip eller klik for at uploade",
+        "displayOrder": {
+          "label": "Visningsrækkefølge",
+          "placeholder": "Indtast visningsrækkefølge (f.eks. 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Flise navn",
+          "placeholder": "Indtast flise navn"
+        },
+        "redirectURL": {
+          "label": "Redirect URL",
+          "placeholder": "Indtast Redirect URL"
+        },
+        "titleColor": {
+          "label": "Flise farve"
+        },
+        "subHeader": {
+          "label": "Underoverskrift",
+          "placeholder": "Indtast underoverskrift"
+        },
+        "tileDescription": {
+          "label": "Beskrivelse",
+          "placeholder": "Indtast flisebeskrivelse"
+        },
+        "titleDescriptionColor": {
+          "label": "Flise beskrivelse farve"
+        },
+        "errorName": {
+          "maxFileSize": "Filstørrelse må maksimalt være 1 MB",
+          "supportedExtension": "Ukendt filtype valgt, understøttede formater er:",
+          "invalidFile": "Upload venligst en gyldig billedfil."
+        },
+        "tileIcon": {
+          "label": "Flise ikon"
+        },
+        "tileImage": {
+          "label": "Flise billede"
+        }
+      },
+      "previewHeading": "Forhåndsvisning",
+      "previewDescription": "Forhåndsvis din flise her",
+      "dummyText": "Eksempel flise navn",
+      "defaultHeader": "Standard underoverskrift",
+      "tilePreviewDescription": "Eksempel beskrivelse tekst for at illustrere, hvordan flise beskrivelsen vises inden for flise forhåndsvisningen. Denne tekst er designet til at være lang nok til at teste overløb og sikre, at den vises korrekt inden for det område, der er tildelt flise komponenten."
+    },
+    "edit": {
+      "heading": "Rediger felt",
+      "description": "Rediger dit felt her"
+    },
+    "listingHeading": "Fliseoversigt",
+    "listingDescription": "Liste over alle registrerede fliser",
+    "searchPlaceholder": "Søg",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "tabs": {
+      "allTiles": "Alle fliser",
+      "pendingTiles": "Afventer",
+      "inactiveTiles": "Inaktive",
+      "hiddenTiles": "Skjulte"
+    },
+    "table": {
+      "head": {
+        "tile": "Flise",
+        "status": "Status",
+        "displayOrder": "Visningsrækkefølge",
+        "description": "Beskrivelse",
+        "actions": "Handlinger"
+      },
+      "noData": "Ingen data fundet"
+    },
+    "confirmDelete": {
+      "heading": "Er du sikker?",
+      "message": "Er du sikker på, at du vil slette dette element? Denne handling kan ikke fortrydes.",
+      "confirmMessage": "Slet",
+      "cancelMessage": "Annullér"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Upload billede",
+      "btnLabel": "Vælg billede",
+      "placeholder": "Træk & slip eller klik for at uploade",
+      "errorName": {
+        "maxFileSizeFileUpload": "Filstørrelsen bør være maks.",
+        "maxFileSize": "Filstørrelse må maksimalt være 1 MB",
+        "supportedExtension": "Ukendt filtype valgt, understøttede formater er:",
+        "invalidFile": "Upload venligst en gyldig billedfil.",
+        "minLength": "Indtast venligst et gyldigt flisenavn",
+        "maxLength": "Flisenavn må ikke overstige 50 tegn",
+        "titleColor": "Vælg venligst en titel­farve",
+        "tileIcon": "Fliseikon er påkrævet",
+        "tileDescription": "Beskrivelsen skal mindst være 10 tegn lang",
+        "titleDescriptionColor": "Vælg venligst en farve til beskrivelsen",
+        "tileImage": "Flise­billedet er påkrævet",
+        "subHeader": "Indtast venligst en gyldig underoverskrift",
+        "subHeaderMax": "Underoverskriften må ikke overstige 50 tegn",
+        "minDisplayOrder": "Visningsrækkefølgen skal være mindst 1",
+        "maxDisplayOrder": "Visningsrækkefølgen må ikke overstige 999999"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Upload venligst hero-billede",
+        "listingNameRequired": "Navn på opslag er påkrævet",
+        "listingNameMaxLength": "Navnet på listen må ikke overstige 50 tegn.",
+        "listingNameMinLength": "Navnet på listen skal være mindst 3 tegn langt.",
+        "address": "Indtast venligst en gyldig adresse",
+        "startDate": "Indtast venligst en gyldig startdato",
+        "endDate": "Indtast venligst en gyldig slutdato",
+        "city": "Vælg venligst en by",
+        "tags": "Vælg venligst et tag",
+        "websiteUrl": "Indtast venligst en gyldig webadresse",
+        "category": "Vælg venligst en kategori"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "Brugerstyring",
+    "description": "Liste over alle registrerede brugere",
+    "createAdmin": "Opret administrator",
+    "table": {
+      "head": {
+        "name": "Navn",
+        "email": "E-mail",
+        "role": "Brugerrolle",
+        "status": "Status",
+        "createdAt": "Oprettet den",
+        "cities": "Byer",
+        "actions": "Handlinger",
+        "registered": "Registreret"
+      },
+      "noData": "Ingen data fundet"
+    },
+    "confirmDelete": {
+      "heading": "Er du sikker?",
+      "message": "Er du sikker på, at du vil slette dette element? Denne handling kan ikke fortrydes.",
+      "confirmMessage": "Slet",
+      "cancelMessage": "Annullér"
+    }
+  },
+  "accountSetting": {
+    "heading": "Kontoeinstellungen",
+    "description": "Opdatér dine kontooplysninger",
+    "section": {
+      "personalInfo": {
+        "heading": "Personlige oplysninger",
+        "description": "Opdatér dine personlige oplysninger"
+      },
+      "accountInfo": {
+        "heading": "Konto­oplysninger",
+        "description": "Opdatér dine konto­oplysninger"
+      },
+      "metadata": {
+        "heading": "Metadata",
+        "description": "+Tilføj dine sociale medie­konti her."
+      },
+      "password": {
+        "heading": "Adgangskode",
+        "description": "Opdatér din adgangskode"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "Du kan tilføje maksimalt 3 sociale links",
+      "saveBtn": "Gem ændringer",
+      "resetBtn": "Nulstil",
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Indtast din e-mail",
+        "error": {
+          "required": "Indtast en gyldig e-mail",
+          "minContent": "E-mail skal indeholde mindst 3 tegn",
+          "maxContent": "E-mail må maksimalt indeholde 50 tegn"
+        }
+      },
+      "username": {
+        "label": "Brugernavn",
+        "placeholder": "Indtast dit brugernavn",
+        "error": {
+          "required": "Indtast et gyldigt brugernavn",
+          "minContent": "Brugernavn skal indeholde mindst 3 tegn",
+          "maxContent": "Brugernavn må maksimalt indeholde 50 tegn"
+        }
+      },
+      "currentPassword": {
+        "label": "Adgangskode",
+        "placeholder": "Indtast din adgangskode",
+        "error": {
+          "required": "Indtast en gyldig adgangskode",
+          "minContent": "Adgangskoden skal indeholde mindst 8 tegn",
+          "maxContent": "Adgangskoden må maksimalt indeholde 50 tegn"
+        }
+      },
+      "newPassword": {
+        "label": "Ny adgangskode",
+        "placeholder": "Indtast din nye adgangskode",
+        "error": {
+          "required": "Indtast en gyldig adgangskode",
+          "minContent": "Adgangskoden skal være mindst 8 tegn",
+          "maxContent": "Adgangskoden må maksimalt indeholde 50 tegn"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekræft adgangskode",
+        "placeholder": "Indtast din adgangskode igen",
+        "error": {
+          "required": "Bekræftelse af adgangskode er påkrævet",
+          "minContent": "Adgangskoden skal indeholde mindst 8 tegn",
+          "maxContent": "Adgangskoden må maksimalt indeholde 50 tegn",
+          "passwordMismatch": "Adgangskoderne stemmer ikke overens"
+        }
+      },
+      "yourName": {
+        "label": "Dit navn",
+        "placeholder": "Indtast dit navn",
+        "error": {
+          "required": "Indtast et gyldigt navn",
+          "minContent": "Navnet skal indeholde mindst 3 tegn",
+          "maxContent": "Navnet må maksimalt indeholde 50 tegn"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Indtast dit telefonnummer",
+        "error": {
+          "required": "Indtast et gyldigt telefonnummer",
+          "minContent": "Telefonnummeret skal indeholde mindst 3 tegn",
+          "maxContent": "Telefonnummeret må maksimalt indeholde 50 tegn"
+        }
+      },
+      "description": {
+        "label": "Beskrivelse",
+        "placeholder": "Indtast din beskrivelse",
+        "error": {
+          "required": "Indtast en gyldig beskrivelse",
+          "minContent": "Beskrivelsen skal indeholde mindst 3 tegn",
+          "maxContent": "Beskrivelsen må maksimalt indeholde 200 tegn"
+        }
+      },
+      "website": {
+        "label": "Web­side",
+        "placeholder": "Indtast din web­side",
+        "error": {
+          "required": "Indtast en gyldig web­side",
+          "minContent": "Websiden skal indeholde mindst 3 tegn",
+          "maxContent": "Websiden må maksimalt indeholde 50 tegn",
+          "duplicateWebsite": "Dublerede websider er ikke tilladt"
+        }
+      },
+      "websiteLink": {
+        "label": "Web­side link",
+        "placeholder": "Indtast link til din web­side",
+        "error": {
+          "required": "Indtast et gyldigt link",
+          "minContent": "Linket skal indeholde mindst 3 tegn",
+          "maxContent": "Linket må maksimalt indeholde 50 tegn",
+          "invalidLink": "Linket er ugyldigt",
+          "duplicateLink": "Dublerede links er ikke tilladt"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "login": "Log ind her.",
+      "acceptPolicy": "Jeg accepterer hermed",
+      "privacy": "privatlivspolitikken*",
+      "and": "og",
+      "terms": "almindelige vilkår og betingelser.*",
+      "mustAcceptTermsAndPrivacy": "Vælg venligst Accepter Vilkår og Betingelser for at fortsætte."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Indtast en gyldig e-mailadresse"
+        }
+      },
+      "username": {
+        "label": "Brugernavn",
+        "placeholder": "Indtast dit brugernavn",
+        "error": {
+          "minContent": "Brugernavn skal være mindst 3 tegn",
+          "maxContent": "Brugernavn må være maksimalt 30 tegn",
+          "noSpaces": "Brugernavn må ikke indeholde mellemrum"
+        }
+      },
+      "firstName": {
+        "label": "Fornavn",
+        "placeholder": "Indtast fornavn",
+        "error": {
+          "minContent": "Fornavn skal være mindst 2 tegn",
+          "maxContent": "Fornavn må være maksimalt 30 tegn",
+          "noSpaces": "Fornavn må ikke indeholde mellemrum",
+          "invalidChars": "Fornavn må kun indeholde bogstaver"
+        }
+      },
+      "lastName": {
+        "label": "Efternavn",
+        "placeholder": "Indtast efternavn",
+        "error": {
+          "minContent": "Efternavn skal være mindst 2 tegn",
+          "maxContent": "Efternavn må være maksimalt 30 tegn",
+          "noSpaces": "Efternavn må ikke indeholde mellemrum",
+          "invalidChars": "Efternavn må kun indeholde bogstaver"
+        }
+      },
+      "password": {
+        "label": "Adgangskode",
+        "placeholder": "Indtast adgangskode",
+        "error": {
+          "minContent": "Adgangskoden skal være mindst 8 tegn",
+          "maxContent": "Adgangskoden må være maksimalt 20 tegn",
+          "noSpaces": "Adgangskoden må ikke indeholde mellemrum"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekræft adgangskode",
+        "placeholder": "Indtast bekræft adgangskode",
+        "error": {
+          "required": "Bekræftelse af adgangskode er påkrævet",
+          "mismatch": "Adgangskode og bekræftelse stemmer ikke overens"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Skift rolle",
+    "description": "Vælg en ny rolle og by for denne bruger.",
+    "selectRole": "Vælg rolle",
+    "selectCity": "Vælg by"
+  },
+  "user": {
+    "restore": "Bruger gendannet.",
+    "restoreFailed": "Gendannelse mislykkedes.",
+    "disable": "Bruger deaktiveret.",
+    "disableFailed": "Deaktivering mislykkedes.",
+    "roleAssign": "Rolle tildelt med succes.",
+    "roleAssignFailed": "Det lykkedes ikke at tildele rollen.",
+    "select_city": "Vælg en by."
+  },
+  "unAuthorized": {
+    "heading": "Uautoriseret adgang",
+    "description": "Du har ikke tilladelse til at få adgang til denne side. Kontakt venligst din <strong>Super Admin</strong> for at anmode om de nødvendige adgangsrettigheder.",
+    "goBack": "Gå tilbage"
+  },
+  "pagination": {
+    "previous": "Forrige",
+    "next": "Næste"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "Upload Listing",
+      "description": "Upload din listing her",
+      "form": {
+        "heroImageUrl": {
+          "label": "Hero-billede URL",
+          "placeholder": "Indtast hero-billede URL"
+        },
+        "listingName": {
+          "label": "Listing navn",
+          "placeholder": "Indtast listing navn"
+        },
+        "address": {
+          "label": "Adresse",
+          "placeholder": "Indtast adresse",
+          "searching": "Søger..."
+        },
+        "startDate": {
+          "label": "Startdato",
+          "placeholder": "Vælg startdato"
+        },
+        "endDate": {
+          "label": "Slutdato",
+          "placeholder": "Vælg slutdato"
+        },
+        "city": {
+          "label": "By",
+          "placeholder": "Vælg by"
+        },
+        "category": {
+          "label": "Kategori",
+          "placeholder": "Vælg kategori"
+        },
+        "subCategory": {
+          "label": "Underkategori",
+          "placeholder": "Vælg underkategori"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Vælg tags"
+        },
+        "summary": {
+          "label": "Resumé",
+          "placeholder": "Indtast resumé"
+        },
+        "listingDescription": {
+          "label": "Listing beskrivelse",
+          "placeholder": "Indtast listing beskrivelse"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Indtast email"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "Indtast telefonnummer"
+        },
+        "websiteUrl": {
+          "label": "Website URL",
+          "placeholder": "Indtast website URL"
+        },
+        "media": {
+          "label": "Medie-URL"
+        }
+      }
+    },
+    "edit": {
+      "heading": "Rediger annonce",
+      "description": "Rediger din annonce her"
+    },
+    "listingHeading": "Alle opslag",
+    "listingDescription": "Liste over alle registrerede opslag",
+    "searchPlaceholder": "Søg",
+    "active": "Gendan",
+    "inactive": "Arkivér",
+    "tabs": {
+      "allLists": "Alle opslag",
+      "pendingLists": "Gendan",
+      "inactiveLists": "Arkivér",
+      "hiddenLists": "Skjult"
+    },
+    "table": {
+      "head": {
+        "list": "Opslag",
+        "status": "Status",
+        "description": "Beskrivelse",
+        "actions": "Handlinger"
+      },
+      "noData": "Ingen data fundet"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Standardoverskrift",
+      "listPreviewDescription": "",
+      "previewHeading": "Forhåndsvisning",
+      "previewDescription": "Vorschau Ihrer Liste hier",
+      "dateFormat": "dd/MM/åååå, TT:mm"
+    }
+  },
+  "removeImage": "Fjern billede",
+  "deleteMetadata": "Slet metadata",
+  "removeSubcategory": "Fjern underkategori",
+  "termsConditions": {
+    "noData": "Ingen data om vilkår og betingelser er tilgængelige."
+  }
+}

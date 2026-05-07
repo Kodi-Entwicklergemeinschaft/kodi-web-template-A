@@ -1,0 +1,7 @@
+# Always use LF for text files
+* text=auto eol=lf
+ 
+# Binary files (don’t touch line endings)
+*.png binary
+*.jpg binary
+*.ico binary

@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+
+    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
+
+    "eamodio.gitlens",
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "wallabyjs.console-ninja",
+    "yoavbls.pretty-ts-errors",
+    "wayou.vscode-todo-highlight",
+    "chakrounanas.turbo-console-log"
+  ]
+}

@@ -1,0 +1,710 @@
+{
+  "heading": "سلام دنیا",
+  "toggleTheme": "تغییر تم",
+  "signIntoAccount": "ورود به حساب کاربری",
+  "email": "ایمیل",
+  "emailOrUsernameLabel": "ایمیل یا نام کاربری",
+  "usernameOrEmail": "ایمیل خود را وارد کنید",
+  "password": "رمز عبور",
+  "pleaseEnterPassword": "لطفاً رمز عبور را وارد کنید",
+  "rememberMe": "به خاطر سپردن رمز عبور",
+  "forgotYourPassword": "رمز عبور خود را فراموش کرده‌اید؟",
+  "resetPassword": "بازیابی رمز عبور",
+  "signIn": "ورود",
+  "notMember": "حساب کاربری ندارید؟",
+  "register": "ثبت نام",
+  "signInHelp": "کمک؟",
+  "invalidMail": "یک ایمیل معتبر وارد کنید",
+  "invalidMailOrUsername": "ایمیل یا نام کاربری معتبر وارد کنید",
+  "minContainInMail": "ایمیل باید حداقل ۳ کاراکتر داشته باشد",
+  "maxContentInMail": "ایمیل باید حداکثر ۵۰ کاراکتر داشته باشد",
+  "passwordRequired": "رمز عبور الزامی است",
+  "sendLink": "ارسال لینک",
+  "cancel": "لغو",
+  "addMore": "افزودن بیشتر",
+  "deleteAccount": "حذف حساب کاربری",
+  "status": "وضعیت",
+  "active": "فعال",
+  "inactive": "غیرفعال",
+  "anleitung": "دستورالعمل‌ها",
+  "subtitle": "ثبت‌نام در برنامه",
+  "step1": "<strong>مرحله ۱:</strong> نام کاربری و رمز عبور را تنظیم کنید",
+  "step2": "<strong>مرحله ۲:</strong> یک ایمیل به آدرس وارد شده ارسال خواهد شد",
+  "step3": "<strong>مرحله ۳:</strong> لطفاً ایمیل خود را با کلیک روی لینک تأیید در صندوق ورودی، تأیید کنید",
+  "step4": "<strong>مرحله ۴:</strong> حساب شما تأیید شد و می‌توانید با اطلاعات ورود خود وارد شوید",
+  "thankYou": "با تشکر!!",
+  "logout": "خروج",
+  "Close": "بستن",
+  "sidebar": {
+    "tileManagement": {
+      "title": "مدیریت کاشی",
+      "upload": "آپلود کاشی",
+      "listing": "فهرست کاشی‌ها"
+    },
+    "listingManagement": {
+      "title": "مدیریت فهرست",
+      "upload": "بارگذاری فهرست",
+      "listing": "فهرست‌ها"
+    },
+    "categoryManagement": {
+      "title": "مدیریت دسته‌بندی",
+      "create": "ایجاد دسته‌بندی",
+      "listing": "فهرست دسته‌بندی‌ها",
+      "cityCategory": "دسته‌بندی شهر",
+      "updateCityCategory": "به‌روزرسانی دسته‌بندی شهر"
+    },
+    "accounts": {
+      "title": "تنظیمات حساب کاربری"
+    },
+    "cityAdmin": {
+      "title": " مدیریت کاربر"
+    }
+  },
+  "createAccount": "ایجاد حساب جدید",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "نام دسته‌بندی باید حداقل ۲ کاراکتر داشته باشد.",
+          "maxLength": "نام دسته‌بندی نباید بیش از ۵۰ کاراکتر باشد."
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "زیرعنوان باید حداقل ۲ کاراکتر داشته باشد.",
+          "maxLength": "زیرعنوان نباید بیش از ۱۰۰ کاراکتر باشد."
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "توضیحات باید حداقل ۱۰ کاراکتر داشته باشد."
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "انتخاب رنگ پس‌زمینه هدر الزامی است."
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "انتخاب رنگ پس‌زمینه محتوا الزامی است."
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "انتخاب تصویر پس‌زمینه الزامی است."
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "تصویر آیکون الزامی است"
+        }
+      }
+    },
+    "create": {
+      "heading": "ایجاد دسته‌بندی",
+      "editHeading": "ویرایش دسته‌بندی شهر",
+      "editDescription": "ویرایش یک دسته‌بندی شهر",
+      "description": "ایجاد یک دسته‌بندی جدید",
+      "addSubCategory": "افزودن زیر‌دسته",
+      "fix_main_category": "لطفاً خطاهای اعتبارسنجی در دسته‌بندی اصلی را برطرف کنید.",
+      "cat_and_subCate_created": "دسته‌بندی و زیر‌دسته‌ها با موفقیت ایجاد شدند",
+      "categoryUpdate_image_failed": "دسته‌بندی به‌روزرسانی شد، اما ممکن است برخی تصاویر آپلود نشده باشند.",
+      "categoryCreate_image_failed": "دسته‌بندی ایجاد شد، اما ممکن است برخی تصاویر آپلود نشده باشند.",
+      "failed_to_create_category": "ایجاد دسته‌بندی ناموفق بود",
+      "failed_to_update_category": "به‌روزرسانی دسته‌بندی ناموفق بود",
+      "categoryNotfound": "دسته‌بندی یافت نشد",
+      "subCategory": {
+        "heading": "ایجاد زیر‌دسته",
+        "editHeading": "ویرایش زیرشاخه",
+        "editDescription": "ویرایش یک زیرشاخه برای دسته‌بندی اصلی",
+        "description": "ایجاد یک زیر‌دسته برای دسته‌بندی اصلی",
+        "subCategory_validation": "لطفاً خطاهای اعتبارسنجی زیر‌دسته را برطرف کنید.",
+        "cannotadd3subCategory": "شما نمی‌توانید بیش از ۳ زیر‌دسته اضافه کنید.",
+        "fix_sub_category": "لطفاً خطاهای اعتبارسنجی زیر‌دسته را برطرف کنید.",
+        "failed_create_subcategory": "ایجاد زیر‌دسته ناموفق بود",
+        "max_3_sub_category": "حداکثر ۳ زیر‌دسته مجاز است.",
+        "subCategory_label": "زیر‌دسته",
+        "max_3_sub_category_count": "حداکثر: ۳"
+      },
+      "icon": {
+        "not_delete_icon": "امکان حذف آیکن وجود ندارد: شناسه دسته‌بندی موجود نیست",
+        "icon_delete_success": "آیکن با موفقیت حذف شد",
+        "failed_delete": "حذف آیکن ناموفق بود"
+      },
+      "image": {
+        "not_delete_image": "امکان حذف تصویر نیست: شناسه دسته‌بندی وجود ندارد",
+        "image_delete_success": "تصویر با موفقیت حذف شد",
+        "failed_delete": "حذف تصویر ناموفق بود"
+      },
+      "subcategory": {
+        "no_sub_id": "امکان حذف آیکن وجود ندارد: شناسه زیر‌دسته موجود نیست"
+      },
+      "form": {
+        "name": {
+          "label": "نام دسته‌بندی",
+          "placeholder": "نام دسته‌بندی را وارد کنید",
+          "error": {
+            "minLength": "نام دسته‌بندی باید حداقل ۲ کاراکتر داشته باشد.",
+            "maxLength": "نام دسته‌بندی نباید بیش از ۵۰ کاراکتر باشد."
+          }
+        },
+        "subtitle": {
+          "label": "زیرعنوان",
+          "placeholder": "زیرعنوان را وارد کنید",
+          "error": {
+            "minLength": "زیرعنوان باید حداقل ۲ کاراکتر داشته باشد.",
+            "maxLength": "زیرعنوان نباید بیش از ۱۰۰ کاراکتر باشد."
+          }
+        },
+        "description": {
+          "label": "توضیحات",
+          "placeholder": "توضیحات دسته‌بندی را وارد کنید",
+          "error": {
+            "minLength": "توضیحات باید حداقل ۱۰ کاراکتر داشته باشد."
+          }
+        },
+        "headerColor": {
+          "label": "رنگ پس‌زمینه هدر",
+          "error": {
+            "required": "انتخاب رنگ پس‌زمینه هدر الزامی است."
+          }
+        },
+        "contentColor": {
+          "label": "رنگ پس‌زمینه محتوا",
+          "error": {
+            "required": "انتخاب رنگ پس‌زمینه محتوا الزامی است."
+          }
+        },
+        "icon": {
+          "label": "آیکن دسته‌بندی"
+        },
+        "backgroundImage": {
+          "label": "تصویر پس‌زمینه",
+          "error": {
+            "required": "انتخاب تصویر پس‌زمینه الزامی است."
+          }
+        },
+        "isActive": {
+          "label": "وضعیت",
+          "placeholder": "وضعیت را انتخاب کنید",
+          "active": "فعال",
+          "inactive": "غیرفعال"
+        },
+        "parentId": {
+          "label": "شناسه دسته‌بندی والد",
+          "placeholder": "شناسه دسته‌بندی والد را وارد کنید (اختیاری)"
+        },
+        "displayOrder": {
+          "label": "ترتیب نمایش",
+          "placeholder": "ترتیب نمایش را وارد کنید (مثلاً ۱، ۲، ۳)"
+        }
+      },
+      "preview": {
+        "heading": "پیش‌نمایش دسته‌بندی",
+        "cityHeading": "فهرست دسته‌بندی‌های شهر",
+        "cityDescription": "ببینید دسته‌بندی شهر شما چگونه به نظر خواهد رسید",
+        "citySubHeading": "پیش‌نمایش زیرشاخه شهر",
+        "citySubDescription": "ببینید زیرشاخه شهر شما چگونه به نظر خواهد رسید",
+        "description": "مشاهده نحوه نمایش دسته‌بندی شما",
+        "defaultName": "نمونه دسته‌بندی",
+        "defaultSubtitle": "فعالیت‌ها در شهر شما",
+        "defaultDescription": "این یک نمونه توضیح برای دسته‌بندی شماست. محتوای خود را اضافه کنید تا نحوه نمایش آن را ببینید."
+      }
+    },
+    "listing": {
+      "heading": "لیست دسته‌بندی‌ها",
+      "cityHeading": "فهرست دسته‌بندی‌های شهر",
+      "cityDescription": "مدیریت دسته‌بندی‌های شهر شما",
+      "description": "مدیریت دسته‌بندی‌های شما",
+      "createBtn": "ایجاد دسته‌بندی",
+      "searchPlaceholder": "جستجو در دسته‌بندی‌ها...",
+      "noCategories": "هیچ دسته‌بندی‌ای یافت نشد",
+      "table": {
+        "name": "نام",
+        "description": "توضیحات",
+        "type": "نوع",
+        "displayOrder": "ترتیب نمایش",
+        "actions": "عملیات"
+      },
+      "confirmDelete": {
+        "heading": "آیا مطمئن هستید؟",
+        "message": "آیا از حذف این دسته‌بندی مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+        "confirmMessage": "حذف",
+        "cancelMessage": "انصراف"
+      },
+      "deleteSuccess": "دسته‌بندی با موفقیت حذف شد.",
+      "deleteError": "حذف دسته‌بندی ناموفق بود. لطفاً دوباره تلاش کنید."
+    },
+    "update": {
+      "heading": "به‌روزرسانی دسته‌بندی",
+      "description": "ویرایش یک دسته‌بندی",
+      "editSubCategory": "ویرایش زیردسته",
+      "editCityCategory": "ویرایش دسته‌بندی شهر"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "آپلود کاشی",
+      "description": "کاشی خود را اینجا بارگذاری کنید",
+      "form": {
+        "uploadLabel": "آپلود تصویر",
+        "uploadBtnLabel": "انتخاب تصویر",
+        "uploadPlaceholder": "برای آپلود، بکشید و رها کنید یا کلیک کنید",
+        "displayOrder": {
+          "label": "ترتیب نمایش",
+          "placeholder": "ترتیب نمایش را وارد کنید (مثلاً: 1، 2، 3)"
+        },
+        "tileName": {
+          "label": "نام کاشی",
+          "placeholder": "نام کاشی خود را وارد کنید"
+        },
+        "redirectURL": {
+          "label": "آدرس بازگشت",
+          "placeholder": "آدرس بازگشت خود را وارد کنید"
+        },
+        "titleColor": {
+          "label": "رنگ عنوان کاشی"
+        },
+        "subHeader": {
+          "label": "زیرعنوان",
+          "placeholder": "زیرعنوان خود را وارد کنید"
+        },
+        "tileDescription": {
+          "label": "توضیحات کاشی",
+          "placeholder": "توضیحات کاشی را وارد کنید"
+        },
+        "titleDescriptionColor": {
+          "label": "رنگ توضیحات کاشی"
+        },
+        "errorName": {
+          "maxFileSize": "حداکثر اندازه فایل باید ۱ مگابایت باشد",
+          "supportedExtension": "فرمت فایل پشتیبانی نمی‌شود، فرمت‌های پشتیبانی شده عبارتند از:",
+          "invalidFile": "لطفاً یک فایل تصویر معتبر آپلود کنید."
+        },
+        "tileIcon": {
+          "label": "آیکون کاشی"
+        },
+        "tileImage": {
+          "label": "تصویر کاشی"
+        }
+      },
+      "previewHeading": "پیش‌نمایش",
+      "previewDescription": "کاشی خود را اینجا مشاهده کنید",
+      "dummyText": "نام کاشی نمونه",
+      "defaultHeader": "زیرعنوان پیش‌فرض",
+      "tilePreviewDescription": "متن توضیحات نمونه برای نشان دادن نحوه نمایش توضیحات کاشی در پیش‌نمایش کاشی. این متن به اندازه کافی طولانی است تا سرریز شدن را آزمایش کند و اطمینان حاصل شود که به درستی در محدوده اختصاص داده شده به مؤلفه کاشی نمایش داده می‌شود."
+    },
+    "edit": {
+      "heading": "ویرایش کاشی",
+      "description": "کاشی خود را در اینجا ویرایش کنید"
+    },
+    "listingHeading": "فهرست کاشی‌ها",
+    "listingDescription": "فهرست همه کاشی‌های ثبت‌شده",
+    "searchPlaceholder": "جستجو",
+    "active": "فعال",
+    "inactive": "غیرفعال",
+    "tabs": {
+      "allTiles": "همه کاشی‌ها",
+      "pendingTiles": "در انتظار بررسی",
+      "inactiveTiles": "غیرفعال",
+      "hiddenTiles": "پنهان"
+    },
+    "table": {
+      "head": {
+        "tile": "کاشی",
+        "status": "وضعیت",
+        "displayOrder": "ترتیب نمایش",
+        "description": "توضیحات",
+        "actions": "اقدامات"
+      },
+      "noData": "داده‌ای یافت نشد"
+    },
+    "confirmDelete": {
+      "heading": "آیا مطمئن هستید؟",
+      "message": "آیا از حذف این مورد اطمینان دارید؟ این عملیات قابل بازگشت نیست.",
+      "confirmMessage": "حذف",
+      "cancelMessage": "لغو"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "آپلود تصویر",
+      "btnLabel": "انتخاب تصویر",
+      "placeholder": "برای آپلود، بکشید و رها کنید یا کلیک کنید",
+      "errorName": {
+        "maxFileSizeFileUpload": "اندازهٔ فایل باید حداکثر باشد.",
+        "maxFileSize": "حداکثر اندازه فایل باید ۱ مگابایت باشد",
+        "supportedExtension": "فرمت فایل پشتیبانی نمی‌شود، فرمت‌های پشتیبانی شده عبارتند از:",
+        "invalidFile": "لطفاً یک فایل تصویر معتبر آپلود کنید.",
+        "minLength": "لطفاً یک نام معتبر برای کاشی وارد کنید",
+        "maxLength": "نام کاشی نمی‌تواند بیش از ۵۰ کاراکتر باشد",
+        "titleColor": "لطفاً رنگ عنوان را انتخاب کنید",
+        "tileIcon": "آیکون کاشی الزامی است",
+        "tileDescription": "توضیحات باید حداقل ۱۰ کاراکتر باشد",
+        "titleDescriptionColor": "لطفاً رنگ توضیحات را انتخاب کنید",
+        "tileImage": "تصویر کاشی الزامی است",
+        "subHeader": "لطفاً یک زیرعنوان معتبر وارد کنید",
+        "subHeaderMax": "زیرعنوان نمی‌تواند بیش از ۵۰ کاراکتر باشد",
+        "minDisplayOrder": "ترتیب نمایش باید حداقل 1 باشد",
+        "maxDisplayOrder": "ترتیب نمایش نمی‌تواند بیش از 999999 باشد"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "لطفاً تصویر قهرمان را آپلود کنید",
+        "listingNameRequired": "نام فهرست‌بندی الزامی است",
+        "listingNameMaxLength": "نام فهرست نمی‌تواند از ۵۰ کاراکتر تجاوز کند.",
+        "listingNameMinLength": "نام فهرست باید حداقل ۳ کاراکتر باشد.",
+        "address": "لطفاً یک آدرس معتبر وارد کنید",
+        "startDate": "لطفاً یک تاریخ شروع معتبر وارد کنید",
+        "endDate": "لطفاً یک تاریخ پایان معتبر وارد کنید",
+        "city": "لطفاً یک شهر انتخاب کنید",
+        "tags": "لطفاً یک برچسب انتخاب کنید",
+        "websiteUrl": "لطفاً یک آدرس وب معتبر وارد کنید",
+        "category": "لطفاً یک دسته‌بندی انتخاب کنید"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "مدیریت کاربر",
+    "description": "فهرست همه کاربران ثبت‌شده",
+    "createAdmin": "ایجاد مدیر",
+    "table": {
+      "head": {
+        "name": "نام",
+        "email": "ایمیل",
+        "role": "نقش کاربر",
+        "status": "وضعیت",
+        "createdAt": "تاریخ ایجاد",
+        "cities": "شهرها",
+        "actions": "اقدامات",
+        "registered": "ثبت‌شده"
+      },
+      "noData": "داده‌ای یافت نشد"
+    },
+    "confirmDelete": {
+      "heading": "آیا مطمئن هستید؟",
+      "message": "آیا از حذف این مورد اطمینان دارید؟ این عملیات قابل بازگشت نیست.",
+      "confirmMessage": "حذف",
+      "cancelMessage": "لغو"
+    }
+  },
+  "accountSetting": {
+    "heading": "تنظیمات حساب کاربری",
+    "description": "به‌روزرسانی اطلاعات حساب شما",
+    "section": {
+      "personalInfo": {
+        "heading": "اطلاعات شخصی",
+        "description": "اطلاعات شخصی خود را به‌روزرسانی کنید"
+      },
+      "accountInfo": {
+        "heading": "اطلاعات حساب",
+        "description": "اطلاعات حساب خود را به‌روزرسانی کنید"
+      },
+      "metadata": {
+        "heading": "فراداده",
+        "description": "+افزودن حساب‌های شبکه‌های اجتماعی خود در اینجا."
+      },
+      "password": {
+        "heading": "رمز عبور",
+        "description": "رمز عبور خود را به‌روزرسانی کنید"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "حداکثر ۳ لینک اجتماعی می‌توانید اضافه کنید",
+      "saveBtn": "ذخیره تغییرات",
+      "resetBtn": "بازنشانی",
+      "email": {
+        "label": "ایمیل",
+        "placeholder": "ایمیل خود را وارد کنید",
+        "error": {
+          "required": "یک ایمیل معتبر وارد کنید",
+          "minContent": "ایمیل باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "ایمیل باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "username": {
+        "label": "نام کاربری",
+        "placeholder": "نام کاربری خود را وارد کنید",
+        "error": {
+          "required": "نام کاربری معتبر وارد کنید",
+          "minContent": "نام کاربری باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "نام کاربری باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "currentPassword": {
+        "label": "رمز عبور",
+        "placeholder": "رمز عبور خود را وارد کنید",
+        "error": {
+          "required": "رمز عبور معتبر وارد کنید",
+          "minContent": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+          "maxContent": "رمز عبور باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "newPassword": {
+        "label": "رمز عبور جدید",
+        "placeholder": "رمز عبور جدید خود را وارد کنید",
+        "error": {
+          "required": "رمز عبور معتبر وارد کنید",
+          "minContent": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+          "maxContent": "رمز عبور باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأیید رمز عبور",
+        "placeholder": "رمز عبور خود را تأیید کنید",
+        "error": {
+          "required": "رمز عبور را وارد کنید",
+          "minContent": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+          "maxContent": "رمز عبور باید حداکثر ۵۰ کاراکتر داشته باشد",
+          "passwordMismatch": "رمز عبور مطابقت ندارد"
+        }
+      },
+      "yourName": {
+        "label": "نام شما",
+        "placeholder": "نام خود را وارد کنید",
+        "error": {
+          "required": "نام معتبر وارد کنید",
+          "minContent": "نام باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "نام باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "phoneNumber": {
+        "label": "شماره تلفن",
+        "placeholder": "شماره تلفن خود را وارد کنید",
+        "error": {
+          "required": "شماره تلفن معتبر وارد کنید",
+          "minContent": "شماره تلفن باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "شماره تلفن باید حداکثر ۵۰ کاراکتر داشته باشد"
+        }
+      },
+      "description": {
+        "label": "توضیحات",
+        "placeholder": "توضیحات خود را وارد کنید",
+        "error": {
+          "required": "توضیح معتبر وارد کنید",
+          "minContent": "توضیحات باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "توضیحات باید حداکثر ۲۰۰ کاراکتر داشته باشد"
+        }
+      },
+      "website": {
+        "label": "وب‌سایت",
+        "placeholder": "وب‌سایت خود را وارد کنید",
+        "error": {
+          "required": "وب‌سایت معتبر وارد کنید",
+          "minContent": "وب‌سایت باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "وب‌سایت باید حداکثر ۵۰ کاراکتر داشته باشد",
+          "duplicateWebsite": "افزودن وب‌سایت تکراری مجاز نیست"
+        }
+      },
+      "websiteLink": {
+        "label": "لینک وب‌سایت",
+        "placeholder": "لینک وب‌سایت خود را وارد کنید",
+        "error": {
+          "required": "لینک معتبر وارد کنید",
+          "minContent": "لینک باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "لینک باید حداکثر ۵۰ کاراکتر داشته باشد",
+          "invalidLink": "لینک نامعتبر است",
+          "duplicateLink": "لینک تکراری مجاز نیست"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "آیا از قبل حساب کاربری دارید؟",
+      "login": "لطفاً از اینجا وارد شوید.",
+      "acceptPolicy": "من بدین‌وسیله قبول دارم",
+      "privacy": "سیاست حفظ حریم خصوصی*",
+      "and": "و",
+      "terms": "شرایط و ضوابط عمومی.*",
+      "mustAcceptTermsAndPrivacy": "برای ادامه باید با شرایط و ضوابط موافقت کنید."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "لطفاً یک آدرس ایمیل معتبر وارد کنید"
+        }
+      },
+      "username": {
+        "label": "نام کاربری",
+        "placeholder": "نام کاربری خود را وارد کنید",
+        "error": {
+          "minContent": "نام کاربری باید حداقل ۳ کاراکتر داشته باشد",
+          "maxContent": "نام کاربری باید حداکثر ۳۰ کاراکتر داشته باشد",
+          "noSpaces": "نام کاربری نباید شامل فاصله باشد"
+        }
+      },
+      "firstName": {
+        "label": "نام",
+        "placeholder": "لطفاً نام خود را وارد کنید",
+        "error": {
+          "minContent": "نام باید حداقل ۲ کاراکتر داشته باشد",
+          "maxContent": "نام باید حداکثر ۳۰ کاراکتر داشته باشد",
+          "noSpaces": "نام نباید شامل فاصله باشد",
+          "invalidChars": "نام فقط باید شامل حروف الفبا باشد"
+        }
+      },
+      "lastName": {
+        "label": "نام خانوادگی",
+        "placeholder": "لطفاً نام خانوادگی خود را وارد کنید",
+        "error": {
+          "minContent": "نام خانوادگی باید حداقل ۲ کاراکتر داشته باشد",
+          "maxContent": "نام خانوادگی باید حداکثر ۳۰ کاراکتر داشته باشد",
+          "noSpaces": "نام خانوادگی نباید شامل فاصله باشد",
+          "invalidChars": "نام خانوادگی فقط باید شامل حروف الفبا باشد"
+        }
+      },
+      "password": {
+        "label": "رمز عبور",
+        "placeholder": "لطفاً رمز عبور را وارد کنید",
+        "error": {
+          "minContent": "رمز عبور باید حداقل ۸ کاراکتر داشته باشد",
+          "maxContent": "رمز عبور باید حداکثر ۲۰ کاراکتر داشته باشد",
+          "noSpaces": "رمز عبور نباید شامل فاصله باشد"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأیید رمز عبور",
+        "placeholder": "لطفاً رمز عبور را دوباره وارد کنید",
+        "error": {
+          "required": "تأیید رمز عبور الزامی است",
+          "mismatch": "رمز عبور و تأیید آن مطابقت ندارند"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "تبدیل نقش",
+    "description": "یک نقش و شهر جدید برای این کاربر انتخاب کنید.",
+    "selectRole": "انتخاب نقش",
+    "selectCity": "انتخاب شهر"
+  },
+  "user": {
+    "restore": "کاربر با موفقیت بازیابی شد.",
+    "restoreFailed": "بازیابی کاربر ناموفق بود.",
+    "disable": "کاربر با موفقیت غیرفعال شد.",
+    "disableFailed": "غیرفعال‌سازی کاربر ناموفق بود.",
+    "roleAssign": "نقش با موفقیت اختصاص داده شد.",
+    "roleAssignFailed": "اختصاص نقش ناموفق بود.",
+    "select_city": "لطفاً یک شهر انتخاب کنید."
+  },
+  "unAuthorized": {
+    "heading": "دسترسی غیرمجاز",
+    "description": "شما اجازه دسترسی به این صفحه را ندارید. لطفاً برای درخواست حقوق دسترسی لازم با مدیر کل خود تماس بگیرید.",
+    "goBack": "بازگشت"
+  },
+  "pagination": {
+    "previous": "قبلی",
+    "next": "بعدی"
+  },
+  "listing": {
+    "upload": {
+      "heading": "آپلود فهرست",
+      "description": "فهرست خود را اینجا آپلود کنید",
+      "form": {
+        "heroImageUrl": {
+          "label": "آدرس تصویر اصلی",
+          "placeholder": "آدرس تصویر اصلی را وارد کنید"
+        },
+        "listingName": {
+          "label": "نام فهرست",
+          "placeholder": "نام فهرست را وارد کنید"
+        },
+        "address": {
+          "label": "نشانی",
+          "placeholder": "نشانی را وارد کنید",
+          "searching": "در حال جستجو..."
+        },
+        "startDate": {
+          "label": "تاریخ شروع",
+          "placeholder": "تاریخ شروع را انتخاب کنید"
+        },
+        "endDate": {
+          "label": "تاریخ پایان",
+          "placeholder": "تاریخ پایان را انتخاب کنید"
+        },
+        "city": {
+          "label": "شهر",
+          "placeholder": "شهر را انتخاب کنید"
+        },
+        "category": {
+          "label": "دسته‌بندی",
+          "placeholder": "دسته‌بندی را انتخاب کنید"
+        },
+        "subCategory": {
+          "label": "دسته‌بندی فرعی",
+          "placeholder": "دسته‌بندی فرعی را انتخاب کنید"
+        },
+        "tags": {
+          "label": " برچسب‌ها",
+          "placeholder": "برچسب‌های انتخابی"
+        },
+        "summary": {
+          "label": "خلاصه",
+          "placeholder": "خلاصه را وارد کنید"
+        },
+        "listingDescription": {
+          "label": "توضیحات فهرست",
+          "placeholder": "توضیحات فهرست را وارد کنید"
+        },
+        "email": {
+          "label": "ایمیل",
+          "placeholder": "ایمیل را وارد کنید"
+        },
+        "phone": {
+          "label": "شماره تلفن",
+          "placeholder": "شماره تلفن را وارد کنید"
+        },
+        "websiteUrl": {
+          "label": "آدرس وب‌سایت",
+          "placeholder": "آدرس وب‌سایت را وارد کنید"
+        },
+        "media": {
+          "label": "آدرس رسانه"
+        }
+      }
+    },
+    "edit": {
+      "heading": "ویرایش فهرست",
+      "description": "فهرست خود را در اینجا ویرایش کنید"
+    },
+    "listingHeading": "تمام فهرست‌ها",
+    "listingDescription": "فهرست تمام موارد ثبت‌شده",
+    "searchPlaceholder": "جستجو",
+    "active": "خارج کردن از آرشیو",
+    "inactive": "آرشیو",
+    "tabs": {
+      "allLists": "تمام فهرست‌ها",
+      "pendingLists": "خارج کردن از آرشیو",
+      "inactiveLists": "آرشیو",
+      "hiddenLists": "مخفی"
+    },
+    "table": {
+      "head": {
+        "list": "فهرست",
+        "status": "وضعیت",
+        "description": "توضیحات",
+        "actions": "اقدامات"
+      },
+      "noData": "داده‌ای یافت نشد"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "سربرگ پیش‌فرض",
+      "listPreviewDescription": "",
+      "previewHeading": "پیش‌نمایش",
+      "previewDescription": "پیش‌نمایش فهرست خود را اینجا ببینید",
+      "dateFormat": "روز/ماه/سال، ساعت:دقیقه"
+    }
+  },
+  "removeImage": "حذف تصویر",
+  "deleteMetadata": "حذف فراداده",
+  "removeSubcategory": "حذف زیرشاخه",
+  "termsConditions": {
+    "noData": "هیچ داده‌ای برای شرایط و ضوابط در دسترس نیست."
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "heading": "Hei Verden",
+  "toggleTheme": "Bytt tema",
+  "signIntoAccount": "Logg inn på kontoen din",
+  "email": "E-post",
+  "emailOrUsernameLabel": "E-post eller brukernavn",
+  "usernameOrEmail": "Skriv inn e-posten din",
+  "password": "Passord",
+  "pleaseEnterPassword": "Vennligst skriv inn passord",
+  "rememberMe": "Husk passord",
+  "forgotYourPassword": "Glemt passordet ditt?",
+  "resetPassword": "Tilbakestill passordet ditt",
+  "signIn": "Logg inn",
+  "notMember": "Ingen konto ennå?",
+  "register": "Registrer deg",
+  "signInHelp": "Hjelp?",
+  "invalidMail": "Skriv inn en gyldig e-post",
+  "invalidMailOrUsername": "Skriv inn en gyldig e-post eller brukernavn",
+  "minContainInMail": "E-post må inneholde minst 3 tegn",
+  "maxContentInMail": "E-post kan maksimalt inneholde 50 tegn",
+  "passwordRequired": "Passord er påkrevd",
+  "sendLink": "Send lenke",
+  "cancel": "Avbryt",
+  "addMore": "Legg til mer",
+  "deleteAccount": "Slett konto",
+  "status": "Status",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "anleitung": "Instruksjoner",
+  "subtitle": "Registrering i appen",
+  "step1": "<strong>Trinn 1:</strong> Angi brukernavn og passord",
+  "step2": "<strong>Trinn 2:</strong> En e-post vil bli sendt til adressen du oppga",
+  "step3": "<strong>Trinn 3:</strong> Bekreft e-posten ved å gå til innboksen din og klikke på bekreftelseslenken",
+  "step4": "<strong>Trinn 4:</strong> Kontoen din er bekreftet, og du kan logge inn med innloggingsinformasjonen din",
+  "thankYou": "Tusen takk!!",
+  "logout": "Logg ut",
+  "Close": "Lukk",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Oppføringsadministrasjon",
+      "upload": "Oppføring av opplasting",
+      "listing": "Oppføringer"
+    },
+    "listingManagement": {
+      "title": "Listing Management",
+      "upload": "Listing Upload",
+      "listing": "Listings"
+    },
+    "categoryManagement": {
+      "title": "Kategoristyring",
+      "create": "Opprett kategori",
+      "listing": "Kategoriliste",
+      "cityCategory": "Bykategori",
+      "updateCityCategory": "Oppdater bykategori"
+    },
+    "accounts": {
+      "title": "Kontoinnstillinger"
+    },
+    "cityAdmin": {
+      "title": "Brukeradministrasjon"
+    }
+  },
+  "createAccount": "Opprett din nye konto",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Kategorinavn må være minst 2 tegn",
+          "maxLength": "Kategorinavn må være høyst 50 tegn"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Undertittel må være minst 2 tegn",
+          "maxLength": "Undertittel må være høyst 100 tegn"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Beskrivelse må være minst 10 tegn"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Topptekst bakgrunnsfarge er påkrevd"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "Innhold bakgrunnsfarge er påkrevd"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Bakgrunnsbilde er påkrevd"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Ikonbilde er påkrevd"
+        }
+      }
+    },
+    "create": {
+      "heading": "Opprett kategori",
+      "editHeading": "Rediger bykategori",
+      "editDescription": "Rediger en bykategori",
+      "description": "Opprett en ny kategori",
+      "addSubCategory": "Legg til underkategori",
+      "fix_main_category": "Vennligst rett valideringsfeilene i hovedkategorien.",
+      "cat_and_subCate_created": "Kategori og underkategorier opprettet",
+      "categoryUpdate_image_failed": "Kategorien er oppdatert, men noen bilder kan ha mislyktes i å laste opp.",
+      "categoryCreate_image_failed": "Kategorien er opprettet, men noen bilder kan ha mislyktes i å laste opp.",
+      "failed_to_create_category": "Kunne ikke opprette kategori",
+      "failed_to_update_category": "Kunne ikke oppdatere kategori",
+      "categoryNotfound": "Kategori ble ikke funnet",
+      "subCategory": {
+        "heading": "Opprett underkategori",
+        "editHeading": "Rediger underkategori",
+        "editDescription": "Rediger en underkategori for hovedkategorien",
+        "description": "Opprett en underkategori for hovedkategorien",
+        "subCategory_validation": "Rett opp valideringsfeil i underkategorien",
+        "cannotadd3subCategory": "Du kan ikke legge til mer enn 3 underkategorier.",
+        "fix_sub_category": "Vennligst rett valideringsfeil i underkategorien",
+        "failed_create_subcategory": "Kunne ikke opprette en underkategori",
+        "max_3_sub_category": "Maksimalt 3 underkategorier nådd.",
+        "subCategory_label": "Underkategori",
+        "max_3_sub_category_count": "Maksimum: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Kan ikke slette ikon: Ingen kategori-ID",
+        "icon_delete_success": "Ikonet er slettet",
+        "failed_delete": "Kunne ikke slette ikonet"
+      },
+      "image": {
+        "not_delete_image": "Kan ikke slette bilde: Ingen kategori-ID",
+        "image_delete_success": "Bildet ble slettet",
+        "failed_delete": "Kunne ikke slette bildet"
+      },
+      "subcategory": {
+        "no_sub_id": "Kan ikke slette ikon: Ingen underkategori-ID"
+      },
+      "form": {
+        "name": {
+          "label": "Kategorinavn",
+          "placeholder": "Skriv inn kategorinavn",
+          "error": {
+            "minLength": "Kategorinavnet må bestå av minst 2 tegn",
+            "maxLength": "Kategorinavnet må være på maksimalt 50 tegn."
+          }
+        },
+        "subtitle": {
+          "label": "Undertittel",
+          "placeholder": "Skriv inn undertittel",
+          "error": {
+            "minLength": "Underteksten må være på minst 2 tegn.",
+            "maxLength": "Underteksten må være på maksimalt 100 tegn."
+          }
+        },
+        "description": {
+          "label": "Beskrivelse",
+          "placeholder": "Skriv inn kategoribeskrivelse",
+          "error": {
+            "minLength": "Beskrivelsen må være på minst 10 tegn."
+          }
+        },
+        "headerColor": {
+          "label": "Overskrift bakgrunnsfarge",
+          "error": {
+            "required": "Bakgrunnsfarge for overskrift er obligatorisk."
+          }
+        },
+        "contentColor": {
+          "label": "Innhold bakgrunnsfarge",
+          "error": {
+            "required": "Innholdsbakgrunnsfarge er påkrevd."
+          }
+        },
+        "icon": {
+          "label": "Kategoriikon"
+        },
+        "backgroundImage": {
+          "label": "Bakgrunnsbilde",
+          "error": {
+            "required": "Bakgrunnsbilde er påkrevd."
+          }
+        },
+        "isActive": {
+          "label": "Status",
+          "placeholder": "Velg status",
+          "active": "Aktiv",
+          "inactive": "Inaktiv"
+        },
+        "parentId": {
+          "label": "Overordnet kategori-ID",
+          "placeholder": "Skriv inn overordnet kategori-ID (valgfritt)"
+        },
+        "displayOrder": {
+          "label": "Visningsrekkefølge",
+          "placeholder": "Skriv inn visningsrekkefølge (f.eks. 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Kategoriforhåndsvisning",
+        "cityHeading": "Forhåndsvisning av bykategori",
+        "cityDescription": "Se hvordan bykategorien din vil se ut",
+        "citySubHeading": "Forhåndsvisning av byens underkategori",
+        "citySubDescription": "Se hvordan underkategorien for byen din vil se ut",
+        "description": "Se hvordan kategorien din vil se ut",
+        "defaultName": "Eksempelkategori",
+        "defaultSubtitle": "Aktiviteter i byen din",
+        "defaultDescription": "Dette er en eksempelbeskrivelse for kategorien din. Legg til ditt eget innhold for å se hvordan det vil vises."
+      }
+    },
+    "listing": {
+      "heading": "Kategoriliste",
+      "description": "Administrer kategoriene dine",
+      "cityHeading": "Liste over bykategorier",
+      "cityDescription": "Administrer bykategoriene dine",
+      "createBtn": "Opprett kategori",
+      "searchPlaceholder": "Søk kategorier...",
+      "noCategories": "Ingen kategorier funnet",
+      "table": {
+        "name": "Navn",
+        "description": "Beskrivelse",
+        "type": "Type",
+        "displayOrder": "Visningsrekkefølge",
+        "actions": "Handlinger"
+      },
+      "confirmDelete": {
+        "heading": "Er du sikker?",
+        "message": "Er du sikker på at du vil slette denne kategorien? Denne handlingen kan ikke angres.",
+        "confirmMessage": "Slett",
+        "cancelMessage": "Avbryt"
+      },
+      "deleteSuccess": "Kategorien ble slettet.",
+      "deleteError": "Kunne ikke slette kategorien. Prøv igjen."
+    },
+    "update": {
+      "heading": "Oppdater kategori",
+      "description": "Rediger en kategori",
+      "editSubCategory": "Rediger underkategori",
+      "editCityCategory": "Rediger bykategori"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Last opp flis",
+      "description": "Last opp flisen din her",
+      "form": {
+        "uploadLabel": "Last opp bilde",
+        "uploadBtnLabel": "Velg bilde",
+        "uploadPlaceholder": "Dra og slipp eller klikk for å laste opp",
+        "displayOrder": {
+          "label": "Visningsrekkefølge",
+          "placeholder": "Skriv inn visningsrekkefølge (f.eks. 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Flisnavn",
+          "placeholder": "Skriv inn flisnavn"
+        },
+        "redirectURL": {
+          "label": "Omdirigerings-URL",
+          "placeholder": "Skriv inn omdirigerings-URL"
+        },
+        "titleColor": {
+          "label": "Flisfarge"
+        },
+        "subHeader": {
+          "label": "Underoverskrift",
+          "placeholder": "Skriv inn underoverskrift"
+        },
+        "tileDescription": {
+          "label": "Beskrivelse",
+          "placeholder": "Skriv inn flisbeskrivelse"
+        },
+        "titleDescriptionColor": {
+          "label": "Flisbeskrivelsesfarge"
+        },
+        "errorName": {
+          "maxFileSize": "Filstørrelsen må være maks 1 MB",
+          "supportedExtension": "Ugyldig fil valgt. Støttede formater er:",
+          "invalidFile": "Vennligst last opp en gyldig bildefil."
+        },
+        "tileIcon": {
+          "label": "Flisikon"
+        },
+        "tileImage": {
+          "label": "Flisbilde"
+        }
+      },
+      "previewHeading": "Forhåndsvisning",
+      "previewDescription": "Forhåndsvis flisen din her",
+      "dummyText": "Eksempel flisenavn",
+      "defaultHeader": "Standard underoverskrift",
+      "tilePreviewDescription": "Eksempel beskrivelse tekst for å illustrere hvordan flisbeskrivelsen vises innenfor flisforhåndsvisningen. Denne teksten er designet for å være lang nok til å teste overløp og sikre at den vises korrekt innenfor det området som er tildelt fliskomponenten."
+    },
+    "edit": {
+      "heading": "Rediger flis",
+      "description": "Rediger flisen din her"
+    },
+    "listingHeading": "Flisliste",
+    "listingDescription": "Liste over alle registrerte fliser",
+    "searchPlaceholder": "Søk",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "tabs": {
+      "allTiles": "Alle fliser",
+      "pendingTiles": "Venter",
+      "inactiveTiles": "Inaktiv",
+      "hiddenTiles": "Skjult"
+    },
+    "table": {
+      "head": {
+        "tile": "Flis",
+        "status": "Status",
+        "displayOrder": "Visningsrekkefølge",
+        "description": "Beskrivelse",
+        "actions": "Handlinger"
+      },
+      "noData": "Ingen data funnet"
+    },
+    "confirmDelete": {
+      "heading": "Er du sikker?",
+      "message": "Er du sikker på at du vil slette dette elementet? Denne handlingen kan ikke angres.",
+      "confirmMessage": "Slett",
+      "cancelMessage": "Avbryt"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Last opp bilde",
+      "btnLabel": "Velg bilde",
+      "placeholder": "Dra og slipp eller klikk for å laste opp",
+      "errorName": {
+        "maxFileSizeFileUpload": "Filstørrelsen bør være maks.",
+        "maxFileSize": "Filstørrelsen må være maks 1 MB",
+        "supportedExtension": "Ugyldig fil valgt. Støttede formater er:",
+        "invalidFile": "Vennligst last opp en gyldig bildefil.",
+        "minLength": "Vennligst skriv inn et gyldig flisnavn",
+        "maxLength": "Flisnavnet kan ikke overstige 50 tegn",
+        "titleColor": "Vennligst velg en tittel farge",
+        "tileIcon": "Flisikon er påkrevd",
+        "tileDescription": "Beskrivelsen må være minst 10 tegn lang",
+        "titleDescriptionColor": "Vennligst velg en beskrivelsesfarge",
+        "tileImage": "Flisbilde er påkrevd",
+        "subHeader": "Vennligst skriv inn en gyldig underoverskrift",
+        "subHeaderMax": "Underoverskriften må ikke overstige 50 tegn",
+        "minDisplayOrder": "Visningsrekkefølgen må være minst 1",
+        "maxDisplayOrder": "Visningsrekkefølgen kan ikke overstige 999999"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Last opp hero-bilde",
+        "listingNameRequired": "Oppføringsnavn er obligatorisk",
+        "listingNameMaxLength": "Navnet på oppføringen kan ikke være lengre enn 50 tegn.",
+        "listingNameMinLength": "Navnet på oppføringen må være på minst 3 tegn",
+        "address": "Vennligst skriv inn en gyldig adresse",
+        "startDate": "Vennligst skriv inn en gyldig startdato",
+        "endDate": "Vennligst skriv inn en gyldig sluttdato",
+        "city": "Vennligst velg en by",
+        "tags": "Vennligst velg en tag",
+        "websiteUrl": "Vennligst skriv inn en gyldig nettadresse",
+        "category": "Vennligst velg en kategori"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "Brukeradministrasjon",
+    "description": "Liste over alle registrerte brukere",
+    "createAdmin": "Opprett administrator",
+    "table": {
+      "head": {
+        "name": "Navn",
+        "email": "E-post",
+        "role": "Brukerrolle",
+        "status": "Status",
+        "createdAt": "Opprettet",
+        "cities": "Byer",
+        "actions": "Handlinger",
+        "registered": "Registrert"
+      },
+      "noData": "Ingen data funnet"
+    },
+    "confirmDelete": {
+      "heading": "Er du sikker?",
+      "message": "Er du sikker på at du vil slette dette elementet? Denne handlingen kan ikke angres.",
+      "confirmMessage": "Slett",
+      "cancelMessage": "Avbryt"
+    }
+  },
+  "accountSetting": {
+    "heading": "Kontoinnstillinger",
+    "description": "Oppdater kontodetaljene dine",
+    "section": {
+      "personalInfo": {
+        "heading": "Personlig informasjon",
+        "description": "Oppdater din personlige informasjon"
+      },
+      "accountInfo": {
+        "heading": "Kontoinformasjon",
+        "description": "Oppdater kontoinformasjonen din"
+      },
+      "metadata": {
+        "heading": "Metadata",
+        "description": "+Legg til dine sosiale medier-kontoer her."
+      },
+      "password": {
+        "heading": "Passord",
+        "description": "Oppdater passordet ditt"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "Du kan legge til maks 3 sosiale lenker",
+      "saveBtn": "Lagre endringer",
+      "resetBtn": "Tilbakestill",
+      "email": {
+        "label": "E-post",
+        "placeholder": "Skriv inn e-posten din",
+        "error": {
+          "required": "Skriv inn en gyldig e-post",
+          "minContent": "E-post må inneholde minst 3 tegn",
+          "maxContent": "E-post kan maksimalt inneholde 50 tegn"
+        }
+      },
+      "username": {
+        "label": "Brukernavn",
+        "placeholder": "Skriv inn brukernavnet ditt",
+        "error": {
+          "required": "Skriv inn et gyldig brukernavn",
+          "minContent": "Brukernavn må inneholde minst 3 tegn",
+          "maxContent": "Brukernavn kan maksimalt inneholde 50 tegn"
+        }
+      },
+      "currentPassword": {
+        "label": "Passord",
+        "placeholder": "Skriv inn passordet ditt",
+        "error": {
+          "required": "Skriv inn et gyldig passord",
+          "minContent": "Passord må inneholde minst 8 tegn",
+          "maxContent": "Passord kan maksimalt inneholde 50 tegn"
+        }
+      },
+      "newPassword": {
+        "label": "Nytt passord",
+        "placeholder": "Skriv inn nytt passord",
+        "error": {
+          "required": "Skriv inn et gyldig passord",
+          "minContent": "Passord må være minst 8 tegn",
+          "maxContent": "Passord kan maksimalt være 50 tegn"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekreft passord",
+        "placeholder": "Skriv inn passordet ditt",
+        "error": {
+          "required": "Skriv inn et gyldig passord",
+          "minContent": "Passord må inneholde minst 8 tegn",
+          "maxContent": "Passord kan maksimalt inneholde 50 tegn",
+          "passwordMismatch": "Passordene stemmer ikke overens"
+        }
+      },
+      "yourName": {
+        "label": "Ditt navn",
+        "placeholder": "Skriv inn navnet ditt",
+        "error": {
+          "required": "Skriv inn et gyldig navn",
+          "minContent": "Navnet må inneholde minst 3 tegn",
+          "maxContent": "Navnet kan maksimalt inneholde 50 tegn"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Skriv inn telefonnummeret ditt",
+        "error": {
+          "required": "Skriv inn et gyldig telefonnummer",
+          "minContent": "Telefonnummer må inneholde minst 3 tegn",
+          "maxContent": "Telefonnummer kan maksimalt inneholde 50 tegn"
+        }
+      },
+      "description": {
+        "label": "Beskrivelse",
+        "placeholder": "Skriv inn beskrivelsen din",
+        "error": {
+          "required": "Skriv inn en gyldig beskrivelse",
+          "minContent": "Beskrivelse må inneholde minst 3 tegn",
+          "maxContent": "Beskrivelse kan maksimalt inneholde 200 tegn"
+        }
+      },
+      "website": {
+        "label": "Nettsted",
+        "placeholder": "Skriv inn nettstedet ditt",
+        "error": {
+          "required": "Skriv inn et gyldig nettsted",
+          "minContent": "Nettsted må inneholde minst 3 tegn",
+          "maxContent": "Nettsted kan maksimalt inneholde 50 tegn",
+          "duplicateWebsite": "Dupliserte nettsteder er ikke tillatt"
+        }
+      },
+      "websiteLink": {
+        "label": "Nettstedslenke",
+        "placeholder": "Skriv inn nettstedslenken din",
+        "error": {
+          "required": "Skriv inn en gyldig lenke",
+          "minContent": "Lenken må inneholde minst 3 tegn",
+          "maxContent": "Lenken kan maksimalt inneholde 50 tegn",
+          "invalidLink": "Ugyldig lenke",
+          "duplicateLink": "Dupliserte lenker er ikke tillatt"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "login": "Logg inn her.",
+      "acceptPolicy": "Jeg godtar herved",
+      "privacy": "personvernerklæringen*",
+      "and": "og",
+      "terms": "vilkår og betingelser.*",
+      "mustAcceptTermsAndPrivacy": "Vennligst godta vilkårene for å fortsette."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Vennligst skriv inn en gyldig e-postadresse"
+        }
+      },
+      "username": {
+        "label": "Brukernavn",
+        "placeholder": "Skriv inn brukernavn",
+        "error": {
+          "minContent": "Brukernavn må være minst 3 tegn",
+          "maxContent": "Brukernavn kan være maksimalt 30 tegn",
+          "noSpaces": "Brukernavn må ikke inneholde mellomrom"
+        }
+      },
+      "firstName": {
+        "label": "Fornavn",
+        "placeholder": "Vennligst skriv inn fornavn",
+        "error": {
+          "minContent": "Fornavn må være minst 2 tegn",
+          "maxContent": "Fornavn kan være maksimalt 30 tegn",
+          "noSpaces": "Fornavn må ikke inneholde mellomrom",
+          "invalidChars": "Fornavn kan kun inneholde bokstaver"
+        }
+      },
+      "lastName": {
+        "label": "Etternavn",
+        "placeholder": "Vennligst skriv inn etternavn",
+        "error": {
+          "minContent": "Etternavn må være minst 2 tegn",
+          "maxContent": "Etternavn kan være maksimalt 30 tegn",
+          "noSpaces": "Etternavn må ikke inneholde mellomrom",
+          "invalidChars": "Etternavn kan kun inneholde bokstaver"
+        }
+      },
+      "password": {
+        "label": "Passord",
+        "placeholder": "Vennligst skriv inn passord",
+        "error": {
+          "minContent": "Passord må være minst 8 tegn",
+          "maxContent": "Passord kan være maksimalt 20 tegn",
+          "noSpaces": "Passord må ikke inneholde mellomrom"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekreft passord",
+        "placeholder": "Vennligst skriv inn bekreftelsespassord",
+        "error": {
+          "required": "Bekreftelsespassord er påkrevd",
+          "mismatch": "Passordene stemmer ikke overens"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Bytt rolle",
+    "description": "Velg en ny rolle og by for denne brukeren.",
+    "selectRole": "Velg rolle",
+    "selectCity": "Velg by"
+  },
+  "user": {
+    "restore": "Bruker gjenopprettet.",
+    "restoreFailed": "Gjenoppretting mislyktes.",
+    "disable": "Bruker deaktivert.",
+    "disableFailed": "Deaktivering mislyktes.",
+    "roleAssign": "Rollen er tildelt.",
+    "roleAssignFailed": "Det gikk ikke å tildele rollen.",
+    "select_city": "Velg en by."
+  },
+  "unAuthorized": {
+    "heading": "Uautorisert tilgang",
+    "description": "Du har ikke tillatelse til å få tilgang til denne siden. Vennligst kontakt din <strong>Super Admin</strong> for å be om nødvendige tilgangsrettigheter.",
+    "goBack": "Gå tilbake"
+  },
+  "pagination": {
+    "previous": "Forrige",
+    "next": "Neste"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "Last opp oppføring",
+      "description": "Last opp din oppføring her",
+      "form": {
+        "heroImageUrl": {
+          "label": "Hero-bilde URL",
+          "placeholder": "Skriv inn hero-bilde URL"
+        },
+        "listingName": {
+          "label": "Oppføringsnavn",
+          "placeholder": "Skriv inn oppføringsnavn"
+        },
+        "address": {
+          "label": "Adresse",
+          "placeholder": "Skriv inn adresse",
+          "searching": "Søker..."
+        },
+        "startDate": {
+          "label": "Startdato",
+          "placeholder": "Velg startdato"
+        },
+        "endDate": {
+          "label": "Sluttdato",
+          "placeholder": "Velg sluttdato"
+        },
+        "city": {
+          "label": "By",
+          "placeholder": "Velg by"
+        },
+        "category": {
+          "label": "Kategori",
+          "placeholder": "Velg kategori"
+        },
+        "subCategory": {
+          "label": "Underkategori",
+          "placeholder": "Velg underkategori"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Valgte tagger"
+        },
+        "summary": {
+          "label": "Sammendrag",
+          "placeholder": "Skriv inn sammendrag"
+        },
+        "listingDescription": {
+          "label": "Oppføringsbeskrivelse",
+          "placeholder": "Skriv inn oppføringsbeskrivelse"
+        },
+        "email": {
+          "label": "E-post",
+          "placeholder": "Skriv inn e-post"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "Skriv inn telefonnummer"
+        },
+        "websiteUrl": {
+          "label": "Nettsted URL",
+          "placeholder": "Skriv inn nettsted URL"
+        },
+        "media": {
+          "label": "Medie-URL"
+        }
+      }
+    },
+    "edit": {
+      "heading": "Rediger oppføring",
+      "description": "Rediger oppføringen din her"
+    },
+    "listingHeading": "Alle oppføringer",
+    "listingDescription": "Liste over alle registrerte oppføringer",
+    "searchPlaceholder": "Søk",
+    "active": "Avarkiver",
+    "inactive": "Arkiver",
+    "tabs": {
+      "allLists": "Alle oppføringer",
+      "pendingLists": "Avarkiver",
+      "inactiveLists": "Arkiver",
+      "hiddenLists": "Skjult"
+    },
+    "table": {
+      "head": {
+        "list": "Oppføring",
+        "status": "Status",
+        "description": "Beskrivelse",
+        "actions": "Handlinger"
+      },
+      "noData": "Ingen data funnet"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Standardoverskrift",
+      "listPreviewDescription": "",
+      "previewHeading": "Forhåndsvisning",
+      "previewDescription": "Forhåndsvis listen din her",
+      "dateFormat": "dd/MM/åååå, TT:mm"
+    }
+  },
+  "removeImage": "Fjern bilde",
+  "deleteMetadata": "Slett metadata",
+  "removeSubcategory": "Fjern underkategori",
+  "termsConditions": {
+    "noData": "Ingen data om vilkår og betingelser er tilgjengelige."
+  }
+}

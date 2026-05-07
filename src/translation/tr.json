@@ -1,0 +1,711 @@
+{
+  "heading": "Merhaba Dünya",
+  "toggleTheme": "Temayı Değiştir",
+  "signIntoAccount": "Hesabınıza giriş yapın",
+  "email": "E-Posta",
+  "emailOrUsernameLabel": "E-posta veya Kullanıcı Adı",
+  "usernameOrEmail": "E-postanızı girin",
+  "password": "Şifre",
+  "pleaseEnterPassword": "Lütfen şifre girin",
+  "rememberMe": "Şifreyi Hatırla",
+  "forgotYourPassword": "Şifrenizi mi unuttunuz?",
+  "resetPassword": "Şifrenizi Sıfırlayın",
+  "signIn": "Giriş Yap",
+  "notMember": "Hesabınız yok mu?",
+  "register": "Kayıt Ol",
+  "signInHelp": "Yardım ?",
+  "invalidMail": "Geçerli bir e-posta girin",
+  "invalidMailOrUsername": "Geçerli bir e-posta veya kullanıcı adı girin",
+  "minContainInMail": "E-posta en az 3 karakter içermelidir",
+  "maxContentInMail": "E-posta en fazla 50 karakter içermelidir",
+  "passwordRequired": "Şifre gereklidir",
+  "sendLink": "Bağlantı Gönder",
+  "cancel": "İptal",
+  "addMore": "Daha Fazla Ekle",
+  "deleteAccount": "Hesabı Sil",
+  "status": "Durum",
+  "active": "Aktif",
+  "inactive": "İnaktif",
+  "anleitung": "Talimatlar",
+  "subtitle": "Uygulamaya Kayıt Olma",
+  "step1": "<strong>Adım 1:</strong> Kullanıcı Adı ve Şifre Belirleyin",
+  "step2": "<strong>Adım 2:</strong> Belirttiğiniz e-postaya bir e-posta gönderilecektir",
+  "step3": "<strong>Adım 3:</strong> Gelen kutunuza giderek onay bağlantısına tıklayarak e-postayı doğrulayın",
+  "step4": "<strong>Adım 4:</strong> Hesabınız doğrulandı ve giriş bilgilerinizi kullanarak giriş yapabilirsiniz",
+  "thankYou": "Teşekkürler!!",
+  "logout": "Oturumu Kapat",
+  "Close": "Kapat",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Döşeme Yönetimi",
+      "upload": "Döşeme Yükleme",
+      "listing": "Döşeme Listesi"
+    },
+    "listingManagement": {
+      "title": "Liste Yönetimi",
+      "upload": "Liste Yükleme",
+      "listing": "Listeler"
+    },
+    "categoryManagement": {
+      "title": "Kategori Yönetimi",
+      "create": "Kategori Oluştur",
+      "listing": "Kategori Listesi",
+      "cityCategory": "Şehir kategorisi",
+      "updateCityCategory": "Şehir kategorisini güncelle"
+    },
+    "accounts": {
+      "title": "Hesap Ayarları"
+    },
+    "cityAdmin": {
+      "title": "Kullanıcı Yönetimi"
+    }
+  },
+  "createAccount": "Yeni hesabınızı oluşturun",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Kategori adı en az 2 karakter olmalıdır",
+          "maxLength": "Kategori adı en fazla 50 karakter olmalıdır"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Alt başlık en az 2 karakter olmalıdır",
+          "maxLength": "Alt başlık en fazla 100 karakter olmalıdır"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Açıklama en az 10 karakter olmalıdır"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Başlık arka plan rengi gereklidir"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "İçerik arka plan rengi gereklidir"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Arka plan resmi gereklidir"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Simge resmi gereklidir"
+        }
+      }
+    },
+    "create": {
+      "heading": "Kategori Oluştur",
+      "editHeading": "Şehir kategorisini düzenle",
+      "editDescription": "Bir şehir kategorisini düzenle",
+      "description": "Yeni bir kategori oluşturun",
+      "addSubCategory": "Alt Kategori Ekle",
+      "fix_main_category": "Ana kategorideki doğrulama hatalarını düzeltin lütfen.",
+      "cat_and_subCate_created": "Kategori ve alt kategoriler başarıyla oluşturuldu",
+      "categoryUpdate_image_failed": "Kategori güncellendi, ancak bazı resimler yüklenememiş olabilir.",
+      "categoryCreate_image_failed": "Kategori oluşturuldu ancak bazı resimler yüklenememiş olabilir",
+      "failed_to_create_category": "Kategori oluşturulamadı",
+      "failed_to_update_category": "Kategori güncellenemedi",
+      "categoryNotfound": "Kategori bulunamadı",
+      "subCategory": {
+        "heading": "Alt Kategori Oluştur",
+        "editHeading": "Alt kategoriyi düzenle",
+        "editDescription": "Ana kategori için bir alt kategoriyi düzenleyin",
+        "description": "Ana kategori için bir alt kategori oluşturun",
+        "subCategory_validation": "Lütfen alt kategorideki doğrulama hatalarını düzeltin",
+        "cannotadd3subCategory": "3'ten fazla alt kategori ekleyemezsiniz.",
+        "fix_sub_category": "Alt kategorideki doğrulama hatalarını düzeltin lütfen.",
+        "failed_create_subcategory": "Alt kategori oluşturulamadı",
+        "max_3_sub_category": "En fazla 3 alt kategoriye ulaşıldı.",
+        "subCategory_label": "Alt kategori",
+        "max_3_sub_category_count": "Maksimum: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Simge silinemez: Kategori kimliği yok",
+        "icon_delete_success": "Simge başarıyla silindi",
+        "failed_delete": "Simge silinemedi"
+      },
+      "image": {
+        "not_delete_image": "Resim silinemiyor: Kategori kimliği yok",
+        "image_delete_success": "Resim başarıyla silindi",
+        "failed_delete": "Resim silme başarısız oldu"
+      },
+      "subcategory": {
+        "no_sub_id": "Simge silinemez: Alt kategori kimliği yok"
+      },
+      "form": {
+        "name": {
+          "label": "Kategori Adı",
+          "placeholder": "Kategori adını girin",
+          "error": {
+            "minLength": "Kategori adı en az 2 karakterden oluşmalıdır.",
+            "maxLength": "Kategori adı en fazla 50 karakterden oluşmalıdır."
+          }
+        },
+        "subtitle": {
+          "label": "Alt Başlık",
+          "placeholder": "Alt başlık girin",
+          "error": {
+            "minLength": "Altyazı en az 2 karakter olmalıdır.",
+            "maxLength": "Subtitle must be at most 100 characters."
+          }
+        },
+        "description": {
+          "label": "Açıklama",
+          "placeholder": "Kategori açıklamasını girin",
+          "error": {
+            "minLength": "Açıklama en az 10 karakter olmalıdır."
+          }
+        },
+        "headerColor": {
+          "label": "Başlık Arka Plan Rengi",
+          "error": {
+            "required": "Başlık arka plan rengi gereklidir."
+          }
+        },
+        "contentColor": {
+          "label": "İçerik Arka Plan Rengi",
+          "error": {
+            "required": "İçerik arka plan rengi gereklidir."
+          }
+        },
+        "icon": {
+          "label": "Kategori Simgesi"
+        },
+        "backgroundImage": {
+          "label": "Arka Plan Resmi",
+          "error": {
+            "required": "Arka plan görüntüsü gereklidir."
+          }
+        },
+        "isActive": {
+          "label": "Durum",
+          "placeholder": "Durum seçin",
+          "active": "Aktif",
+          "inactive": "İnaktif"
+        },
+        "parentId": {
+          "label": "Üst Kategori Kimliği",
+          "placeholder": "Üst kategori kimliğini girin (isteğe bağlı)"
+        },
+        "displayOrder": {
+          "label": "Görüntüleme Sırası",
+          "placeholder": "Görüntüleme sırasını girin (örn. 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Kategori Önizlemesi",
+        "cityHeading": "Перегляд категорії міста",
+        "cityDescription": "Подивіться, як виглядатиме ваша категорія міста",
+        "citySubHeading": "Şehir alt kategorisi önizlemesi",
+        "citySubDescription": "Şehir alt kategorinizin nasıl görüneceğini görün",
+        "description": "Kategorinizin nasıl görüneceğini görün",
+        "defaultName": "Örnek Kategori",
+        "defaultSubtitle": "Şehrinizdeki aktiviteler",
+        "defaultDescription": "Bu, kategoriniz için örnek bir açıklamadır. Nasıl görüneceğini görmek için kendi içeriğinizi ekleyin."
+      }
+    },
+    "listing": {
+      "heading": "Kategori Listesi",
+      "cityHeading": "Şehir kategorisi listesi",
+      "cityDescription": "Şehir kategorisi listesi",
+      "description": "Kategorilerinizi yönetin",
+      "createBtn": "Kategori Oluştur",
+      "searchPlaceholder": "Kategori ara...",
+      "noCategories": "Kategori bulunamadı",
+      "table": {
+        "name": "Ad",
+        "description": "Açıklama",
+        "type": "Tür",
+        "displayOrder": "Görüntüleme Sırası",
+        "actions": "İşlemler"
+      },
+      "confirmDelete": {
+        "heading": "Emin misiniz?",
+        "message": "Bu kategoriyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "confirmMessage": "Sil",
+        "cancelMessage": "İptal"
+      },
+      "deleteSuccess": "Kategori başarıyla silindi.",
+      "deleteError": "Kategori silinemedi. Lütfen tekrar deneyin."
+    },
+    "update": {
+      "heading": "Kategori Güncelle",
+      "description": "Bir kategoriyi düzenle",
+      "editSubCategory": "Alt kategoriyi düzenle",
+      "editCityCategory": "Şehir kategorisini düzenle"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Döşeme Yükleme",
+      "description": "Döşemenizi buraya yükleyin",
+      "form": {
+        "uploadLabel": "Görsel Yükle",
+        "uploadBtnLabel": "Görsel Seç",
+        "uploadPlaceholder": "Sürükleyip bırakın veya yüklemek için tıklayın",
+        "displayOrder": {
+          "label": "Görüntüleme Sırası",
+          "placeholder": "Görüntüleme sırasını girin (örn: 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Döşeme Adı",
+          "placeholder": "Döşeme Adını Girin"
+        },
+        "redirectURL": {
+          "label": "Yönlendirme URL'si",
+          "placeholder": "Yönlendirme URL'sini Girin"
+        },
+        "titleColor": {
+          "label": "Döşeme Rengi"
+        },
+        "subHeader": {
+          "label": "Alt Başlık",
+          "placeholder": "Alt Başlığı Girin"
+        },
+        "tileDescription": {
+          "label": "Açıklama",
+          "placeholder": "Karo Açıklaması Giriniz"
+        },
+        "titleDescriptionColor": {
+          "label": "Döşeme Açıklama Rengi"
+        },
+        "errorName": {
+          "maxFileSize": "Dosya boyutu en fazla 1 MB olmalıdır",
+          "supportedExtension": "Desteklenmeyen dosya seçildi. Desteklenen formatlar:",
+          "invalidFile": "Lütfen geçerli bir görsel dosyası yükleyin."
+        },
+        "tileIcon": {
+          "label": "Döşeme Simgesi"
+        },
+        "tileImage": {
+          "label": "Döşeme Görseli"
+        }
+      },
+      "previewHeading": "Önizleme",
+      "previewDescription": "Döşemenizi burada önizleyin",
+      "dummyText": "Örnek Döşeme Adı",
+      "defaultHeader": "Varsayılan Alt Başlık",
+      "tilePreviewDescription": "Döşeme açıklamasının döşeme önizlemesi içinde nasıl göründüğünü göstermek için örnek açıklama metni. Bu metin, taşmayı test etmek ve döşeme bileşenine ayrılan alan içinde doğru şekilde görüntülendiğinden emin olmak için yeterince uzun olacak şekilde tasarlanmıştır."
+    },
+    "edit": {
+      "heading": "Kutucuğu Düzenle",
+      "description": "Kutucuğunuzu buradan düzenleyin"
+    },
+    "listingHeading": "Döşeme Listesi",
+    "listingDescription": "Kayıtlı tüm döşemelerin listesi",
+    "searchPlaceholder": "Ara",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "tabs": {
+      "allTiles": "Tüm Döşemeler",
+      "pendingTiles": "Beklemede",
+      "inactiveTiles": "Pasif",
+      "hiddenTiles": "Gizli"
+    },
+    "table": {
+      "head": {
+        "tile": "Döşeme",
+        "status": "Durum",
+        "displayOrder": "Görüntüleme Sırası",
+        "description": "Açıklama",
+        "actions": "İşlemler"
+      },
+      "noData": "Veri bulunamadı"
+    },
+    "confirmDelete": {
+      "heading": "Emin misiniz?",
+      "message": "Bu öğeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "confirmMessage": "Sil",
+      "cancelMessage": "İptal"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Görsel Yükle",
+      "btnLabel": "Görsel Seç",
+      "placeholder": "Sürükleyip bırakın veya yüklemek için tıklayın",
+      "errorName": {
+        "maxFileSizeFileUpload": "Dosya boyutu en fazla",
+        "maxFileSize": "Dosya boyutu en fazla 1 MB olmalıdır",
+        "supportedExtension": "Desteklenmeyen dosya seçildi. Desteklenen formatlar:",
+        "invalidFile": "Lütfen geçerli bir görsel dosyası yükleyin.",
+        "minLength": "Lütfen geçerli bir döşeme adı girin",
+        "maxLength": "Döşeme adı 50 karakteri geçemez",
+        "titleColor": "Lütfen başlık rengi seçin",
+        "tileIcon": "Döşeme simgesi gereklidir",
+        "tileDescription": "Açıklama en az 10 karakter uzunluğunda olmalıdır",
+        "titleDescriptionColor": "Lütfen açıklama rengi seçin",
+        "tileImage": "Döşeme görseli gereklidir",
+        "subHeader": "Lütfen geçerli bir alt başlık girin",
+        "subHeaderMax": "Alt başlık 50 karakteri geçemez",
+        "minDisplayOrder": "Görüntüleme sırası en az 1 olmalıdır",
+        "maxDisplayOrder": "Görüntüleme sırası 999999'u geçemez"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Lütfen Kahraman Resmini Yükleyin",
+        "listingNameRequired": "Liste adı gereklidir",
+        "listingNameMaxLength": "Liste adı 50 karakteri geçemez",
+        "listingNameMinLength": "Liste adı en az 3 karakter uzunluğunda olmalıdır.",
+        "address": "Lütfen geçerli bir adres girin",
+        "startDate": "Lütfen geçerli bir başlangıç tarihi girin",
+        "endDate": "Lütfen geçerli bir bitiş tarihi girin",
+        "city": "Lütfen bir şehir seçin",
+        "tags": "Lütfen bir etiket seçin",
+        "websiteUrl": "Lütfen geçerli bir web sitesi adresi girin",
+        "category": "Lütfen bir kategori seçin"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "Kullanıcı Yönetimi",
+    "description": "Kayıtlı tüm kullanıcıların listesi",
+    "createAdmin": "Yönetici Oluştur",
+    "table": {
+      "head": {
+        "name": "İsim",
+        "email": "E-Posta",
+        "role": "Kullanıcı Rolü",
+        "status": "Durum",
+        "createdAt": "Oluşturulma Tarihi",
+        "cities": "Şehirler",
+        "actions": "İşlemler",
+        "registered": "Kayıtlı"
+      },
+      "noData": "Veri bulunamadı"
+    },
+    "confirmDelete": {
+      "heading": "Emin misiniz?",
+      "message": "Bu öğeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "confirmMessage": "Sil",
+      "cancelMessage": "İptal"
+    }
+  },
+  "accountSetting": {
+    "heading": "Hesap Ayarları",
+    "description": "Hesap bilgilerinizi güncelleyin",
+    "section": {
+      "personalInfo": {
+        "heading": "Kişisel Bilgiler",
+        "description": "Kişisel bilgilerinizi güncelleyin"
+      },
+      "accountInfo": {
+        "heading": "Hesap Bilgileri",
+        "description": "Hesap bilgilerinizi güncelleyin"
+      },
+      "metadata": {
+        "heading": "Meta Veriler",
+        "description": "+Sosyal medya hesaplarınızı buraya ekleyin."
+      },
+      "password": {
+        "heading": "Şifre",
+        "description": "Şifrenizi güncelleyin"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "En fazla 3 sosyal bağlantı ekleyebilirsiniz",
+      "saveBtn": "Değişiklikleri Kaydet",
+      "resetBtn": "Sıfırla",
+      "email": {
+        "label": "E-Posta",
+        "placeholder": "E-postanızı girin",
+        "error": {
+          "required": "Geçerli bir e-posta girin",
+          "minContent": "E-posta en az 3 karakter içermelidir",
+          "maxContent": "E-posta en fazla 50 karakter içermelidir"
+        }
+      },
+      "username": {
+        "label": "Kullanıcı Adı",
+        "placeholder": "Kullanıcı adınızı girin",
+        "error": {
+          "required": "Geçerli bir kullanıcı adı girin",
+          "minContent": "Kullanıcı adı en az 3 karakter içermelidir",
+          "maxContent": "Kullanıcı adı en fazla 50 karakter içermelidir"
+        }
+      },
+      "currentPassword": {
+        "label": "Şifre",
+        "placeholder": "Şifrenizi girin",
+        "error": {
+          "required": "Geçerli bir şifre girin",
+          "minContent": "Şifre en az 8 karakter içermelidir",
+          "maxContent": "Şifre en fazla 50 karakter içermelidir"
+        }
+      },
+      "newPassword": {
+        "label": "Yeni Şifre",
+        "placeholder": "Yeni şifrenizi girin",
+        "error": {
+          "required": "Geçerli bir şifre girin",
+          "minContent": "Şifre en az 8 karakter olmalıdır",
+          "maxContent": "Şifre en fazla 50 karakter olmalıdır"
+        }
+      },
+      "confirmPassword": {
+        "label": "Şifreyi Onayla",
+        "placeholder": "Şifrenizi girin",
+        "error": {
+          "required": "Geçerli bir şifre girin",
+          "minContent": "Şifre en az 8 karakter içermelidir",
+          "maxContent": "Şifre en fazla 50 karakter içermelidir",
+          "passwordMismatch": "Şifre eşleşmiyor"
+        }
+      },
+      "yourName": {
+        "label": "Adınız",
+        "placeholder": "Adınızı girin",
+        "error": {
+          "required": "Geçerli bir ad girin",
+          "minContent": "Ad en az 3 karakter içermelidir",
+          "maxContent": "Ad en fazla 50 karakter içermelidir"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "placeholder": "Telefon numaranızı girin",
+        "error": {
+          "required": "Geçerli bir telefon numarası girin",
+          "minContent": "Telefon numarası en az 3 karakter içermelidir",
+          "maxContent": "Telefon numarası en fazla 50 karakter içermelidir"
+        }
+      },
+      "description": {
+        "label": "Açıklama",
+        "placeholder": "Açıklamanızı girin",
+        "error": {
+          "required": "Geçerli bir açıklama girin",
+          "minContent": "Açıklama en az 3 karakter içermelidir",
+          "maxContent": "Açıklama en fazla 200 karakter içermelidir"
+        }
+      },
+      "website": {
+        "label": "Web Sitesi",
+        "placeholder": "Web sitenizi girin",
+        "error": {
+          "required": "Geçerli bir web sitesi girin",
+          "minContent": "Web sitesi en az 3 karakter içermelidir",
+          "maxContent": "Web sitesi en fazla 50 karakter içermelidir",
+          "duplicateWebsite": "Yinelenen web sitelerine izin verilmez"
+        }
+      },
+      "websiteLink": {
+        "label": "Web Sitesi Bağlantısı",
+        "placeholder": "Web sitesi bağlantınızı girin",
+        "error": {
+          "required": "Geçerli bir bağlantı girin",
+          "minContent": "Bağlantı en az 3 karakter içermelidir",
+          "maxContent": "Bağlantı en fazla 50 karakter içermelidir",
+          "invalidLink": "Geçersiz bağlantı",
+          "duplicateLink": "Yinelenen bağlantılara izin verilmez"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+      "login": "Lütfen buradan giriş yapın.",
+      "acceptPolicy": "Kabul ediyorum",
+      "privacy": "gizlilik politikasını*",
+      "and": "ve",
+      "terms": "genel hüküm ve koşulları.*",
+      "mustAcceptTermsAndPrivacy": "Devam etmek için Şartlar ve Koşulları kabul etmelisiniz."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Lütfen geçerli bir e-posta adresi girin"
+        }
+      },
+      "username": {
+        "label": "Kullanıcı Adı",
+        "placeholder": "Kullanıcı adınızı girin",
+        "error": {
+          "minContent": "Kullanıcı adı en az 3 karakter olmalıdır",
+          "maxContent": "Kullanıcı adı en fazla 30 karakter olmalıdır",
+          "noSpaces": "Kullanıcı adı boşluk içermemelidir"
+        }
+      },
+      "firstName": {
+        "label": "Ad",
+        "placeholder": "Lütfen adınızı girin",
+        "error": {
+          "minContent": "Ad en az 2 karakter olmalıdır",
+          "maxContent": "Ad en fazla 30 karakter olmalıdır",
+          "noSpaces": "Ad boşluk içermemelidir",
+          "invalidChars": "Ad yalnızca alfabetik karakterler içermelidir"
+        }
+      },
+      "lastName": {
+        "label": "Soyad",
+        "placeholder": "Lütfen soyadınızı girin",
+        "error": {
+          "minContent": "Soyad en az 2 karakter olmalıdır",
+          "maxContent": "Soyad en fazla 30 karakter olmalıdır",
+          "noSpaces": "Soyad boşluk içermemelidir",
+          "invalidChars": "Soyad yalnızca alfabetik karakterler içermelidir"
+        }
+      },
+      "password": {
+        "label": "Şifre",
+        "placeholder": "Lütfen şifre girin",
+        "error": {
+          "minContent": "Şifre en az 8 karakter olmalıdır",
+          "maxContent": "Şifre en fazla 20 karakter olmalıdır",
+          "noSpaces": "Şifre boşluk içermemelidir"
+        }
+      },
+      "confirmPassword": {
+        "label": "Şifreyi Onayla",
+        "placeholder": "Lütfen şifreyi onaylayın",
+        "error": {
+          "required": "Şifre onayı gereklidir",
+          "mismatch": "Şifre ve onay şifresi eşleşmiyor"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Rol Değiştir",
+    "description": "Bu kullanıcı için yeni bir rol ve şehir seçin.",
+    "selectRole": "Rol Seçin",
+    "selectCity": "Şehir Seçin"
+  },
+  "user": {
+    "restore": "Kullanıcı geri yüklendi.",
+    "restoreFailed": "Geri yükleme başarısız oldu.",
+    "disable": "Kullanıcı devre dışı bırakıldı.",
+    "disableFailed": "Devre dışı bırakma başarısız oldu.",
+    "roleAssign": "Rol başarıyla atandı.",
+    "roleAssignFailed": "Rol ataması başarısız oldu.",
+    "select_city": "Lütfen bir şehir seçin."
+  },
+  "unAuthorized": {
+    "heading": "Yetkisiz Erişim",
+    "description": "Bu sayfaya erişim izniniz yok. Gerekli erişim haklarını talep etmek için lütfen <strong>Süper Yöneticinizle</strong> iletişime geçin.",
+    "goBack": "Geri Dön"
+  },
+  "pagination": {
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "Liste Yükleme",
+      "description": "Listenizi buradan yükleyin",
+      "form": {
+        "heroImageUrl": {
+          "label": "Kapak Görseli URL'si",
+          "placeholder": "Kapak görseli URL'sini girin"
+        },
+        "listingName": {
+          "label": "Liste Adı",
+          "placeholder": "Liste adını girin"
+        },
+        "address": {
+          "label": "Adres",
+          "placeholder": "Adres girin",
+          "searching": "Aranıyor..."
+        },
+        "startDate": {
+          "label": "Başlangıç Tarihi",
+          "placeholder": "Başlangıç tarihini seçin"
+        },
+        "endDate": {
+          "label": "Bitiş Tarihi",
+          "placeholder": "Bitiş tarihini seçin"
+        },
+        "city": {
+          "label": "Şehir",
+          "placeholder": "Şehir seçin"
+        },
+        "category": {
+          "label": "Kategori",
+          "placeholder": "Kategori seçin"
+        },
+        "subCategory": {
+          "label": "Alt kategori",
+          "placeholder": "Alt kategori seçin"
+        },
+        "tags": {
+          "label": "Etiketler",
+          "placeholder": "Seçilen Etiketler"
+        },
+        "summary": {
+          "label": "Özet",
+          "placeholder": "Özet girin"
+        },
+        "listingDescription": {
+          "label": "Liste Açıklaması",
+          "placeholder": "Liste açıklamasını girin"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "E-posta girin"
+        },
+        "phone": {
+          "label": "Telefon Numarası",
+          "placeholder": "Telefon numarası girin"
+        },
+        "websiteUrl": {
+          "label": "Web Sitesi URL'si",
+          "placeholder": "Web sitesi URL'sini girin"
+        },
+        "media": {
+          "label": "Medya URL'si"
+        }
+      }
+    },
+    "edit": {
+      "heading": "İlanı Düzenle",
+      "description": "İlanınızı buradan düzenleyin"
+    },
+    "listingHeading": "Tüm Listeler",
+    "listingDescription": "Kayıtlı tüm listelerin listesi",
+    "searchPlaceholder": "Ara",
+    "active": "Arşivden Çıkar",
+    "inactive": "Arşivle",
+    "tabs": {
+      "allLists": "Tüm Listeler",
+      "pendingLists": "Arşivden Çıkar",
+      "inactiveLists": "Arşivle",
+      "hiddenLists": "Gizli"
+    },
+    "table": {
+      "head": {
+        "list": "Liste",
+        "status": "Durum",
+        "description": "Açıklama",
+        "actions": "İşlemler"
+      },
+      "noData": "Veri bulunamadı"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Varsayılan Başlık",
+      "listPreviewDescription": "",
+      "previewHeading": "Önizleme",
+      "previewDescription": "Listenizi buradan önizleyin",
+      "dateFormat": "gg/AA/yyyy, SS:dd"
+    }
+  },
+  "removeImage": "Resmi kaldır",
+  "deleteMetadata": "Meta veriyi sil",
+  "removeSubcategory": "Alt kategoriyi kaldır",
+  "termsConditions": {
+    "noData": "Şartlar ve koşullar için veri mevcut değil."
+  }
+}

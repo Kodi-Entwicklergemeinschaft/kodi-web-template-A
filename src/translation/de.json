@@ -1,0 +1,715 @@
+{
+  "heading": "World Hello",
+  "toggleTheme": "Theme Toggle",
+  "signIntoAccount": "Bei deinem Konto anmelden",
+  "email": "E-Mail",
+  "emailOrUsernameLabel": "Email Adresse or Username",
+  "usernameOrEmail": "Email Adresse",
+  "password": "Passwort",
+  "pleaseEnterPassword": "Bitte Passwort eingeben",
+  "rememberMe": "Passwort merken",
+  "forgotYourPassword": "Passwort vergessen?",
+  "resetPassword": "Setze dein Passwort zurück",
+  "signIn": "Anmelden",
+  "notMember": "Noch kein Konto?",
+  "register": "Registrieren",
+  "signInHelp": "Hilfe ?",
+  "invalidMail": "Geben Du eine gültige E-Mail ein",
+  "invalidMailOrUsername": "Geben Du eine gültige E-Mail oder einen gültigen Benutzernamen ein",
+  "minContainInMail": "Die E-Mail muss mindestens 3 Zeichen enthalten",
+  "maxContentInMail": "Die E-Mail darf höchstens 50 Zeichen enthalten",
+  "passwordRequired": "Passwort ist erforderlich",
+  "sendLink": "Link senden",
+  "cancel": "Abbrechen",
+  "addMore": "Mehr hinzufügen",
+  "deleteAccount": "Konto löschen",
+  "status": "Status",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "anleitung": "Anleitung",
+  "subtitle": "Registrieren in der App",
+  "step1": "Schritt 1: Nutzername und Passwort festlegen",
+  "step2": "Schritt 2: Es wird eine E-Mail gesendet an die E-Mail-Adresse, die du eingegeben hast",
+  "step3": "Schritt 3: Bitte verifiziere die E-Mail, indem du in dein Postfach gehst und den Bestätigungslink anklickst",
+  "step4": "Schritt 4: Dein Konto ist verifiziert und du kannst dich mit deinen Login-Daten einloggen",
+  "thankYou": "Danke!!",
+  "logout": "Abmelden",
+  "Close": "Schließen",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Kachelverwaltung",
+      "upload": "Kachel-Upload",
+      "listing": "Kachelauflistung"
+    },
+    "listingManagement": {
+      "title": "Listing-Verwaltung",
+      "upload": "Listing hochladen",
+      "listing": "Listings"
+    },
+    "categoryManagement": {
+      "title": "Kategorienverwaltung",
+      "create": "Kategorie erstellen",
+      "listing": "Kategorienauflistung",
+      "cityCategory": "Stadtkategorie",
+      "updateCityCategory": "Stadtkategorie aktualisieren"
+    },
+    "accounts": {
+      "title": "Kontoeinstellungen"
+    },
+    "cityAdmin": {
+      "title": "Benutzerverwaltung"
+    }
+  },
+  "createAccount": "Erstellen Sie Ihr neues Konto",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Kategoriename muss mindestens 2 Zeichen lang sein",
+          "maxLength": "Kategoriename darf höchstens 50 Zeichen lang sein"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Untertitel muss mindestens 2 Zeichen lang sein",
+          "maxLength": "Untertitel darf höchstens 100 Zeichen lang sein"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Beschreibung muss mindestens 10 Zeichen lang sein"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Header-Hintergrundfarbe ist erforderlich"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "Inhalts-Hintergrundfarbe ist erforderlich"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Hintergrundbild ist erforderlich"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Symbolsbild ist erforderlich"
+        }
+      }
+    },
+    "create": {
+      "heading": "Kategorie erstellen",
+      "editHeading": "Stadtkategorie bearbeiten",
+      "editDescription": "Eine Stadtkategorie bearbeiten",
+      "description": "Eine neue Kategorie erstellen",
+      "addSubCategory": "Unterkategorie hinzufügen",
+      "fix_main_category": "Bitte beheben Sie Validierungsfehler in der Hauptkategorie.",
+      "cat_and_subCate_created": "Kategorie und Unterkategorien erfolgreich erstellt",
+      "categoryUpdate_image_failed": "Kategorie aktualisiert, aber einige Bilder konnten möglicherweise nicht hochgeladen werden.",
+      "categoryCreate_image_failed": "Kategorie erstellt, aber einige Bilder konnten möglicherweise nicht hochgeladen werden.",
+      "failed_to_create_category": "Kategorie konnte nicht erstellt werden",
+      "failed_to_update_category": "Aktualisierung der Kategorie fehlgeschlagen",
+      "categoryNotfound": "Kategorie nicht gefunden",
+      "subCategory": {
+        "heading": "Unterkategorie erstellen",
+        "editHeading": "Unterkategorie bearbeiten",
+        "editDescription": "Bearbeiten Sie eine Unterkategorie der Hauptkategorie",
+        "description": "Erstelle eine Unterkategorie für die Hauptkategorie",
+        "subCategory_validation": "Bitte beheben Sie die Validierungsfehler in der Unterkategorie.",
+        "cannotadd3subCategory": "Sie können nicht mehr als 3 Unterkategorien hinzufügen.",
+        "fix_sub_category": "Bitte beheben Sie Validierungsfehler in der Unterkategorie.",
+        "failed_create_subcategory": "Unterkategorie konnte nicht erstellt werden",
+        "max_3_sub_category": "Maximal 3 Unterkategorien erreicht.",
+        "subCategory_label": "Unterkategorie",
+        "max_3_sub_category_count": "Maximal: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Symbol kann nicht gelöscht werden: Keine Kategorie-ID",
+        "icon_delete_success": "Symbol erfolgreich gelöscht",
+        "failed_delete": "Symbol konnte nicht gelöscht werden"
+      },
+      "image": {
+        "not_delete_image": "Bild kann nicht gelöscht werden: Keine Kategorien-ID",
+        "image_delete_success": "Bild erfolgreich gelöscht",
+        "failed_delete": "Bild konnte nicht gelöscht werden"
+      },
+      "subcategory": {
+        "no_sub_id": "Symbol kann nicht gelöscht werden: Keine Unterkategorie-ID"
+      },
+      "form": {
+        "name": {
+          "label": "Kategoriename",
+          "placeholder": "Kategoriename eingeben",
+          "error": {
+            "minLength": "Der Name der Kategorie muss mindestens 2 Zeichen lang sein.",
+            "maxLength": "Der Name der Kategorie darf maximal 50 Zeichen lang sein."
+          }
+        },
+        "subtitle": {
+          "label": "Untertitel",
+          "placeholder": "Untertitel eingeben",
+          "error": {
+            "minLength": "Der Untertitel muss mindestens 2 Zeichen lang sein.",
+            "maxLength": "Der Untertitel darf höchstens 100 Zeichen lang sein."
+          }
+        },
+        "description": {
+          "label": "Beschreibung",
+          "placeholder": "Kategoriebeschreibung eingeben",
+          "error": {
+            "minLength": "Die Beschreibung muss mindestens 10 Zeichen lang sein."
+          }
+        },
+        "headerColor": {
+          "label": "Kopfzeilen-Hintergrundfarbe",
+          "error": {
+            "required": "Die Hintergrundfarbe der Kopfzeile ist erforderlich."
+          }
+        },
+        "contentColor": {
+          "label": "Inhalts-Hintergrundfarbe",
+          "error": {
+            "required": "Die Hintergrundfarbe des Inhalts ist erforderlich."
+          }
+        },
+        "icon": {
+          "label": "Kategoriesymbol"
+        },
+        "backgroundImage": {
+          "label": "Hintergrundbild",
+          "error": {
+            "required": "Das Hintergrundbild ist erforderlich."
+          }
+        },
+        "isActive": {
+          "label": "Status",
+          "placeholder": "Status auswählen",
+          "active": "Aktiv",
+          "inactive": "Inaktiv"
+        },
+        "parentId": {
+          "label": "Übergeordnete Kategorie-ID",
+          "placeholder": "Übergeordnete Kategorie-ID eingeben (optional)"
+        },
+        "displayOrder": {
+          "label": "Anzeigereihenfolge",
+          "placeholder": "Anzeigereihenfolge eingeben (z.B. 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Kategorievorschau",
+        "cityHeading": "Vorschau der Stadtkategorie",
+        "cityDescription": "Sehen Sie, wie Ihre Stadtkategorie aussehen wird",
+        "citySubHeading": "Vorschau der städtischen Unterkategorie",
+        "citySubDescription": "Sehen Sie, wie Ihre städtische Unterkategorie aussehen wird",
+        "description": "Sehen Sie, wie Ihre Kategorie aussehen wird",
+        "defaultName": "Beispielkategorie",
+        "defaultSubtitle": "Aktivitäten in Ihrer Stadt",
+        "defaultDescription": "Dies ist eine Beispielbeschreibung für Ihre Kategorie. Fügen Sie Ihren eigenen Inhalt hinzu, um zu sehen, wie er angezeigt wird."
+      }
+    },
+    "listing": {
+      "heading": "Kategorieliste",
+      "cityHeading": "Liste der Stadtkategorien",
+      "cityDescription": "Verwalten Sie Ihre Stadtkategorien",
+      "description": "Verwalten Sie Ihre Kategorien",
+      "createBtn": "Kategorie erstellen",
+      "searchPlaceholder": "Kategorien suchen...",
+      "noCategories": "Keine Kategorien gefunden",
+      "table": {
+        "name": "Name",
+        "description": "Beschreibung",
+        "type": "Typ",
+        "displayOrder": "Anzeigereihenfolge",
+        "actions": "Aktionen"
+      },
+      "confirmDelete": {
+        "heading": "Bist du sicher?",
+        "message": "Bist du sicher, dass du diese Kategorie löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "confirmMessage": "Löschen",
+        "cancelMessage": "Abbrechen"
+      },
+      "deleteSuccess": "Kategorie erfolgreich gelöscht.",
+      "deleteError": "Kategorie konnte nicht gelöscht werden. Bitte versuche es erneut."
+    },
+    "update": {
+      "heading": "Kategorie aktualisieren",
+      "description": "Eine Kategorie bearbeiten",
+      "editSubCategory": "Unterkategorie bearbeiten",
+      "editCityCategory": "Stadtkategorie bearbeiten"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Kachel-Upload",
+      "description": "Laden Du hier Ihre Kachel hoch",
+      "form": {
+        "uploadLabel": "Bild hochladen",
+        "uploadBtnLabel": "Bild auswählen",
+        "uploadPlaceholder": "Per Drag & Drop hochladen oder klicken",
+        "displayOrder": {
+          "label": "Anzeigereihenfolge",
+          "placeholder": "Anzeigereihenfolge eingeben (z.B. 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Kachelname",
+          "placeholder": "Geben Du den Kachelnamen ein"
+        },
+        "redirectURL": {
+          "label": "Weiterleitungs-URL",
+          "placeholder": "Geben Du die Weiterleitungs-URL ein"
+        },
+        "titleColor": {
+          "label": "Kachelfarbe"
+        },
+        "subHeader": {
+          "label": "Unterüberschrift",
+          "placeholder": "Geben Du die Unterüberschrift ein"
+        },
+        "tileDescription": {
+          "label": "Beschreibung",
+          "placeholder": "Fliesenbeschreibung eingeben"
+        },
+        "titleDescriptionColor": {
+          "label": "Kachelbeschreibungsfarbe"
+        },
+        "errorName": {
+          "maxFileSize": "Die Dateigröße darf maximal 1 MB betragen",
+          "supportedExtension": "Nicht unterstützte Datei ausgewählt, unterstützte Formate sind:",
+          "invalidFile": "Bitte laden Du eine gültige Bilddatei hoch."
+        },
+        "tileIcon": {
+          "label": "Kachelsymbol"
+        },
+        "tileImage": {
+          "label": "Kachelbild"
+        }
+      },
+      "previewHeading": "Vorschau",
+      "previewDescription": "Vorschau deiner Kachel hier",
+      "dummyText": "Beispiel Kachelname",
+      "defaultHeader": "Standard Unterüberschrift",
+      "tilePreviewDescription": "Beispiel-Beschreibungstext, um zu veranschaulichen, wie die Kachelbeschreibung innerhalb der Kachelvorschau angezeigt wird. Dieser Text soll lang genug sein, um das Überlaufen zu testen und sicherzustellen, dass er korrekt innerhalb des für die Kachelkomponente vorgesehenen Bereichs angezeigt wird."
+    },
+    "edit": {
+      "heading": "Kachel bearbeiten",
+      "description": "Bearbeiten Sie hier Ihre Kachel"
+    },
+    "listingHeading": "Kachelauflistung",
+    "listingDescription": "Liste aller registrierten Kacheln",
+    "searchPlaceholder": "Suchen",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "tabs": {
+      "allTiles": "Alle Kacheln",
+      "pendingTiles": "Ausstehend",
+      "inactiveTiles": "Inaktiv",
+      "hiddenTiles": "Ausgeblendet"
+    },
+    "table": {
+      "head": {
+        "tile": "Kachel",
+        "status": "Status",
+        "displayOrder": "Anzeigereihenfolge",
+        "description": "Beschreibung",
+        "actions": "Aktionen"
+      },
+      "noData": "Keine Daten gefunden"
+    },
+    "confirmDelete": {
+      "heading": "Bist du dir sicher?",
+      "message": "Möchten Du diesen Eintrag wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirmMessage": "Löschen",
+      "cancelMessage": "Abbrechen"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Bild hochladen",
+      "btnLabel": "Bild auswählen",
+      "placeholder": "Per Drag & Drop hochladen oder klicken",
+      "errorName": {
+        "maxFileSizeFileUpload": "Die Dateigröße sollte maximal sein.",
+        "maxFileSize": "Die Dateigröße darf maximal ",
+        "supportedExtension": "Nicht unterstuetzte Datei ausgewaehlt, unterstuetzte Formate sind:",
+        "invalidFile": "Bitte laden Du eine gueltige Bilddatei hoch.",
+        "minLength": "Bitte geben Du einen gueltigen Kachelnamen ein",
+        "maxLength": "Der Kachelname darf 50 Zeichen nicht ueberschreiten",
+        "titleColor": "Bitte waehlen Du eine Titel Farbe",
+        "tileIcon": "Kachel Symbol ist erforderlich",
+        "tileDescription": "Die Beschreibung muss mindestens 10 Zeichen lang sein",
+        "titleDescriptionColor": "Bitte waehlen Du eine Beschreibungsfarbe",
+        "tileImage": "Kachelbild ist erforderlich",
+        "subHeader": "Bitte geben Du eine gueltige Unterueberschrift ein",
+        "subHeaderMax": "Die Unterueberschrift darf 50 Zeichen nicht ueberschreiten",
+        "minDisplayOrder": "Die Anzeigereihenfolge muss mindestens 1 betragen",
+        "maxDisplayOrder": "Die Anzeigereihenfolge darf 999999 nicht überschreiten"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Bitte Hero-Bild hochladen",
+        "listingNameRequired": "Der Name der Auflistung ist erforderlich.",
+        "listingNameMaxLength": "Der Name der Auflistung darf nicht länger als 50 Zeichen sein.",
+        "listingNameMinLength": "Der Name der Auflistung muss mindestens 3 Zeichen lang sein.",
+        "address": "Bitte geben Sie eine gültige Adresse ein",
+        "startDate": "Bitte geben Sie ein gültiges Startdatum ein",
+        "endDate": "Bitte geben Sie ein gültiges Enddatum ein",
+        "city": "Bitte wählen Sie eine Stadt aus",
+        "tags": "Bitte wählen Sie ein Schlagwort aus",
+        "websiteUrl": "Bitte geben Sie eine gültige Website-URL ein",
+        "category": "Bitte wählen Sie eine Kategorie aus"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "Benutzerverwaltung",
+    "description": "Liste aller registrierten Benutzer",
+    "createAdmin": "Stadt erstellen Admin",
+    "table": {
+      "head": {
+        "name": "Name",
+        "email": "E-Mail",
+        "role": "Benutzerrolle",
+        "status": "Status",
+        "createdAt": "Erstellt am",
+        "cities": "Städte",
+        "actions": "Aktionen",
+        "registered": "Registriert"
+      },
+      "noData": "Keine Daten gefunden"
+    },
+    "confirmDelete": {
+      "heading": "Sind Du sicher?",
+      "message": "Sind Du sicher, dass Du dieses Element löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirmMessage": "Löschen",
+      "cancelMessage": "Abbrechen"
+    }
+  },
+  "accountSetting": {
+    "heading": "Kontoeinstellungen",
+    "description": "Aktualisieren Du Ihre Kontodaten",
+    "section": {
+      "personalInfo": {
+        "heading": "Persönliche Informationen",
+        "description": "Aktualisieren Du Ihre persönlichen Informationen"
+      },
+      "accountInfo": {
+        "heading": "Kontoinformationen",
+        "description": "Aktualisieren Du Ihre Kontoinformationen"
+      },
+      "metadata": {
+        "heading": "Metadaten",
+        "description": "+ Fügen Du hier Ihre Social-Media-Konten hinzu."
+      },
+      "password": {
+        "heading": "Passwort",
+        "description": "Aktualisiere dein Passwort"
+      }
+    },
+
+    "form": {
+      "maxSocialLinks": "Du können maximal 3 Social-Links hinzufügen",
+      "saveBtn": "Änderungen speichern",
+      "resetBtn": "Zurücksetzen",
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "Geben Du Ihre E-Mail-Adresse ein",
+        "error": {
+          "required": "Geben Du eine gültige E-Mail-Adresse ein",
+          "minContent": "Die E-Mail-Adresse muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Die E-Mail-Adresse darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "username": {
+        "label": "Benutzername",
+        "placeholder": "Geben Du Ihren Benutzernamen ein",
+        "error": {
+          "required": "Geben Du einen gültigen Benutzernamen ein",
+          "minContent": "Der Benutzername muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Der Benutzername darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "currentPassword": {
+        "label": "Passwort",
+        "placeholder": "Geben Du Ihr Passwort ein",
+        "error": {
+          "required": "Geben Du ein gültiges Passwort ein",
+          "minContent": "Das Passwort muss mindestens 8 Zeichen enthalten",
+          "maxContent": "Das Passwort darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "newPassword": {
+        "label": "Neues Passwort",
+        "placeholder": "Bitte gib ein neues Passwort ein",
+        "error": {
+          "required": "Geben Du ein gültiges Passwort ein",
+          "minContent": "Das Passwort muss mindestens 8 Zeichen enthalten",
+          "maxContent": "Das Passwort darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "confirmPassword": {
+        "label": "Passwort bestätigen",
+        "placeholder": "Bitte bestätige dein Passwort",
+        "error": {
+          "required": "Geben Du ein gültiges Passwort ein",
+          "minContent": "Das Passwort muss mindestens 8 Zeichen enthalten",
+          "maxContent": "Das Passwort darf höchstens 50 Zeichen enthalten",
+          "passwordMismatch": "Das Passwort stimmt nicht überein"
+        }
+      },
+      "yourName": {
+        "label": "Ihr Name",
+        "placeholder": "Geben Du Ihren Namen ein",
+        "error": {
+          "required": "Geben Du einen gültigen Namen ein",
+          "minContent": "Der Name muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Der Name darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Geben Du Ihre Telefonnummer ein",
+        "error": {
+          "required": "Geben Du eine gültige Telefonnummer ein",
+          "minContent": "Die Telefonnummer muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Die Telefonnummer darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "description": {
+        "label": "Beschreibung",
+        "placeholder": "Geben Du Ihre Beschreibung ein",
+        "error": {
+          "required": "Geben Du eine gültige Beschreibung ein",
+          "minContent": "Die Beschreibung muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Die Beschreibung darf höchstens 50 Zeichen enthalten"
+        }
+      },
+      "website": {
+        "label": "Webseite",
+        "placeholder": "Geben Du Ihre Webseite ein",
+        "error": {
+          "required": "Geben Du eine gültige Webseite ein",
+          "minContent": "Die Webseite muss mindestens 3 Zeichen enthalten",
+          "maxContent": "Die Webseite darf höchstens 50 Zeichen enthalten",
+          "duplicateWebsite": "Doppelte Websites sind nicht erlaubt"
+        }
+      },
+      "websiteLink": {
+        "label": "Webseitenlink",
+        "placeholder": "Geben Du Ihren Webseitenlink ein",
+        "error": {
+          "required": "Geben Du einen gültigen Webseitenlink ein",
+          "minContent": "Der Webseitenlink muss mindestens 3 Zeichen enthalten",
+          "invalidLink": "Ungültiger Link",
+          "maxContent": "Der Webseitenlink darf höchstens 50 Zeichen enthalten",
+          "duplicateLink": "Doppelte Links sind nicht erlaubt"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Hast Du schon ein Konto?",
+      "login": "Hier anmelden",
+      "acceptPolicy": "Ich akzeptiere hiermit die",
+      "privacy": "Datenschutzrichtlinie*",
+      "and": "und",
+      "terms": "allgemeinen Geschäftsbedingungen.*",
+      "mustAcceptTermsAndPrivacy": "Bitte stimmen Du den Allgemeinen Geschäftsbedingungen zu, um fortzufahren."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Bitte geben Du eine gültige E-Mail-Adresse ein"
+        }
+      },
+      "username": {
+        "label": "Benutzername",
+        "placeholder": "Geben Du Ihren Benutzernamen ein",
+        "error": {
+          "minContent": "Der Benutzername muss mindestens 3 Zeichen lang sein",
+          "maxContent": "Der Benutzername darf höchstens 30 Zeichen lang sein",
+          "noSpaces": "Der Benutzername darf keine Leerzeichen enthalten"
+        }
+      },
+      "firstName": {
+        "label": "Vorname",
+        "placeholder": "Bitte geben Du Ihren Vornamen ein",
+        "error": {
+          "required": "Der Vorname ist erforderlich",
+          "minContent": "Der Vorname muss mindestens 2 Zeichen lang sein",
+          "maxContent": "Der Vorname darf höchstens 30 Zeichen lang sein",
+          "noSpaces": "Der Vorname darf keine Leerzeichen enthalten",
+          "invalidChars": "Der Vorname darf nur alphabetische Zeichen enthalten"
+        }
+      },
+      "lastName": {
+        "label": "Nachname",
+        "placeholder": "Bitte geben Du Ihren Nachnamen ein",
+        "error": {
+          "required": "Der Nachname ist erforderlich",
+          "minContent": "Der Nachname muss mindestens 2 Zeichen lang sein",
+          "maxContent": "Der Nachname darf höchstens 30 Zeichen lang sein",
+          "noSpaces": "Der Nachname darf keine Leerzeichen enthalten",
+          "invalidChars": "Der Nachname darf nur alphabetische Zeichen enthalten"
+        }
+      },
+      "password": {
+        "label": "Passwort",
+        "placeholder": "Bitte geben Du das Passwort ein",
+        "error": {
+          "minContent": "Das Passwort muss mindestens 8 Zeichen lang sein",
+          "maxContent": "Das Passwort darf höchstens 20 Zeichen lang sein",
+          "noSpaces": "Das Passwort darf keine Leerzeichen enthalten"
+        }
+      },
+      "confirmPassword": {
+        "label": "Passwort bestätigen",
+        "placeholder": "Bitte bestätigen Du das Passwort",
+        "error": {
+          "required": "Die Bestätigung des Passworts ist erforderlich",
+          "mismatch": "Passwort und Bestätigungspasswort stimmen nicht überein"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Rolle wechseln",
+    "description": "Wähle eine neue Rolle und Stadt für diesen Benutzer aus.",
+    "selectRole": "Rolle auswählen",
+    "selectCity": "Stadt auswählen"
+  },
+  "user": {
+    "restore": "Benutzer wiederhergestellt.",
+    "restoreFailed": "Wiederherstellung fehlgeschlagen.",
+    "disable": "Benutzer deaktiviert.",
+    "disableFailed": "Deaktivierung fehlgeschlagen.",
+    "roleAssign": "Rolle erfolgreich zugewiesen.",
+    "roleAssignFailed": "Zuweisung der Rolle fehlgeschlagen.",
+    "select_city": "Bitte wählen Sie eine Stadt aus."
+  },
+  "unAuthorized": {
+    "heading": "Unbefugter Zugriff",
+    "description": "Du hast keine Berechtigung, auf diese Seite zuzugreifen. Bitte kontaktiere deinen <strong>Super Admin</strong>, um die erforderlichen Zugriffsrechte anzufordern.",
+    "goBack": "Zurückgehen"
+  },
+  "pagination": {
+    "previous": "Vorherige",
+    "next": "Nächste"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "Listing hochladen",
+      "description": "Laden Sie hier Ihr Listing hoch",
+      "form": {
+        "heroImageUrl": {
+          "label": "Hero-Bild-URL",
+          "placeholder": "Hero-Bild-URL eingeben"
+        },
+        "listingName": {
+          "label": "Listing-Name",
+          "placeholder": "Listing-Name eingeben"
+        },
+        "address": {
+          "label": "Adresse",
+          "placeholder": "Adresse eingeben",
+          "searching": "Suche..."
+        },
+        "startDate": {
+          "label": "Startdatum",
+          "placeholder": "Startdatum auswählen"
+        },
+        "endDate": {
+          "label": "Enddatum",
+          "placeholder": "Enddatum auswählen"
+        },
+        "city": {
+          "label": "Stadt",
+          "placeholder": "Stadt auswählen"
+        },
+        "category": {
+          "label": "Kategorie",
+          "placeholder": "Kategorie auswählen"
+        },
+        "subCategory": {
+          "label": "Unterkategorie",
+          "placeholder": "Unterkategorie auswählen"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Tags auswählen"
+        },
+        "summary": {
+          "label": "Zusammenfassung",
+          "placeholder": "Zusammenfassung eingeben"
+        },
+        "listingDescription": {
+          "label": "Listing-Beschreibung",
+          "placeholder": "Listing-Beschreibung eingeben"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "E-Mail eingeben"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "Telefonnummer eingeben"
+        },
+        "websiteUrl": {
+          "label": "Website-URL",
+          "placeholder": "Website-URL eingeben"
+        },
+        "media": {
+          "label": "Medien-URL"
+        }
+      }
+    },
+    "edit": {
+      "heading": "Eintrag bearbeiten",
+      "description": "Bearbeiten Sie hier Ihren Eintrag"
+    },
+    "listingHeading": "Alle Einträge",
+    "listingDescription": "Liste aller registrierten Einträge",
+    "searchPlaceholder": "Suchen",
+    "active": "Dearchivieren",
+    "inactive": "Archivieren",
+    "tabs": {
+      "allLists": "Alle Einträge",
+      "pendingLists": "Dearchivieren",
+      "inactiveLists": "Archivieren",
+      "hiddenLists": "Versteckt"
+    },
+    "table": {
+      "head": {
+        "list": "Eintrag",
+        "status": "Status",
+        "description": "Beschreibung",
+        "actions": "Aktionen"
+      },
+      "noData": "Keine Daten gefunden"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Standardüberschrift",
+      "listPreviewDescription": "",
+      "previewHeading": "Vorschau",
+      "previewDescription": "Vorschau Ihrer Liste hier",
+      "dateFormat": "TT/MM/JJJJ, HH:MM"
+    }
+  },
+
+  "removeImage": "Bild entfernen",
+  "deleteMetadata": "Metadaten löschen",
+  "removeSubcategory": "Unterkategorie entfernen",
+  "termsConditions": {
+    "noData": "Keine Daten zu den Allgemeinen Geschäftsbedingungen verfügbar."
+  }
+}

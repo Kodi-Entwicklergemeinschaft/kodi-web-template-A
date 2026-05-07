@@ -1,0 +1,62 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.sortMembers": "always"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  // "eslint.workingDirectories": [{ "mode": "auto" }],
+  // "eslint.validate": ["javascript", "javascriptreact"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "cSpell.words": ["kodi", "Shacn"],
+
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "ELEMENT:",
+      "color": "white",
+      "isWholeLine": true,
+      "regex": true,
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "NOTE:",
+      "color": "#4FC3F7",
+      "isWholeLine": true,
+      "regex": true,
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "isWholeLine": true,
+      "regex": true,
+      "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0,0,0,.2)"
+    },
+    {
+      "text": "STEP",
+      "color": "#FFD54F",
+      "isWholeLine": true,
+      "regex": true,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "INFO:",
+      "color": "orange",
+      "isWholeLine": true,
+      "regex": true,
+      "backgroundColor": "rgba(0,0,0,0)",
+      "overviewRulerColor": "red"
+    }
+  ]
+}

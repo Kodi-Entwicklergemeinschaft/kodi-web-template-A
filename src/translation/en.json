@@ -1,0 +1,711 @@
+{
+  "heading": "Hello World",
+  "toggleTheme": "Toggle Theme",
+  "signIntoAccount": "Sign in to your account",
+  "email": "E-Mail",
+  "emailOrUsernameLabel": "E-mail or Username",
+  "usernameOrEmail": "Enter your E-mail",
+  "password": "Password",
+  "pleaseEnterPassword": "Please enter password",
+  "rememberMe": "Remember Password",
+  "forgotYourPassword": "Forgot your password?",
+  "resetPassword": "Reset Your Password",
+  "signIn": "Sign In",
+  "notMember": "No account yet?",
+  "register": "Register",
+  "signInHelp": "Help ?",
+  "invalidMail": "Enter a valid email",
+  "invalidMailOrUsername": "Enter a valid email or username",
+  "minContainInMail": "Email must contain at least 3 characters",
+  "maxContentInMail": "Email must contain at most 50 characters",
+  "passwordRequired": "Password is required",
+  "sendLink": "Send Link",
+  "cancel": "Cancel",
+  "addMore": "Add More",
+  "deleteAccount": "Delete Account",
+  "status": "Status",
+  "active": "Active",
+  "inactive": "Inactive",
+  "anleitung": "Instructions",
+  "subtitle": "Registering in the App",
+  "step1": "<strong>Step 1:</strong> Set Username and Password",
+  "step2": "<strong>Step 2:</strong> An email will be sent to the email you provided",
+  "step3": "<strong>Step 3:</strong> Please verify the email by going to your inbox and clicking the confirmation link",
+  "step4": "<strong>Step 4:</strong> Your account is verified, and you can log in with your login credentials",
+  "thankYou": "Thank you!!",
+  "logout": "Log Out",
+  "Close": "Close",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Tile Management",
+      "upload": "Tile Upload",
+      "listing": "Tile Listing"
+    },
+    "listingManagement": {
+      "title": "Listing Management",
+      "upload": "Listing Upload",
+      "listing": "Listings"
+    },
+    "categoryManagement": {
+      "title": "Category Management",
+      "create": "Create Category",
+      "listing": "Category Listing",
+      "cityCategory": "City Category",
+      "updateCityCategory": "Update City Category"
+    },
+    "accounts": {
+      "title": "Account Settings"
+    },
+    "cityAdmin": {
+      "title": "User Management"
+    }
+  },
+  "createAccount": "Create your new account",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Category name must be at least 2 characters",
+          "maxLength": "Category name must be at most 50 characters"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Subtitle must be at least 2 characters",
+          "maxLength": "Subtitle must be at most 100 characters"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Description must be at least 10 characters"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Header background color is required"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "Content background color is required"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Background image is required"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Icon image is required"
+        }
+      }
+    },
+    "create": {
+      "heading": "Create Category",
+      "editHeading": "Edit City Category",
+      "editDescription": "Edit a City category",
+      "description": "Create a new category",
+      "addSubCategory": "Add Sub-Category",
+      "fix_main_category": "Please fix validation errors in the main category",
+      "cat_and_subCate_created": "Category and sub-categories created successfully",
+      "categoryUpdate_image_failed": "Category updated but some images may have failed to upload",
+      "categoryCreate_image_failed": "Category created but some images may have failed to upload",
+      "failed_to_create_category": "Failed to create category",
+      "failed_to_update_category": "Failed to update category",
+      "categoryNotfound": "Category not found",
+      "subCategory": {
+        "heading": "Create Sub-Category",
+        "editHeading": "Edit Sub-Category",
+        "editDescription": "Edit a sub-category for the main category",
+        "description": "Create a sub-category for the main category",
+        "subCategory_validation": "Please fix validation errors in sub-category",
+        "cannotadd3subCategory": "You cannot add more than 3 sub-category",
+        "fix_sub_category": "Please fix validation errors in sub-category",
+        "failed_create_subcategory": "Failed to create sub-category",
+        "max_3_sub_category": "Maximum of 3 sub-categories reached",
+        "subCategory_label": "Sub-category",
+        "max_3_sub_category_count": "Maximum: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Cannot delete icon: No category ID",
+        "icon_delete_success": "Icon deleted successfully",
+        "failed_delete": "Failed to delete icon"
+      },
+      "image": {
+        "not_delete_image": "Cannot delete image: No category ID",
+        "image_delete_success": "Image deleted successfully",
+        "failed_delete": "Failed to delete image"
+      },
+      "subcategory": {
+        "no_sub_id": "Cannot delete icon: No subcategory ID"
+      },
+
+      "form": {
+        "name": {
+          "label": "Category Name",
+          "placeholder": "Enter category name",
+          "error": {
+            "minLength": "Category name must be at least 2 characters",
+            "maxLength": "Category name must be at most 50 characters"
+          }
+        },
+        "subtitle": {
+          "label": "Subtitle",
+          "placeholder": "Enter subtitle",
+          "error": {
+            "minLength": "Subtitle must be at least 2 characters",
+            "maxLength": "Subtitle must be at most 100 characters"
+          }
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter category description",
+          "error": {
+            "minLength": "Description must be at least 10 characters"
+          }
+        },
+        "headerColor": {
+          "label": "Header Background Color",
+          "error": {
+            "required": "Header background color is required"
+          }
+        },
+        "contentColor": {
+          "label": "Content Background Color",
+          "error": {
+            "required": "Content background color is required"
+          }
+        },
+        "icon": {
+          "label": "Category Icon"
+        },
+        "backgroundImage": {
+          "label": "Background Image",
+          "error": {
+            "required": "Background image is required"
+          }
+        },
+        "isActive": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "parentId": {
+          "label": "Parent Category ID",
+          "placeholder": "Enter parent category ID (optional)"
+        },
+        "displayOrder": {
+          "label": "Display Order",
+          "placeholder": "Enter display order (e.g., 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Category Preview",
+        "cityHeading": "City Category Preview",
+        "cityDescription": "See how your city category will look",
+        "citySubHeading": "City Sub-Category Preview",
+        "citySubDescription": "See how your city sub-category will look",
+        "description": "See how your category will look",
+        "defaultName": "Sample Category",
+        "defaultSubtitle": "Activities in your city",
+        "defaultDescription": "This is a sample description for your category. Add your own content to see how it will appear."
+      }
+    },
+    "listing": {
+      "heading": "Category Listing",
+      "cityHeading": "City Category Listing",
+      "cityDescription": "Manage your city categories",
+      "description": "Manage your categories",
+      "createBtn": "Create Category",
+      "searchPlaceholder": "Search categories...",
+      "noCategories": "No categories found",
+      "table": {
+        "name": "Name",
+        "description": "Description",
+        "type": "Type",
+        "displayOrder": "Display Order",
+        "actions": "Actions"
+      },
+      "confirmDelete": {
+        "heading": "Are you sure?",
+        "message": "Are you sure you want to delete this category? This action cannot be undone.",
+        "confirmMessage": "Delete",
+        "cancelMessage": "Cancel"
+      },
+      "deleteSuccess": "Category deleted successfully.",
+      "deleteError": "Failed to delete category. Please try again."
+    },
+    "update": {
+      "heading": "Update Category",
+      "description": "Edit a category",
+      "editSubCategory": "Edit Sub-Category",
+      "editCityCategory": "Edit City Category"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Tile Upload",
+      "description": "Upload your tile here",
+      "form": {
+        "uploadLabel": "Upload Image",
+        "uploadBtnLabel": "Select Image",
+        "uploadPlaceholder": "Drag & Drop or click to upload",
+        "displayOrder": {
+          "label": "Display Order",
+          "placeholder": "Enter display order (e.g., 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Tile Name",
+          "placeholder": "Enter tile name"
+        },
+        "redirectURL": {
+          "label": "Redirect URL",
+          "placeholder": "Enter Redirect URL"
+        },
+        "titleColor": {
+          "label": "Title Color"
+        },
+        "subHeader": {
+          "label": "Subheader",
+          "placeholder": "Enter Sub Header"
+        },
+        "tileDescription": {
+          "label": "Description",
+          "placeholder": "Enter Tile Description"
+        },
+        "titleDescriptionColor": {
+          "label": "Tile Description Color"
+        },
+        "errorName": {
+          "maxFileSize": "File size should be max 1 MB",
+          "supportedExtension": "Unsupported file selected, Supported formats are:",
+          "invalidFile": "Please upload a valid image file."
+        },
+        "tileIcon": {
+          "label": "Tile Icon"
+        },
+        "tileImage": {
+          "label": "Tile Image"
+        }
+      },
+      "previewHeading": "Preview",
+      "previewDescription": "Preview your tile here",
+      "dummyText": "Dummy Text",
+      "defaultHeader": "Default Header",
+      "tilePreviewDescription": "Dummy description text to demonstrate how the tile description will appear within the tile preview. This text is intended to be sufficiently long to test the overflow handling and ensure that it displays correctly within the designated area of the tile component."
+    },
+    "edit": {
+      "heading": "Edit Tile",
+      "description": "Edit your tile here"
+    },
+    "listingHeading": "Tile Listing",
+    "listingDescription": "List of all registered tiles",
+    "searchPlaceholder": "Search",
+    "active": "Active",
+    "inactive": "Inactive",
+    "tabs": {
+      "allTiles": "All Tiles",
+      "pendingTiles": "Pending",
+      "inactiveTiles": "Inactive",
+      "hiddenTiles": "Hidden"
+    },
+    "table": {
+      "head": {
+        "tile": "Tile",
+        "status": "Status",
+        "displayOrder": "Display Order",
+        "description": "Description",
+        "actions": "Actions"
+      },
+      "noData": "No Data found"
+    },
+    "confirmDelete": {
+      "heading": "Are you sure?",
+      "message": "Are you sure you want to delete this item? This action cannot be undone.",
+      "confirmMessage": "Delete",
+      "cancelMessage": "Cancel"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Upload Image",
+      "btnLabel": "Select Image",
+      "placeholder": "Drag & Drop or click to upload",
+      "errorName": {
+        "maxFileSizeFileUpload": "File size should be max",
+        "maxFileSize": "File size should be max 1 MB",
+        "supportedExtension": "Unsupported file selected, Supported formats are:",
+        "invalidFile": "Please upload a valid image file.",
+        "minLength": "Please enter a valid tile name",
+        "maxLength": "Tile name cannot exceed 50 characters",
+        "titleColor": "Please pick a title color",
+        "tileIcon": "Tile icon is required",
+        "tileDescription": "Description must be at least 10 characters long",
+        "titleDescriptionColor": "Please pick a description color",
+        "tileImage": "Tile image is required",
+        "subHeader": "Please enter a valid subheader",
+        "subHeaderMax": "Subheader cannot exceed 50 characters",
+        "minDisplayOrder": "Display order must be at least 1",
+        "maxDisplayOrder": "Display order cannot exceed 999999"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Please Upload Hero Image",
+        "listingNameRequired": "Listing Name is required",
+        "listingNameMaxLength": "Listing Name cannot exceed 50 characters",
+        "listingNameMinLength": "Listing Name must be at least 3 characters long",
+        "address": "Please enter a valid address",
+        "startDate": "Please enter a valid start date",
+        "endDate": "Please enter a valid end date",
+        "city": "Please select a city",
+        "tags": "Please select a tag",
+        "websiteUrl": "please enter valid website url",
+        "category": "Please select a category"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "User Management",
+    "description": "List of all registered users",
+    "createAdmin": "Create Admin",
+    "table": {
+      "head": {
+        "name": "Name",
+        "email": "E-Mail",
+        "role": "User Role",
+        "status": "Status",
+        "createdAt": "Created At",
+        "cities": "Cities",
+        "actions": "Actions",
+        "registered": "Registered"
+      },
+      "noData": "No Data found"
+    },
+    "confirmDelete": {
+      "heading": "Are you sure?",
+      "message": "Are you sure you want to delete this item? This action cannot be undone.",
+      "confirmMessage": "Delete",
+      "cancelMessage": "Cancel"
+    }
+  },
+  "accountSetting": {
+    "heading": "Account Settings",
+    "description": "Update your account details",
+    "section": {
+      "personalInfo": {
+        "heading": "Personal Information",
+        "description": "Update your personal information"
+      },
+      "accountInfo": {
+        "heading": "Account Information",
+        "description": "Update your account information"
+      },
+      "metadata": {
+        "heading": "Metadata",
+        "description": "+Add your social media accounts here."
+      },
+      "password": {
+        "heading": "Password",
+        "description": "Update your password"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "You can add a maximum of 3 social links",
+      "saveBtn": "Save",
+      "resetBtn": "Reset",
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email",
+        "error": {
+          "required": "Enter a valid email",
+          "minContent": "Email must contain at least 3 characters",
+          "maxContent": "Email must contain at most 50 characters"
+        }
+      },
+      "username": {
+        "label": "Username",
+        "placeholder": "Enter your username",
+        "error": {
+          "required": "Enter a valid username",
+          "minContent": "Username must contain at least 3 characters",
+          "maxContent": "Username must contain at most 50 characters"
+        }
+      },
+      "currentPassword": {
+        "label": "Password",
+        "placeholder": "Enter your password",
+        "error": {
+          "required": "Enter a valid password",
+          "minContent": "Password must contain at least 8 characters",
+          "maxContent": "Password must contain at most 50 characters"
+        }
+      },
+      "newPassword": {
+        "label": "New Password",
+        "placeholder": "Enter your new password",
+        "error": {
+          "required": "Enter a valid password",
+          "minContent": "Password must be at least 8 characters",
+          "maxContent": "Password must be at most 50 characters"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Enter your password",
+        "error": {
+          "required": "Enter a valid password",
+          "minContent": "Password must contain at least 8 characters",
+          "maxContent": "Password must contain at most 50 characters",
+          "passwordMismatch": "Password does not match"
+        }
+      },
+      "yourName": {
+        "label": "Your Name",
+        "placeholder": "Enter your name",
+        "error": {
+          "required": "Enter a valid name",
+          "minContent": "Name must contain at least 3 characters",
+          "maxContent": "Name must contain at most 50 characters"
+        }
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": {
+          "required": "Enter a valid phone number",
+          "minContent": "Phone number must contain at least 3 characters",
+          "maxContent": "Phone number must contain at most 50 characters"
+        }
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter your description",
+        "error": {
+          "required": "Enter a valid description",
+          "minContent": "Description must contain at least 3 characters",
+          "maxContent": "Description must contain at most 200 characters"
+        }
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "Enter your website",
+        "error": {
+          "required": "Enter a valid website",
+          "minContent": "Website must contain at least 3 characters",
+          "maxContent": "Website must contain at most 50 characters",
+          "duplicateWebsite": "Duplicate websites are not allowed"
+        }
+      },
+      "websiteLink": {
+        "label": "Website Link",
+        "placeholder": "Enter your website link",
+        "error": {
+          "required": "Enter a valid website link",
+          "minContent": "Website link must contain at least 3 characters",
+          "maxContent": "Website link must contain at most 50 characters",
+          "invalidLink": "Invalid link",
+          "duplicateLink": "Duplicate links are not allowed"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Do you already have an account?",
+      "login": "Please log in here.",
+      "acceptPolicy": "I hereby accept the",
+      "privacy": "privacy policy*",
+      "and": "and",
+      "terms": "general terms and conditions.*",
+      "mustAcceptTermsAndPrivacy": "Please agree to the Terms and Conditions to proceed."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Please enter a valid email address"
+        }
+      },
+      "username": {
+        "label": "Username",
+        "placeholder": "Enter your username",
+        "error": {
+          "minContent": "Username must be at least 3 characters",
+          "maxContent": "Username must be at most 30 characters",
+          "noSpaces": "Username must not contain spaces"
+        }
+      },
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Please enter first name",
+        "error": {
+          "minContent": "First Name must be at least 2 characters",
+          "maxContent": "First Name must be at most 30 characters",
+          "noSpaces": "First Name must not contain spaces",
+          "invalidChars": "First Name must contain only alphabetic characters"
+        }
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Please enter last name",
+        "error": {
+          "minContent": "Last Name must be at least 2 characters",
+          "maxContent": "Last Name must be at most 30 characters",
+          "noSpaces": "Last Name must not contain spaces",
+          "invalidChars": "Last Name must contain only alphabetic characters"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Please enter password",
+        "error": {
+          "minContent": "Password must be at least 8 characters",
+          "maxContent": "Password must be at most 20 characters",
+          "noSpaces": "Password must not contain spaces"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Please enter confirm password",
+        "error": {
+          "required": "Confirm Password is required",
+          "mismatch": "Password and confirmation password do not match"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Switch Role",
+    "description": "Select a new role and city for this user.",
+    "selectRole": "Select Role",
+    "selectCity": "Select City"
+  },
+  "user": {
+    "restore": "User restored",
+    "restoreFailed": "Restore failed",
+    "disable": "User disabled",
+    "disableFailed": "Disable failed",
+    "roleAssign": "Role assigned successfully",
+    "roleAssignFailed": "Failed to assign role",
+    "select_city": "Please select a city"
+  },
+  "unAuthorized": {
+    "heading": "Unauthorized Access",
+    "description": "You do not have permission to access this page. Please contact your <strong>Super Admin</strong> to request the necessary access rights.",
+    "goBack": "Go Back"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "listing": {
+    "upload": {
+      "heading": "Listing Upload",
+      "description": "Upload your listing here",
+      "form": {
+        "heroImageUrl": {
+          "label": "Hero Image URL",
+          "placeholder": "Enter Hero Image URL"
+        },
+        "listingName": {
+          "label": "Listing Name",
+          "placeholder": "Enter Listing Name"
+        },
+        "address": {
+          "label": "Address",
+          "placeholder": "Enter Address",
+          "searching": "Searching..."
+        },
+        "startDate": {
+          "label": "Start Date",
+          "placeholder": "Select Start Date"
+        },
+        "endDate": {
+          "label": "End Date",
+          "placeholder": "Select End Date"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Select City"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select Category"
+        },
+        "subCategory": {
+          "label": "Subcategory",
+          "placeholder": "Select subcategory"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Select Tags"
+        },
+        "summary": {
+          "label": "Summary",
+          "placeholder": "Enter Summary"
+        },
+        "listingDescription": {
+          "label": "Listing Description",
+          "placeholder": "Enter Listing Description"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter Email"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter Phone Number"
+        },
+        "websiteUrl": {
+          "label": "Website URL",
+          "placeholder": "Enter Website URL"
+        },
+        "media": {
+          "label": "Media URL"
+        }
+      }
+    },
+    "edit": {
+      "heading": "Edit Listing",
+      "description": "Edit your listing here"
+    },
+    "listingHeading": "All Listings",
+    "listingDescription": "List of all registered listings",
+    "searchPlaceholder": "Search",
+    "active": "Unarchive",
+    "inactive": "Archive",
+    "tabs": {
+      "allLists": "All Listings",
+      "pendingLists": "Unarchive",
+      "inactiveLists": "Archive",
+      "hiddenLists": "Hidden"
+    },
+    "table": {
+      "head": {
+        "list": "List",
+        "status": "Status",
+        "description": "Description",
+        "actions": "Actions"
+      },
+      "noData": "No Data found"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Default Header",
+      "listPreviewDescription": "",
+      "previewHeading": "Preview",
+      "previewDescription": "Preview your list here",
+      "dateFormat": "dd/MM/yyyy, HH:mm"
+    }
+  },
+  "removeImage": "Remove image",
+  "deleteMetadata": "Delete metadata",
+  "removeSubcategory": "Remove subcategory",
+  "termsConditions": {
+    "noData": "No terms and conditions data available."
+  }
+}

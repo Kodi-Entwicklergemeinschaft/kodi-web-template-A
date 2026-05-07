@@ -1,0 +1,6 @@
+name = "nominatim-proxy"
+main = "worker/worker.ts"
+compatibility_date = "2024-10-10"
+
+[vars]
+NOMINATIM_USER_AGENT = "MyViteApp/1.0 (contact@example.com)"

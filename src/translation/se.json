@@ -1,0 +1,711 @@
+{
+  "heading": "Hej världen",
+  "toggleTheme": "Växla tema",
+  "signIntoAccount": "Logga in på ditt konto",
+  "email": "E-post",
+  "emailOrUsernameLabel": "E-post eller användarnamn",
+  "usernameOrEmail": "Ange din e-postadress",
+  "password": "Lösenord",
+  "pleaseEnterPassword": "Ange lösenord",
+  "rememberMe": "Kom ihåg lösenord",
+  "forgotYourPassword": "Glömt ditt lösenord?",
+  "resetPassword": "Återställ ditt lösenord",
+  "signIn": "Logga in",
+  "notMember": "Inget konto än?",
+  "register": "Registrera dig",
+  "signInHelp": "Hjälp?",
+  "invalidMail": "Ange en giltig e-postadress",
+  "invalidMailOrUsername": "Ange en giltig e-postadress eller användarnamn",
+  "minContainInMail": "E-post måste innehålla minst 3 tecken",
+  "maxContentInMail": "E-post får innehålla högst 50 tecken",
+  "passwordRequired": "Lösenord krävs",
+  "sendLink": "Skicka länk",
+  "cancel": "Avbryt",
+  "addMore": "Lägg till fler",
+  "deleteAccount": "Radera konto",
+  "status": "Status",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "anleitung": "Instruktioner",
+  "subtitle": "Registrera dig i appen",
+  "step1": "<strong>Steg 1:</strong> Ange användarnamn och lösenord",
+  "step2": "<strong>Steg 2:</strong> Ett e-postmeddelande skickas till den adress du angav",
+  "step3": "<strong>Steg 3:</strong> Bekräfta e-posten genom att klicka på länken i inkorgen",
+  "step4": "<strong>Steg 4:</strong> Ditt konto är verifierat, och du kan logga in med dina uppgifter",
+  "thankYou": "Tack!!",
+  "logout": "Logga ut",
+  "Close": "Stäng",
+  "sidebar": {
+    "tileManagement": {
+      "title": "Rutthantering",
+      "upload": "Ladda upp ruta",
+      "listing": "Rutlista"
+    },
+    "listingManagement": {
+      "title": "Listningshantering",
+      "upload": "Lista uppladdning",
+      "listing": "Listningar"
+    },
+    "categoryManagement": {
+      "title": "Kategorihantering",
+      "create": "Skapa kategori",
+      "listing": "Kategorilista",
+      "cityCategory": "Stadskategori",
+      "updateCityCategory": "Uppdatera stadskategori"
+    },
+    "accounts": {
+      "title": "Kontoinställningar"
+    },
+    "cityAdmin": {
+      "title": "Användarhantering"
+    }
+  },
+  "createAccount": "Skapa ditt nya konto",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "Kategorinamn måste vara minst 2 tecken",
+          "maxLength": "Kategorinamn får vara högst 50 tecken"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "Underrubrik måste vara minst 2 tecken",
+          "maxLength": "Underrubrik får vara högst 100 tecken"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "Beskrivning måste vara minst 10 tecken"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "Sidhuvud bakgrundsfärg krävs"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "Innehåll bakgrundsfärg krävs"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "Bakgrundsbild krävs"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "Ikonbild krävs"
+        }
+      }
+    },
+    "create": {
+      "heading": "Skapa kategori",
+      "editHeading": "Redigera stadskategori",
+      "editDescription": "Redigera en stadskategori",
+      "description": "Skapa en ny kategori",
+      "addSubCategory": "Lägg till underkategori",
+      "fix_main_category": "Korrigera valideringsfel i huvudkategorin",
+      "cat_and_subCate_created": "Kategori och underkategorier skapade framgångsrikt",
+      "categoryUpdate_image_failed": "Kategorin har uppdaterats, men vissa bilder kan ha misslyckats med att laddas upp.",
+      "categoryCreate_image_failed": "Kategorin har skapats, men vissa bilder kan ha misslyckats med att laddas upp.",
+      "failed_to_create_category": "Det gick inte att skapa kategorin",
+      "failed_to_update_category": "Kategorin kunde inte uppdateras",
+      "categoryNotfound": "Kategorin hittades inte",
+      "subCategory": {
+        "heading": "Skapa underkategori",
+        "editHeading": "Redigera underkategori",
+        "editDescription": "Redigera en underkategori till huvudkategorin",
+        "description": "Skapa en underkategori för huvudkategorin",
+        "subCategory_validation": "Åtgärda valideringsfel i underkategorin",
+        "cannotadd3subCategory": "Du kan inte lägga till fler än 3 underkategorier.",
+        "fix_sub_category": "Korrigera valideringsfel i underkategorin",
+        "failed_create_subcategory": "Det gick inte att skapa en underkategori",
+        "max_3_sub_category": "Högst 3 underkategorier uppnådda.",
+        "subCategory_label": "Underkategori",
+        "max_3_sub_category_count": "Maximalt: 3"
+      },
+      "icon": {
+        "not_delete_icon": "Kan inte ta bort ikonen: Inget kategori-ID",
+        "icon_delete_success": "Ikonen har raderats",
+        "failed_delete": "Det gick inte att ta bort ikonen"
+      },
+      "image": {
+        "not_delete_image": "Kan inte ta bort bild: Ingen kategori-ID",
+        "image_delete_success": "Bild borttagen",
+        "failed_delete": "Kunde inte ta bort bilden"
+      },
+      "subcategory": {
+        "no_sub_id": "Kan inte ta bort ikonen: Inget underkategori-IDD"
+      },
+      "form": {
+        "name": {
+          "label": "Kategorinamn",
+          "placeholder": "Ange kategorinamn",
+          "error": {
+            "minLength": "Kategorinamn måste bestå av minst två tecken.",
+            "maxLength": "Kategorinamn får innehålla högst 50 tecken."
+          }
+        },
+        "subtitle": {
+          "label": "Underrubrik",
+          "placeholder": "Ange underrubrik",
+          "error": {
+            "minLength": "Undertexten måste bestå av minst 2 tecken.",
+            "maxLength": "Undertexten får bestå av högst 100 tecken."
+          }
+        },
+        "description": {
+          "label": "Beskrivning",
+          "placeholder": "Ange kategoribeskrivning",
+          "error": {
+            "minLength": "Beskrivningen måste innehålla minst 10 tecken."
+          }
+        },
+        "headerColor": {
+          "label": "Rubrik bakgrundsfärg",
+          "error": {
+            "required": "Bakgrundsfärg för rubriken är obligatorisk."
+          }
+        },
+        "contentColor": {
+          "label": "Innehåll bakgrundsfärg",
+          "error": {
+            "required": "Bakgrundsfärg för innehållet krävs."
+          }
+        },
+        "icon": {
+          "label": "Kategoriikon"
+        },
+        "backgroundImage": {
+          "label": "Bakgrundsbild",
+          "error": {
+            "required": "Bakgrundsbild krävs."
+          }
+        },
+        "isActive": {
+          "label": "Status",
+          "placeholder": "Välj status",
+          "active": "Aktiv",
+          "inactive": "Inaktiv"
+        },
+        "parentId": {
+          "label": "Överordnad kategori-ID",
+          "placeholder": "Ange överordnad kategori-ID (valfritt)"
+        },
+        "displayOrder": {
+          "label": "Visningsordning",
+          "placeholder": "Ange visningsordning (t.ex. 1, 2, 3)"
+        }
+      },
+      "preview": {
+        "heading": "Kategoriförhandsvisning",
+        "cityHeading": "Förhandsgranskning av stadskategori",
+        "cityDescription": "Se hur din stadskategori kommer att se ut",
+        "citySubHeading": "Förhandsgranskning av stadens underkategori",
+        "citySubDescription": "Se hur stadens underkategori kommer att se ut",
+        "description": "Se hur din kategori kommer att se ut",
+        "defaultName": "Exempelkategori",
+        "defaultSubtitle": "Aktiviteter i din stad",
+        "defaultDescription": "Detta är en exempelbeskrivning för din kategori. Lägg till ditt eget innehåll för att se hur det kommer att visas."
+      }
+    },
+    "listing": {
+      "heading": "Kategorilista",
+      "cityHeading": "Lista över stadskategorier",
+      "cityDescription": "Lista över stadskategorier",
+      "description": "Hantera dina kategorier",
+      "createBtn": "Skapa kategori",
+      "searchPlaceholder": "Sök kategorier...",
+      "noCategories": "Inga kategorier hittades",
+      "table": {
+        "name": "Namn",
+        "description": "Beskrivning",
+        "type": "Typ",
+        "displayOrder": "Visningsordning",
+        "actions": "Åtgärder"
+      },
+      "confirmDelete": {
+        "heading": "Är du säker?",
+        "message": "Är du säker på att du vill radera den här kategorin? Den här åtgärden kan inte ångras.",
+        "confirmMessage": "Radera",
+        "cancelMessage": "Avbryt"
+      },
+      "deleteSuccess": "Kategorin har raderats.",
+      "deleteError": "Kunde inte radera kategorin. Försök igen."
+    },
+    "update": {
+      "heading": "Uppdatera kategori",
+      "description": "Redigera en kategori",
+      "editSubCategory": "Redigera underkategori",
+      "editCityCategory": "Redigera stadskategori"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "Ladda upp ruta",
+      "description": "Ladda upp din ruta här",
+      "form": {
+        "uploadLabel": "Ladda upp bild",
+        "uploadBtnLabel": "Välj bild",
+        "uploadPlaceholder": "Dra och släpp eller klicka för att ladda upp",
+        "displayOrder": {
+          "label": "Visningsordning",
+          "placeholder": "Ange visningsordning (t.ex. 1, 2, 3)"
+        },
+        "tileName": {
+          "label": "Ruttnamn",
+          "placeholder": "Ange ruttnamn"
+        },
+        "redirectURL": {
+          "label": "Omdirigerings-URL",
+          "placeholder": "Ange omdirigerings-URL"
+        },
+        "titleColor": {
+          "label": "Rutfärg"
+        },
+        "subHeader": {
+          "label": "Under rubrik",
+          "placeholder": "Ange under rubrik"
+        },
+        "tileDescription": {
+          "label": "Beskrivning",
+          "placeholder": "AAnge kakelbeskrivning"
+        },
+        "titleDescriptionColor": {
+          "label": "Rutfärgbeskrivning"
+        },
+        "errorName": {
+          "maxFileSize": "Filstorleken får vara högst 1 MB",
+          "supportedExtension": "Fel fil vald, tillåtna format är:",
+          "invalidFile": "Ladda upp en giltig bildfil."
+        },
+        "tileIcon": {
+          "label": "Rutikon"
+        },
+        "tileImage": {
+          "label": "Rutbild"
+        }
+      },
+      "previewHeading": "Förhandsvisning",
+      "previewDescription": "Förhandsgranska din ruta här",
+      "dummyText": "Exempel på ruttnamn",
+      "defaultHeader": "Standard under rubrik",
+      "tilePreviewDescription": "Exempel beskrivningstext för att illustrera hur rutbeskrivningen visas inom rutförhandsvisningen. Denna text är utformad för att vara tillräckligt lång för att testa överflöd och säkerställa att den visas korrekt inom det område som tilldelats rutkomponenten."
+    },
+    "edit": {
+      "heading": "Redigera ruta",
+      "description": "Redigera din ruta här"
+    },
+    "listingHeading": "Rutlista",
+    "listingDescription": "Lista över alla registrerade rutor",
+    "searchPlaceholder": "Sök",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "tabs": {
+      "allTiles": "Alla rutor",
+      "pendingTiles": "Väntande",
+      "inactiveTiles": "Inaktiva",
+      "hiddenTiles": "Dolda"
+    },
+    "table": {
+      "head": {
+        "tile": "Ruta",
+        "status": "Status",
+        "displayOrder": "Visningsordning",
+        "description": "Beskrivning",
+        "actions": "Åtgärder"
+      },
+      "noData": "Inga data hittades"
+    },
+    "confirmDelete": {
+      "heading": "Är du säker?",
+      "message": "Är du säker på att du vill ta bort detta objekt? Denna åtgärd kan inte ångras.",
+      "confirmMessage": "Radera",
+      "cancelMessage": "Avbryt"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "Ladda upp bild",
+      "btnLabel": "Välj bild",
+      "placeholder": "Dra och släpp eller klicka för att ladda upp",
+      "errorName": {
+        "maxFileSizeFileUpload": "Filstorleken bör vara max",
+        "maxFileSize": "Filstorleken får vara högst 1 MB",
+        "supportedExtension": "Fel fil vald, tillåtna format är:",
+        "invalidFile": "Ladda upp en giltig bildfil.",
+        "minLength": "Ange ett giltigt ruttnamn",
+        "maxLength": "Ruttnamnet får inte överstiga 50 tecken",
+        "titleColor": "Välj en titel färg",
+        "tileIcon": "Rutikon krävs",
+        "tileDescription": "Beskrivningen måste vara minst 10 tecken lång",
+        "titleDescriptionColor": "Välj en beskrivningsfärg",
+        "tileImage": "Rutbild krävs",
+        "subHeader": "Ange en giltig under rubrik",
+        "subHeaderMax": "Under rubriken får inte överstiga 50 tecken",
+        "minDisplayOrder": "Visningsordningen måste vara minst 1",
+        "maxDisplayOrder": "Visningsordningen får inte överstiga 999999"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "Ladda upp hjältebild",
+        "listingNameRequired": "Listningsnamn krävs",
+        "listingNameMaxLength": "Namnet på listningen får inte överstiga 50 tecken.",
+        "listingNameMinLength": "Listningsnamnet måste bestå av minst 3 tecken.",
+        "address": "Vänligen ange en giltig adress",
+        "startDate": "Vänligen ange ett giltigt startdatum",
+        "endDate": "Vänligen ange ett giltigt slutdatum",
+        "city": "Vänligen välj en stad",
+        "tags": "Vänligen välj en tagg",
+        "websiteUrl": "Vänligen ange en giltig webbadress",
+        "category": "Vänligen välj en kategori"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "Användarhantering",
+    "description": "Lista över alla registrerade användare",
+    "createAdmin": "Skapa administratör",
+    "table": {
+      "head": {
+        "name": "Namn",
+        "email": "E-post",
+        "role": "Användarroll",
+        "status": "Status",
+        "createdAt": "Skapad den",
+        "cities": "Städer",
+        "actions": "Åtgärder",
+        "registered": "Registrerad"
+      },
+      "noData": "Inga data hittades"
+    },
+    "confirmDelete": {
+      "heading": "Är du säker?",
+      "message": "Är du säker på att du vill ta bort detta objekt? Denna åtgärd kan inte ångras.",
+      "confirmMessage": "Radera",
+      "cancelMessage": "Avbryt"
+    }
+  },
+  "accountSetting": {
+    "heading": "Kontoinställningar",
+    "description": "Uppdatera dina kontouppgifter",
+    "section": {
+      "personalInfo": {
+        "heading": "Personlig information",
+        "description": "Uppdatera din personliga information"
+      },
+      "accountInfo": {
+        "heading": "Kontoinformation",
+        "description": "Uppdatera din kontoinformation"
+      },
+      "metadata": {
+        "heading": "Metadata",
+        "description": "+Lägg till dina sociala medier här."
+      },
+      "password": {
+        "heading": "Lösenord",
+        "description": "Uppdatera ditt lösenord"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "Du kan lägga till högst 3 sociala länkar",
+      "saveBtn": "Spara ändringar",
+      "resetBtn": "Återställ",
+      "email": {
+        "label": "E-post",
+        "placeholder": "Ange din e-postadress",
+        "error": {
+          "required": "Ange en giltig e-postadress",
+          "minContent": "E-post måste innehålla minst 3 tecken",
+          "maxContent": "E-post får innehålla högst 50 tecken"
+        }
+      },
+      "username": {
+        "label": "Användarnamn",
+        "placeholder": "Ange ditt användarnamn",
+        "error": {
+          "required": "Ange ett giltigt användarnamn",
+          "minContent": "Användarnamn måste innehålla minst 3 tecken",
+          "maxContent": "Användarnamn får innehålla högst 50 tecken"
+        }
+      },
+      "currentPassword": {
+        "label": "Lösenord",
+        "placeholder": "Ange ditt lösenord",
+        "error": {
+          "required": "Ange ett giltigt lösenord",
+          "minContent": "Lösenord måste innehålla minst 8 tecken",
+          "maxContent": "Lösenord får innehålla högst 50 tecken"
+        }
+      },
+      "newPassword": {
+        "label": "Nytt lösenord",
+        "placeholder": "Ange ditt nya lösenord",
+        "error": {
+          "required": "Ange ett giltigt lösenord",
+          "minContent": "Lösenordet måste innehålla minst 8 tecken",
+          "maxContent": "Lösenordet får innehålla högst 50 tecken"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekräfta lösenord",
+        "placeholder": "Ange ditt lösenord igen",
+        "error": {
+          "required": "Ange ett giltigt lösenord",
+          "minContent": "Lösenord måste innehålla minst 8 tecken",
+          "maxContent": "Lösenord får innehålla högst 50 tecken",
+          "passwordMismatch": "Lösenorden matchar inte"
+        }
+      },
+      "yourName": {
+        "label": "Ditt namn",
+        "placeholder": "Ange ditt namn",
+        "error": {
+          "required": "Ange ett giltigt namn",
+          "minContent": "Namnet måste innehålla minst 3 tecken",
+          "maxContent": "Namnet får innehålla högst 50 tecken"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Ange ditt telefonnummer",
+        "error": {
+          "required": "Ange ett giltigt telefonnummer",
+          "minContent": "Telefonnummer måste innehålla minst 3 tecken",
+          "maxContent": "Telefonnummer får innehålla högst 50 tecken"
+        }
+      },
+      "description": {
+        "label": "Beskrivning",
+        "placeholder": "Ange din beskrivning",
+        "error": {
+          "required": "Ange en giltig beskrivning",
+          "minContent": "Beskrivningen måste innehålla minst 3 tecken",
+          "maxContent": "Beskrivningen får innehålla högst 200 tecken"
+        }
+      },
+      "website": {
+        "label": "Webbplats",
+        "placeholder": "Ange din webbplats",
+        "error": {
+          "required": "Ange en giltig webbplats",
+          "minContent": "Webbplatsen måste innehålla minst 3 tecken",
+          "maxContent": "Webbplatsen får innehålla högst 50 tecken",
+          "duplicateWebsite": "Dubbletter av webbplatser är inte tillåtna"
+        }
+      },
+      "websiteLink": {
+        "label": "Webbplatslänk",
+        "placeholder": "Ange din webbplatslänk",
+        "error": {
+          "required": "Ange en giltig webbplatslänk",
+          "minContent": "Webbplatslänken måste innehålla minst 3 tecken",
+          "maxContent": "Webbplatslänken får innehålla högst 50 tecken",
+          "invalidLink": "Ogiltig länk",
+          "duplicateLink": "Dubbletter av länkar är inte tillåtna"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "Har du redan ett konto?",
+      "login": "Logga in här.",
+      "acceptPolicy": "Jag accepterar härmed",
+      "privacy": "sekretesspolicyn*",
+      "and": "och",
+      "terms": "allmänna villkor.*",
+      "mustAcceptTermsAndPrivacy": "Du måste godkänna villkoren och sekretesspolicyn för att fortsätta."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "Ange en giltig e-postadress"
+        }
+      },
+      "username": {
+        "label": "Användarnamn",
+        "placeholder": "Ange ditt användarnamn",
+        "error": {
+          "minContent": "Användarnamn måste innehålla minst 3 tecken",
+          "maxContent": "Användarnamn får innehålla högst 30 tecken",
+          "noSpaces": "Användarnamn får inte innehålla mellanslag"
+        }
+      },
+      "firstName": {
+        "label": "Förnamn",
+        "placeholder": "Ange förnamn",
+        "error": {
+          "minContent": "Förnamn måste innehålla minst 2 tecken",
+          "maxContent": "Förnamn får innehålla högst 30 tecken",
+          "noSpaces": "Förnamn får inte innehålla mellanslag",
+          "invalidChars": "Förnamn får endast innehålla bokstäver"
+        }
+      },
+      "lastName": {
+        "label": "Efternamn",
+        "placeholder": "Ange efternamn",
+        "error": {
+          "minContent": "Efternamn måste innehålla minst 2 tecken",
+          "maxContent": "Efternamn får innehålla högst 30 tecken",
+          "noSpaces": "Efternamn får inte innehålla mellanslag",
+          "invalidChars": "Efternamn får endast innehålla bokstäver"
+        }
+      },
+      "password": {
+        "label": "Lösenord",
+        "placeholder": "Ange lösenord",
+        "error": {
+          "minContent": "Lösenord måste vara minst 8 tecken",
+          "maxContent": "Lösenord får vara högst 20 tecken",
+          "noSpaces": "Lösenord får inte innehålla mellanslag"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekräfta lösenord",
+        "placeholder": "Ange bekräftelselösenord",
+        "error": {
+          "required": "Bekräftelselösenord krävs",
+          "mismatch": "Lösenorden matchar inte"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "Byt roll",
+    "description": "Välj en ny roll och stad för denna användare.",
+    "selectRole": "Välj roll",
+    "selectCity": "Välj stad"
+  },
+  "user": {
+    "restore": "Användare återställd.",
+    "restoreFailed": "Återställningen misslyckades.",
+    "disable": "Användare inaktiverad.",
+    "disableFailed": "Inaktivering misslyckades.",
+    "roleAssign": "Rollen har tilldelats.",
+    "roleAssignFailed": "Det gick inte att tilldela rollen.",
+    "select_city": "Välj en stad."
+  },
+  "unAuthorized": {
+    "heading": "Obehörig åtkomst",
+    "description": "Du har inte behörighet att komma åt denna sida. Vänligen kontakta din <strong>Super Admin</strong> för att begära nödvändiga åtkomsträttigheter.",
+    "goBack": "Gå tillbaka"
+  },
+  "pagination": {
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "Ladda upp listing",
+      "description": "Ladda upp din listing här",
+      "form": {
+        "heroImageUrl": {
+          "label": "Hero-bilds-URL",
+          "placeholder": "Ange hero-bilds-URL"
+        },
+        "listingName": {
+          "label": "Listing-namn",
+          "placeholder": "Ange listing-namn"
+        },
+        "address": {
+          "label": "Adress",
+          "placeholder": "Ange adress",
+          "searching": "Söker..."
+        },
+        "startDate": {
+          "label": "Startdatum",
+          "placeholder": "Välj startdatum"
+        },
+        "endDate": {
+          "label": "Slutdatum",
+          "placeholder": "Välj slutdatum"
+        },
+        "city": {
+          "label": "Stad",
+          "placeholder": "Välj stad"
+        },
+        "category": {
+          "label": "Kategori",
+          "placeholder": "Välj kategori"
+        },
+        "subCategory": {
+          "label": "Underkategori",
+          "placeholder": "Välj underkategori"
+        },
+        "tags": {
+          "label": " Taggar",
+          "placeholder": "Valda taggar"
+        },
+        "summary": {
+          "label": "Sammanfattning",
+          "placeholder": "Ange sammanfattning"
+        },
+        "listingDescription": {
+          "label": "Listingbeskrivning",
+          "placeholder": "Ange listingbeskrivning"
+        },
+        "email": {
+          "label": "E-post",
+          "placeholder": "Ange e-post"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "Ange telefonnummer"
+        },
+        "websiteUrl": {
+          "label": "Webbplats-URL",
+          "placeholder": "Ange webbplats-URL"
+        },
+        "media": {
+          "label": "Media-URL"
+        }
+      }
+    },
+    "edit": {
+      "heading": "Redigera annons",
+      "description": "Redigera din annons här"
+    },
+    "listingHeading": "Alla listor",
+    "listingDescription": "Lista över alla registrerade poster",
+    "searchPlaceholder": "Sök",
+    "active": "Avarkivera",
+    "inactive": "Arkivera",
+    "tabs": {
+      "allLists": "Alla listor",
+      "pendingLists": "Avarkivera",
+      "inactiveLists": "Arkivera",
+      "hiddenLists": "Dold"
+    },
+    "table": {
+      "head": {
+        "list": "Lista",
+        "status": "Status",
+        "description": "Beskrivning",
+        "actions": "Åtgärder"
+      },
+      "noData": "Inga data hittades"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "Standardrubrik",
+      "listPreviewDescription": "",
+      "previewHeading": "Förhandsvisning",
+      "previewDescription": "Förhandsgranska din lista här",
+      "dateFormat": "dd/MM/åååå, HH:mm"
+    }
+  },
+  "removeImage": "Ta bort bild",
+  "deleteMetadata": "Ta bort metadata",
+  "removeSubcategory": "Ta bort underkategori",
+  "termsConditions": {
+    "noData": "Inga uppgifter om villkor och bestämmelser är tillgängliga."
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "heading": "مرحبا بالعالم",
+  "toggleTheme": "تبديل النمط",
+  "signIntoAccount": "تسجيل الدخول إلى حسابك",
+  "email": "البريد الإلكتروني",
+  "emailOrUsernameLabel": "البريد الإلكتروني أو اسم المستخدم",
+  "usernameOrEmail": "أدخل بريدك الإلكتروني",
+  "password": "كلمة المرور",
+  "pleaseEnterPassword": "يرجى إدخال كلمة المرور",
+  "rememberMe": "تذكر كلمة المرور",
+  "forgotYourPassword": "هل نسيت كلمة المرور؟",
+  "resetPassword": "إعادة تعيين كلمة المرور الخاصة بك",
+  "signIn": "تسجيل الدخول",
+  "notMember": "لا تملك حسابًا بعد؟",
+  "register": "تسجيل",
+  "signInHelp": "مساعدة؟",
+  "invalidMail": "أدخل بريدًا إلكترونيًا صالحًا",
+  "invalidMailOrUsername": "أدخل بريدًا إلكترونيًا أو اسم مستخدم صالحًا",
+  "minContainInMail": "يجب أن يحتوي البريد الإلكتروني على 3 أحرف على الأقل",
+  "maxContentInMail": "يجب ألا يحتوي البريد الإلكتروني على أكثر من 50 حرفًا",
+  "passwordRequired": "كلمة المرور مطلوبة",
+  "sendLink": "إرسال الرابط",
+  "cancel": "إلغاء",
+  "addMore": "أضف المزيد",
+  "deleteAccount": "حذف الحساب",
+  "status": "الحالة",
+  "active": "نشط",
+  "inactive": "غير نشط",
+  "anleitung": "تعليمات",
+  "subtitle": "التسجيل في التطبيق",
+  "step1": "<strong>الخطوة 1:</strong> قم بتعيين اسم المستخدم وكلمة المرور",
+  "step2": "<strong>الخطوة 2:</strong> سيتم إرسال بريد إلكتروني إلى البريد الذي أدخلته",
+  "step3": "<strong>الخطوة 3:</strong> يرجى التحقق من البريد الإلكتروني بالنقر على رابط التأكيد في صندوق الوارد",
+  "step4": "<strong>الخطوة 4:</strong> تم التحقق من حسابك ويمكنك الآن تسجيل الدخول ببيانات الاعتماد الخاصة بك",
+  "thankYou": "شكرًا لك!!",
+  "logout": "تسجيل الخروج",
+  "Close": "إغلاق",
+  "sidebar": {
+    "tileManagement": {
+      "title": "إدارة المربعات",
+      "upload": "تحميل المربع",
+      "listing": "قائمة المربعات"
+    },
+    "listingManagement": {
+      "title": "إدارة القوائم",
+      "upload": "تحميل القوائم",
+      "listing": "القوائم"
+    },
+    "categoryManagement": {
+      "title": "إدارة الفئات",
+      "create": "إنشاء فئة",
+      "listing": "قائمة الفئات",
+      "cityCategory": "فئة المدينة",
+      "updateCityCategory": "تحديث فئة المدينة"
+    },
+    "accounts": {
+      "title": "إعدادات الحساب"
+    },
+    "cityAdmin": {
+      "title": "إدارة المستخدم"
+    }
+  },
+  "createAccount": "أنشئ حسابك الجديد",
+  "category": {
+    "form": {
+      "name": {
+        "error": {
+          "minLength": "يجب أن يكون اسم الفئة على الأقل حرفين",
+          "maxLength": "يجب ألا يتجاوز اسم الفئة 50 حرفًا"
+        }
+      },
+      "subtitle": {
+        "error": {
+          "minLength": "يجب أن يكون العنوان الفرعي على الأقل حرفين",
+          "maxLength": "يجب ألا يتجاوز العنوان الفرعي 100 حرف"
+        }
+      },
+      "description": {
+        "error": {
+          "minLength": "يجب أن يكون الوصف على الأقل 10 أحرف"
+        }
+      },
+      "headerColor": {
+        "error": {
+          "required": "لون خلفية الرأس مطلوب"
+        }
+      },
+      "contentColor": {
+        "error": {
+          "required": "لون خلفية المحتوى مطلوب"
+        }
+      },
+      "backgroundImage": {
+        "error": {
+          "required": "صورة الخلفية مطلوبة"
+        }
+      },
+      "iconImageUrl": {
+        "error": {
+          "required": "الصورة الرمزية مطلوبة"
+        }
+      }
+    },
+    "create": {
+      "heading": "إنشاء فئة",
+      "editHeading": "تعديل فئة المدينة",
+      "editDescription": "تحرير فئة مدينة",
+      "description": "إنشاء فئة جديدة",
+      "addSubCategory": "إضافة فئة فرعية",
+      "fix_main_category": "يرجى إصلاح أخطاء التحقق في الفئة الرئيسية",
+      "cat_and_subCate_created": "تم إنشاء الفئة والفئات الفرعية بنجاح",
+      "categoryUpdate_image_failed": "تم تحديث الفئة ولكن قد تكون بعض الصور قد فشلت في التحميل",
+      "categoryCreate_image_failed": "تم إنشاء الفئة ولكن ربما فشل تحميل بعض الصور",
+      "failed_to_create_category": "فشل إنشاء الفئة",
+      "failed_to_update_category": "فشل في تحديث الفئة",
+      "categoryNotfound": "لم يتم العثور على الفئة",
+      "subCategory": {
+        "heading": "إنشاء فئة فرعية",
+        "editHeading": "تعديل الفئة الفرعية",
+        "editDescription": "تعديل فئة فرعية للفئة الرئيسية",
+        "description": "إنشاء فئة فرعية للفئة الرئيسية",
+        "subCategory_validation": "يرجى إصلاح أخطاء التحقق في الفئة الفرعية",
+        "cannotadd3subCategory": "لا يمكنك إضافة أكثر من 3 فئات فرعية",
+        "fix_sub_category": "يرجى إصلاح أخطاء التحقق في الفئة الفرعية",
+        "failed_create_subcategory": "فشل إنشاء فئة فرعية",
+        "max_3_sub_category": "تم الوصول إلى 3 فئات فرعية كحد أقصى.",
+        "subCategory_label": "الفئة الفرعية",
+        "max_3_sub_category_count": "الحد الأقصى: 3"
+      },
+      "icon": {
+        "not_delete_icon": "لا يمكن حذف الرمز: لا يوجد معرف الفئة",
+        "icon_delete_success": "تم حذف الرمز بنجاح",
+        "failed_delete": "فشل حذف الرمز"
+      },
+      "image": {
+        "not_delete_image": "لا يمكن حذف الصورة: لا يوجد معرّف للفئة",
+        "image_delete_success": "تم حذف الصورة بنجاح",
+        "failed_delete": "فشل حذف الصورة"
+      },
+      "subcategory": {
+        "no_sub_id": "لا يمكن حذف الرمز: لا يوجد معرف فئات فرعية"
+      },
+      "form": {
+        "name": {
+          "label": "اسم الفئة",
+          "placeholder": "أدخل اسم الفئة",
+          "error": {
+            "minLength": "يجب أن يتكون اسم الفئة من حرفين على الأقل",
+            "maxLength": "يجب ألا يتجاوز اسم الفئة 50 حرفًا"
+          }
+        },
+        "subtitle": {
+          "label": "العنوان الفرعي",
+          "placeholder": "أدخل العنوان الفرعي",
+          "error": {
+            "minLength": "يجب أن يتكون العنوان الفرعي من حرفين على الأقل.",
+            "maxLength": "يجب ألا يتجاوز العنوان الفرعي 100 حرف."
+          }
+        },
+        "description": {
+          "label": "الوصف",
+          "placeholder": "أدخل وصف الفئة",
+          "error": {
+            "minLength": "يجب أن يتكون الوصف من 10 أحرف على الأقل."
+          }
+        },
+        "headerColor": {
+          "label": "لون خلفية الرأس",
+          "error": {
+            "required": "لون خلفية العنوان مطلوب."
+          }
+        },
+        "contentColor": {
+          "label": "لون خلفية المحتوى",
+          "error": {
+            "required": "لون خلفية المحتوى مطلوب."
+          }
+        },
+        "icon": {
+          "label": "أيقونة الفئة"
+        },
+        "backgroundImage": {
+          "label": "صورة الخلفية",
+          "error": {
+            "required": "صورة الخلفية مطلوبة."
+          }
+        },
+        "isActive": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "active": "نشط",
+          "inactive": "غير نشط"
+        },
+        "parentId": {
+          "label": "معرف الفئة الأصلية",
+          "placeholder": "أدخل معرف الفئة الأصلية (اختياري)"
+        },
+        "displayOrder": {
+          "label": "ترتيب العرض",
+          "placeholder": "أدخل ترتيب العرض (مثل 1، 2، 3)"
+        }
+      },
+      "preview": {
+        "heading": "معاينة الفئة",
+        "cityHeading": "معاينة فئة المدينة",
+        "cityDescription": "شاهد كيف ستبدو فئة المدينة الخاصة بك",
+        "citySubHeading": "معاينة الفئة الفرعية للمدينة",
+        "citySubDescription": "اطّلع على كيفية ظهور الفئة الفرعية لمدينتك",
+        "description": "شاهد كيف ستبدو فئتك",
+        "defaultName": "فئة تجريبية",
+        "defaultSubtitle": "أنشطة في مدينتك",
+        "defaultDescription": "هذا وصف تجريبي لفئتك. أضف محتواك الخاص لترى كيف سيظهر."
+      }
+    },
+    "listing": {
+      "heading": "قائمة الفئات",
+      "cityHeading": "قائمة فئات المدن",
+      "cityDescription": "إدارة فئات مدينتك",
+      "description": "إدارة فئاتك",
+      "createBtn": "إنشاء فئة",
+      "searchPlaceholder": "البحث عن فئات...",
+      "noCategories": "لم يتم العثور على فئات",
+      "table": {
+        "name": "الاسم",
+        "description": "الوصف",
+        "type": "النوع",
+        "displayOrder": "ترتيب العرض",
+        "actions": "الإجراءات"
+      },
+      "confirmDelete": {
+        "heading": "هل أنت متأكد؟",
+        "message": "هل أنت متأكد أنك تريد حذف هذه الفئة؟ لا يمكن التراجع عن هذا الإجراء.",
+        "confirmMessage": "حذف",
+        "cancelMessage": "إلغاء"
+      },
+      "deleteSuccess": "تم حذف الفئة بنجاح.",
+      "deleteError": "فشل حذف الفئة. يرجى المحاولة مرة أخرى."
+    },
+    "update": {
+      "heading": "تحديث الفئة",
+      "description": "تعديل فئة",
+      "editSubCategory": "تعديل الفئة الفرعية",
+      "editCityCategory": "تعديل فئة المدينة"
+    }
+  },
+  "tile": {
+    "upload": {
+      "heading": "تحميل المربع",
+      "description": "قم بتحميل المربع هنا",
+      "form": {
+        "uploadLabel": "تحميل الصورة",
+        "uploadBtnLabel": "اختر الصورة",
+        "uploadPlaceholder": "اسحب وأفلت أو انقر للتحميل",
+        "displayOrder": {
+          "label": "ترتيب العرض",
+          "placeholder": "أدخل ترتيب العرض (مثل: 1، 2، 3)"
+        },
+        "tileName": {
+          "label": "اسم المربع",
+          "placeholder": "أدخل اسم المربع"
+        },
+        "redirectURL": {
+          "label": "رابط إعادة التوجيه",
+          "placeholder": "أدخل رابط إعادة التوجيه"
+        },
+        "titleColor": {
+          "label": "لون العنوان"
+        },
+        "subHeader": {
+          "label": "العنوان الفرعي",
+          "placeholder": "أدخل العنوان الفرعي"
+        },
+        "tileDescription": {
+          "label": "وصف المربع",
+          "placeholder": "أدخل وصف البلاط"
+        },
+        "titleDescriptionColor": {
+          "label": "لون وصف العنوان"
+        },
+        "errorName": {
+          "maxFileSize": "يجب ألا يتجاوز حجم الملف 1 ميغابايت",
+          "supportedExtension": "تم تحديد ملف غير مدعوم، التنسيقات المدعومة هي:",
+          "invalidFile": "يرجى تحميل ملف صورة صالح."
+        },
+        "tileIcon": {
+          "label": "رمز المربع"
+        },
+        "tileImage": {
+          "label": "صورة المربع"
+        }
+      },
+      "previewHeading": "معاينة",
+      "previewDescription": "معاينة المربع هنا",
+      "dummyText": "اسم المربع التجريبي",
+      "defaultHeader": "العنوان الفرعي الافتراضي",
+      "tilePreviewDescription": "نص وصف تجريبي لتوضيح كيفية ظهور وصف المربع داخل معاينة المربع. هذا النص يهدف إلى أن يكون طويلاً بما يكفي لاختبار التعامل مع الفائض والتأكد من أنه يعرض بشكل صحيح داخل المنطقة المخصصة لمكون المربع."
+    },
+    "edit": {
+      "heading": "تحرير المربّع",
+      "description": "قم بتحرير المربّع الخاص بك هنا"
+    },
+    "listingHeading": "قائمة المربعات",
+    "listingDescription": "قائمة بجميع المربعات المسجلة",
+    "searchPlaceholder": "بحث",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "tabs": {
+      "allTiles": "جميع المربعات",
+      "pendingTiles": "قيد الانتظار",
+      "inactiveTiles": "غير نشط",
+      "hiddenTiles": "مخفي"
+    },
+    "table": {
+      "head": {
+        "tile": "المربع",
+        "status": "الحالة",
+        "displayOrder": "ترتيب العرض",
+        "description": "الوصف",
+        "actions": "الإجراءات"
+      },
+      "noData": "لا توجد بيانات"
+    },
+    "confirmDelete": {
+      "heading": "هل أنت متأكد؟",
+      "message": "هل أنت متأكد أنك تريد حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+      "confirmMessage": "حذف",
+      "cancelMessage": "إلغاء"
+    }
+  },
+  "formMessages": {
+    "uploadField": {
+      "label": "تحميل الصورة",
+      "btnLabel": "اختر الصورة",
+      "placeholder": "اسحب وأفلت أو انقر للتحميل",
+      "errorName": {
+        "maxFileSizeFileUpload": "La taille du fichier doit être maximale.",
+        "maxFileSize": "يجب ألا يتجاوز حجم الملف 1 ميغابايت",
+        "supportedExtension": "تم تحديد ملف غير مدعوم، التنسيقات المدعومة هي:",
+        "invalidFile": "يرجى تحميل ملف صورة صالح.",
+        "minLength": "يرجى إدخال اسم مربع صالح",
+        "maxLength": "لا يمكن أن يتجاوز اسم المربع 50 حرفًا",
+        "titleColor": "يرجى اختيار لون العنوان",
+        "tileIcon": "رمز المربع مطلوب",
+        "tileDescription": "يجب أن يكون الوصف 10 أحرف على الأقل",
+        "titleDescriptionColor": "يرجى اختيار لون الوصف",
+        "tileImage": "صورة المربع مطلوبة",
+        "subHeader": "يرجى إدخال عنوان فرعي صالح",
+        "subHeaderMax": "لا يمكن أن يتجاوز العنوان الفرعي 50 حرفًا",
+        "minDisplayOrder": "يجب أن يكون ترتيب العرض على الأقل 1",
+        "maxDisplayOrder": "لا يمكن أن يتجاوز ترتيب العرض 999999"
+      }
+    },
+    "uploadListing": {
+      "errorName": {
+        "heroImageRequired": "يرجى تحميل صورة البطل",
+        "listingNameRequired": "اسم القائمة مطلوب",
+        "listingNameMaxLength": "لا يمكن أن يتجاوز اسم",
+        "listingNameMinLength": "يجب أن يتكون اسم القائمة من 3 أحرف على الأقل",
+        "address": "يرجى إدخال عنوان صالح",
+        "startDate": "يرجى إدخال تاريخ بدء صالح",
+        "endDate": "يرجى إدخال تاريخ انتهاء صالح",
+        "city": "يرجى اختيار مدينة",
+        "tags": "يرجى اختيار وسم",
+        "websiteUrl": "يرجى إدخال رابط موقع صالح",
+        "category": "يرجى اختيار فئة"
+      }
+    }
+  },
+  "cityAdministration": {
+    "heading": "إدارة المستخدم",
+    "description": "قائمة بجميع المستخدمين المسجلين",
+    "createAdmin": "إنشاء مدير",
+    "table": {
+      "head": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "role": "دور المستخدم",
+        "status": "الحالة",
+        "createdAt": "تاريخ الإنشاء",
+        "cities": "المدن",
+        "actions": "الإجراءات",
+        "registered": "مسجل"
+      },
+      "noData": "لا توجد بيانات"
+    },
+    "confirmDelete": {
+      "heading": "هل أنت متأكد؟",
+      "message": "هل أنت متأكد أنك تريد حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+      "confirmMessage": "حذف",
+      "cancelMessage": "إلغاء"
+    }
+  },
+  "accountSetting": {
+    "heading": "إعدادات الحساب",
+    "description": "تحديث تفاصيل حسابك",
+    "section": {
+      "personalInfo": {
+        "heading": "المعلومات الشخصية",
+        "description": "تحديث معلوماتك الشخصية"
+      },
+      "accountInfo": {
+        "heading": "معلومات الحساب",
+        "description": "تحديث معلومات الحساب الخاصة بك"
+      },
+      "metadata": {
+        "heading": "البيانات الوصفية",
+        "description": "+أضف حساباتك على وسائل التواصل الاجتماعي هنا."
+      },
+      "password": {
+        "heading": "كلمة المرور",
+        "description": "تحديث كلمة المرور الخاصة بك"
+      }
+    },
+    "form": {
+      "maxSocialLinks": "يمكنك إضافة 3 روابط اجتماعية كحد أقصى",
+      "saveBtn": "حفظ التغييرات",
+      "resetBtn": "إعادة تعيين",
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني",
+        "error": {
+          "required": "أدخل بريدًا إلكترونيًا صالحًا",
+          "minContent": "يجب أن يحتوي البريد الإلكتروني على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي البريد الإلكتروني على أكثر من 50 حرفًا"
+        }
+      },
+      "username": {
+        "label": "اسم المستخدم",
+        "placeholder": "أدخل اسم المستخدم",
+        "error": {
+          "required": "أدخل اسم مستخدم صالح",
+          "minContent": "يجب أن يحتوي اسم المستخدم على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي اسم المستخدم على أكثر من 50 حرفًا"
+        }
+      },
+      "currentPassword": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور الخاصة بك",
+        "error": {
+          "required": "أدخل كلمة مرور صالحة",
+          "minContent": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+          "maxContent": "يجب ألا تحتوي كلمة المرور على أكثر من 50 حرفًا"
+        }
+      },
+      "newPassword": {
+        "label": "كلمة المرور الجديدة",
+        "placeholder": "أدخل كلمة المرور الجديدة",
+        "error": {
+          "required": "أدخل كلمة مرور صالحة",
+          "minContent": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+          "maxContent": "يجب ألا تحتوي كلمة المرور على أكثر من 50 حرفًا"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أدخل كلمة المرور الخاصة بك",
+        "error": {
+          "required": "أدخل كلمة مرور صالحة",
+          "minContent": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+          "maxContent": "يجب ألا تحتوي كلمة المرور على أكثر من 50 حرفًا",
+          "passwordMismatch": "كلمة المرور غير متطابقة"
+        }
+      },
+      "yourName": {
+        "label": "اسمك",
+        "placeholder": "أدخل اسمك",
+        "error": {
+          "required": "أدخل اسمًا صالحًا",
+          "minContent": "يجب أن يحتوي الاسم على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي الاسم على أكثر من 50 حرفًا"
+        }
+      },
+      "phoneNumber": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "error": {
+          "required": "أدخل رقم هاتف صالح",
+          "minContent": "يجب أن يحتوي رقم الهاتف على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي رقم الهاتف على أكثر من 50 حرفًا"
+        }
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "أدخل وصفك",
+        "error": {
+          "required": "أدخل وصفًا صالحًا",
+          "minContent": "يجب أن يحتوي الوصف على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي الوصف على أكثر من 200 حرف"
+        }
+      },
+      "website": {
+        "label": "الموقع الإلكتروني",
+        "placeholder": "أدخل موقعك الإلكتروني",
+        "error": {
+          "required": "أدخل موقعًا إلكترونيًا صالحًا",
+          "minContent": "يجب أن يحتوي الموقع الإلكتروني على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي الموقع الإلكتروني على أكثر من 50 حرفًا",
+          "duplicateWebsite": "المواقع المكررة غير مسموح بها"
+        }
+      },
+      "websiteLink": {
+        "label": "رابط الموقع الإلكتروني",
+        "placeholder": "أدخل رابط موقعك الإلكتروني",
+        "error": {
+          "required": "أدخل رابط موقع إلكتروني صالح",
+          "minContent": "يجب أن يحتوي الرابط على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي الرابط على أكثر من 50 حرفًا",
+          "invalidLink": "رابط غير صالح",
+          "duplicateLink": "الروابط المكررة غير مسموح بها"
+        }
+      }
+    }
+  },
+  "registration": {
+    "general": {
+      "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+      "login": "يرجى تسجيل الدخول هنا.",
+      "acceptPolicy": "أوافق على",
+      "privacy": "سياسة الخصوصية*",
+      "and": "و",
+      "terms": "الشروط والأحكام العامة*",
+      "mustAcceptTermsAndPrivacy": "يرجى الموافقة على الشروط والأحكام للمتابعة."
+    },
+    "form": {
+      "email": {
+        "error": {
+          "invalidMail": "يرجى إدخال عنوان بريد إلكتروني صالح"
+        }
+      },
+      "username": {
+        "label": "اسم المستخدم",
+        "placeholder": "أدخل اسم المستخدم",
+        "error": {
+          "minContent": "يجب أن يحتوي اسم المستخدم على 3 أحرف على الأقل",
+          "maxContent": "يجب ألا يحتوي اسم المستخدم على أكثر من 30 حرفًا",
+          "noSpaces": "يجب ألا يحتوي اسم المستخدم على مسافات"
+        }
+      },
+      "firstName": {
+        "label": "الاسم الأول",
+        "placeholder": "يرجى إدخال الاسم الأول",
+        "error": {
+          "minContent": "يجب أن يحتوي الاسم الأول على حرفين على الأقل",
+          "maxContent": "يجب ألا يحتوي الاسم الأول على أكثر من 30 حرفًا",
+          "noSpaces": "يجب ألا يحتوي الاسم الأول على مسافات",
+          "invalidChars": "يجب أن يحتوي الاسم الأول على أحرف أبجدية فقط"
+        }
+      },
+      "lastName": {
+        "label": "اسم العائلة",
+        "placeholder": "يرجى إدخال اسم العائلة",
+        "error": {
+          "minContent": "يجب أن يحتوي اسم العائلة على حرفين على الأقل",
+          "maxContent": "يجب ألا يحتوي اسم العائلة على أكثر من 30 حرفًا",
+          "noSpaces": "يجب ألا يحتوي اسم العائلة على مسافات",
+          "invalidChars": "يجب أن يحتوي اسم العائلة على أحرف أبجدية فقط"
+        }
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "يرجى إدخال كلمة المرور",
+        "error": {
+          "minContent": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+          "maxContent": "يجب ألا تحتوي كلمة المرور على أكثر من 20 حرفًا",
+          "noSpaces": "يجب ألا تحتوي كلمة المرور على مسافات"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "يرجى إدخال تأكيد كلمة المرور",
+        "error": {
+          "required": "تأكيد كلمة المرور مطلوب",
+          "mismatch": "كلمة المرور وتأكيدها غير متطابقتين"
+        }
+      }
+    }
+  },
+  "switchRole": {
+    "title": "تبديل الدور",
+    "description": "اختر دورًا ومدينة جديدة لهذا المستخدم.",
+    "selectRole": "اختر الدور",
+    "selectCity": "اختر المدينة"
+  },
+  "user": {
+    "restore": "تمت استعادة المستخدم.",
+    "restoreFailed": "فشلت عملية الاستعادة.",
+    "disable": "تم تعطيل المستخدم.",
+    "disableFailed": "فشلت عملية التعطيل.",
+    "roleAssign": "تم تعيين الدور بنجاح.",
+    "roleAssignFailed": "فشل تعيين الدور.",
+    "select_city": "يرجى تحديد مدينة."
+  },
+  "unAuthorized": {
+    "heading": "وصول غير مصرح به",
+    "description": "ليس لديك إذن للوصول إلى هذه الصفحة. يرجى الاتصال بـ <strong>المسؤول الأعلى</strong> لطلب حقوق الوصول اللازمة.",
+    "goBack": "العودة"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي"
+  },
+
+  "listing": {
+    "upload": {
+      "heading": "تحميل القائمة",
+      "description": "قم بتحميل قائمتك هنا",
+      "form": {
+        "heroImageUrl": {
+          "label": "رابط الصورة الرئيسية",
+          "placeholder": "أدخل رابط الصورة الرئيسية"
+        },
+        "listingName": {
+          "label": "اسم القائمة",
+          "placeholder": "أدخل اسم القائمة"
+        },
+        "address": {
+          "label": "العنوان",
+          "placeholder": "أدخل العنوان",
+          "searching": "البحث..."
+        },
+        "startDate": {
+          "label": "تاريخ البدء",
+          "placeholder": "اختر تاريخ البدء"
+        },
+        "endDate": {
+          "label": "تاريخ الانتهاء",
+          "placeholder": "اختر تاريخ الانتهاء"
+        },
+        "city": {
+          "label": "المدينة",
+          "placeholder": "اختر المدينة"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "اختر الفئة"
+        },
+        "subCategory": {
+          "label": "الفئة الفرعية",
+          "placeholder": "اختر الفئة الفرعية"
+        },
+        "tags": {
+          "label": "العلامات",
+          "placeholder": "العلامات المختارة"
+        },
+        "summary": {
+          "label": "الملخص",
+          "placeholder": "أدخل الملخص"
+        },
+        "listingDescription": {
+          "label": "وصف القائمة",
+          "placeholder": "أدخل وصف القائمة"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل البريد الإلكتروني"
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeholder": "أدخل رقم الهاتف"
+        },
+        "websiteUrl": {
+          "label": "رابط الموقع الإلكتروني",
+          "placeholder": "أدخل رابط الموقع الإلكتروني"
+        },
+        "media": {
+          "label": "رابط الوسائط"
+        }
+      }
+    },
+    "edit": {
+      "heading": "تحرير القائمة",
+      "description": "قم بتحرير قائمتك هنا"
+    },
+    "listingHeading": "جميع القوائم",
+    "listingDescription": "قائمة بجميع القوائم المسجلة",
+    "searchPlaceholder": "بحث",
+    "active": "إلغاء الأرشفة",
+    "inactive": "أرشفة",
+    "tabs": {
+      "allLists": "جميع القوائم",
+      "pendingLists": "إلغاء الأرشفة",
+      "inactiveLists": "أرشفة",
+      "hiddenLists": "مخفي"
+    },
+    "table": {
+      "head": {
+        "list": "قائمة",
+        "status": "الحالة",
+        "description": "الوصف",
+        "actions": "الإجراءات"
+      },
+      "noData": "لا توجد بيانات"
+    }
+  },
+  "list": {
+    "upload": {
+      "dummyText": "",
+      "defaultHeader": "العنوان الافتراضي",
+      "listPreviewDescription": "",
+      "previewHeading": "المعاينة",
+      "previewDescription": "اعرض قائمتك هنا",
+      "dateFormat": "dd/MM/yyyy, HH:mm"
+    }
+  },
+  "removeImage": "إزالة الصورة",
+  "deleteMetadata": "حذف البيانات الوصفية",
+  "removeSubcategory": "إزالة التصنيف الفرعي",
+  "termsConditions": {
+    "noData": "لا توجد بيانات للشروط والأحكام."
+  }
+}
