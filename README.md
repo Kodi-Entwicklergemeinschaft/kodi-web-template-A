@@ -1,5 +1,9 @@
 # mein.KODI — Admin CMS Dashboard
 
+<!-- kodi-badges -->
+[![Lizenz: EUPL-1.2](https://img.shields.io/badge/Lizenz-EUPL%201.2-blue.svg)](LICENSE) ![Open Source](https://img.shields.io/badge/Open%20Source-Ja-brightgreen.svg) ![Smart City](https://img.shields.io/badge/Smart%20City-Kommunal-orange.svg) ![Sprache](https://img.shields.io/badge/Sprache-TypeScript-informational.svg) ![KODI](https://img.shields.io/badge/KODI-Entwicklergemeinschaft-blueviolet.svg)
+<!-- /kodi-badges -->
+
 **mein.KODI** is a multi-language admin dashboard and content management system (CMS) built for city-level administration. It enables city administrators to manage public-facing content including categories, listings, and tiles — the building blocks of a city services application. It supports role-based access control, 10 languages, light/dark theming, and a full authentication flow including sign-in, registration, and password reset.
 
 ---
